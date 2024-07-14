@@ -2,7 +2,7 @@
 title: Főoldal
 description: 
 published: true
-date: 2024-07-14T17:49:00.468Z
+date: 2024-07-14T17:50:22.079Z
 tags: 
 editor: markdown
 dateCreated: 2024-07-14T17:49:00.468Z
