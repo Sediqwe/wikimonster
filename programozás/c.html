@@ -1,0 +1,220 @@
+<!--
+title: C#
+description: 
+published: true
+date: 2024-07-16T02:33:28.081Z
+tags: 
+editor: ckeditor
+dateCreated: 2024-07-16T02:33:28.081Z
+-->
+
+<h3>C# Programozási Nyelv</h3>
+<h4>Bevezetés</h4>
+<p>A C# (ejtsd: "C sharp") egy modern, objektum-orientált programozási nyelv, amelyet a Microsoft fejlesztett ki az .NET keretrendszer részeként. 2000-ben jelent meg, és a C és C++ nyelvekhez hasonlóan szintaktikailag hasonlít a Java-ra is. A C# célja, hogy egyszerű, erőteljes és biztonságos nyelvet biztosítson, amely ideális különböző alkalmazások, például asztali szoftverek, webalkalmazások és mobilalkalmazások fejlesztésére.</p>
+<h4>Főbb Jellemzők</h4>
+<p><strong>Objektum-orientált programozás</strong>:</p>
+<ul>
+  <li>A C# támogatja az objektum-orientált paradigmát, beleértve az osztályokat, öröklődést, polimorfizmust és kapszulázást.</li>
+</ul>
+<p><strong>Típusbiztos</strong>:</p>
+<ul>
+  <li>A C# típusos nyelv, ami azt jelenti, hogy minden változónak meg kell határoznia a típusát, így csökkenthetők a hibák a kód futtatása előtt.</li>
+</ul>
+<p><strong>Garbage Collection</strong>:</p>
+<ul>
+  <li>A memória automatikus kezelése révén a C# segít elkerülni a memória szivárgását, így a fejlesztőknek nem kell manuálisan foglalkozniuk a memória felszabadításával.</li>
+</ul>
+<p><strong>Rich Library</strong>:</p>
+<ul>
+  <li>Az .NET keretrendszer gazdag könyvtárral rendelkezik, amely lehetővé teszi a fejlesztők számára, hogy gyorsan építhessenek alkalmazásokat különböző funkciókkal.</li>
+</ul>
+<p><strong>Platformfüggetlenség</strong>:</p>
+<ul>
+  <li>A .NET Core (most .NET 5/6) lehetővé teszi a C# alkalmazások futtatását Windows, macOS és Linux rendszereken.</li>
+</ul>
+<p><strong>Aszinkron programozás</strong>:</p>
+<ul>
+  <li>A C# támogatja az aszinkron programozási modellt, lehetővé téve a párhuzamos végrehajtást, amely javítja az alkalmazások teljesítményét.</li>
+</ul>
+<p><strong>LINQ (Language Integrated Query)</strong>:</p>
+<ul>
+  <li>A LINQ lehetővé teszi az adatok lekérdezését közvetlenül a kódban, ami megkönnyíti az adatok manipulálását különböző forrásokból.</li>
+</ul>
+<h4>Fejlesztési Eszközök</h4>
+<ul>
+  <li><strong>Visual Studio</strong>: A legelterjedtebb IDE C# fejlesztéshez, amely számos funkciót kínál, például hibakeresést, IntelliSense-t és beépített verziókezelést.</li>
+  <li><strong>Visual Studio Code</strong>: Könnyű, cross-platform kód-szerkesztő, amely bővíthető különböző kiegészítőkkel.</li>
+  <li><strong>JetBrains Rider</strong>: Egy másik népszerű IDE, amely szintén támogatja a C#-t.</li>
+</ul>
+<h4>Alapvető Szintaxis</h4>
+<h5>1. Alapvető Program Struktúra</h5>
+<p>csharp</p>
+<p>Code kopieren</p>
+<p><code>using System;
+
+    namespace HelloWorld
+    {
+    &nbsp; &nbsp;class Program
+    &nbsp; &nbsp;{
+    &nbsp; &nbsp; &nbsp; &nbsp;static void Main(string[] args)
+    &nbsp; &nbsp; &nbsp; &nbsp;{
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Console.WriteLine("Hello, World!");
+    &nbsp; &nbsp; &nbsp; &nbsp;}
+    &nbsp; &nbsp;}
+    }
+  </code></p>
+<p><strong>Magyarázat</strong>:</p>
+<ul>
+  <li><code>using System;</code>: A System névtér importálása, amely a konzol műveletekhez szükséges.</li>
+  <li><code>namespace HelloWorld</code>: A névtér, amely segít a kód szervezésében.</li>
+  <li><code>class Program</code>: Az osztály definíciója.</li>
+  <li><code>static void Main(string[] args)</code>: A fő metódus, ahol a program végrehajtása kezdődik.</li>
+</ul>
+<h5>2. Változók és Típusok</h5>
+<p>csharp</p>
+<p>Code kopieren</p>
+<p><code>int age = 25;
+    string name = "John";
+    bool isActive = true;
+    double height = 5.9;
+  </code></p>
+<p><strong>Magyarázat</strong>:</p>
+<ul>
+  <li>Különböző alapvető típusok: <code>int</code>, <code>string</code>, <code>bool</code>, <code>double</code>.</li>
+</ul>
+<h5>3. Feltételes Szerkezetek</h5>
+<p>csharp</p>
+<p>Code kopieren</p>
+<p><code>if (age &gt;= 18)
+    {
+    &nbsp; &nbsp;Console.WriteLine("Felnőtt vagy.");
+    }
+    else
+    {
+    &nbsp; &nbsp;Console.WriteLine("Gyerek vagy.");
+    }
+  </code></p>
+<h5>4. Ciklusok</h5>
+<p>csharp</p>
+<p>Code kopieren</p>
+<p><code>for (int i = 0; i &lt; 5; i++)
+    {
+    &nbsp; &nbsp;Console.WriteLine("Szám: " + i);
+    }
+
+    while (age &lt; 30)
+    {
+    &nbsp; &nbsp;age++;
+    }
+  </code></p>
+<h4>Objektum-Oriented Programozás</h4>
+<h5>1. Osztályok és Objektumok</h5>
+<p>csharp</p>
+<p>Code kopieren</p>
+<p><code>class Person
+    {
+    &nbsp; &nbsp;public string Name { get; set; }
+    &nbsp; &nbsp;public int Age { get; set; }
+
+    &nbsp; &nbsp;public void Introduce()
+    &nbsp; &nbsp;{
+    &nbsp; &nbsp; &nbsp; &nbsp;Console.WriteLine($"Hello, my name is {Name} and I'm {Age} years old.");
+    &nbsp; &nbsp;}
+    }
+
+    Person person = new Person() { Name = "Alice", Age = 30 };
+    person.Introduce();
+  </code></p>
+<p><strong>Magyarázat</strong>:</p>
+<ul>
+  <li>Az <code>Introduce</code> metódus bemutatja a személyt.</li>
+  <li>Az objektumokat az osztályok alapján hozzuk létre.</li>
+</ul>
+<h5>2. Öröklődés</h5>
+<p>csharp</p>
+<p>Code kopieren</p>
+<p><code>class Animal
+    {
+    &nbsp; &nbsp;public void Speak()
+    &nbsp; &nbsp;{
+    &nbsp; &nbsp; &nbsp; &nbsp;Console.WriteLine("Animal speaks");
+    &nbsp; &nbsp;}
+    }
+
+    class Dog : Animal
+    {
+    &nbsp; &nbsp;public void Bark()
+    &nbsp; &nbsp;{
+    &nbsp; &nbsp; &nbsp; &nbsp;Console.WriteLine("Dog barks");
+    &nbsp; &nbsp;}
+    }
+
+    Dog dog = new Dog();
+    dog.Speak(); &nbsp;// Animal speaks
+    dog.Bark(); &nbsp; // Dog barks
+  </code></p>
+<p><strong>Magyarázat</strong>:</p>
+<ul>
+  <li>A <code>Dog</code> osztály örökli az <code>Animal</code> osztályt, és hozzáad egy új metódust.</li>
+</ul>
+<h4>Aszinkron Programozás</h4>
+<p>csharp</p>
+<p>Code kopieren</p>
+<p><code>using System.Net.Http;
+    using System.Threading.Tasks;
+
+    class Program
+    {
+    &nbsp; &nbsp;static async Task Main(string[] args)
+    &nbsp; &nbsp;{
+    &nbsp; &nbsp; &nbsp; &nbsp;string result = await FetchDataAsync("https://api.example.com/data");
+    &nbsp; &nbsp; &nbsp; &nbsp;Console.WriteLine(result);
+    &nbsp; &nbsp;}
+
+    &nbsp; &nbsp;static async Task&lt;string&gt; FetchDataAsync(string url)
+    &nbsp; &nbsp;{
+    &nbsp; &nbsp; &nbsp; &nbsp;using (HttpClient client = new HttpClient())
+    &nbsp; &nbsp; &nbsp; &nbsp;{
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;return await client.GetStringAsync(url);
+    &nbsp; &nbsp; &nbsp; &nbsp;}
+    &nbsp; &nbsp;}
+    }
+  </code></p>
+<p><strong>Magyarázat</strong>:</p>
+<ul>
+  <li>Az <code>async</code> és <code>await</code> kulcsszavak használata lehetővé teszi a párhuzamos végrehajtást.</li>
+</ul>
+<h4>LINQ Használata</h4>
+<p>csharp</p>
+<p>Code kopieren</p>
+<p><code>using System;
+    using System.Collections.Generic;
+    using System.Linq;
+
+    class Program
+    {
+    &nbsp; &nbsp;static void Main(string[] args)
+    &nbsp; &nbsp;{
+    &nbsp; &nbsp; &nbsp; &nbsp;List&lt;int&gt; numbers = new List&lt;int&gt; { 1, 2, 3, 4, 5 };
+    &nbsp; &nbsp; &nbsp; &nbsp;var evenNumbers = from n in numbers where n % 2 == 0 select n;
+
+    &nbsp; &nbsp; &nbsp; &nbsp;foreach (var num in evenNumbers)
+    &nbsp; &nbsp; &nbsp; &nbsp;{
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Console.WriteLine(num); &nbsp;// 2, 4
+    &nbsp; &nbsp; &nbsp; &nbsp;}
+    &nbsp; &nbsp;}
+    }
+  </code></p>
+<p><strong>Magyarázat</strong>:</p>
+<ul>
+  <li>A LINQ lehetővé teszi az adatok lekérdezését és manipulálását egy könnyen olvasható szintaxissal.</li>
+</ul>
+<h3>Összegzés</h3>
+<p>A C# egy sokoldalú, erőteljes programozási nyelv, amely ideális választás különböző típusú alkalmazások fejlesztésére. Az objektum-orientált megközelítés, a gazdag könyvtárkészlet, valamint a modern funkciók, mint az aszinkron programozás és a LINQ, jelentős előnyöket nyújtanak a fejlesztők számára. A C# széles körben használt a vállalati szektorban és a játékfejlesztésben, valamint egyre népszerűbb a webes alkalmazások készítésekor is.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>3.5</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>ChatGPT kann Fehler machen. Überprüfe w</p>
