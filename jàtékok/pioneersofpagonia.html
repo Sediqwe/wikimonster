@@ -2,13 +2,13 @@
 title: Pioneers of Pagonia
 description: 
 published: true
-date: 2024-07-16T13:44:59.457Z
+date: 2024-07-16T14:41:12.258Z
 tags: 
 editor: ckeditor
 dateCreated: 2024-07-16T00:19:51.059Z
 -->
 
-<h1>Pioneers of Pagonia<a href="/pioneersofpagonia/plpaker.exe">/pioneersofpagonia/plpaker.exe</a> fordításának leírása:</h1>
+<h1>Pioneers of Pagonia fordításának leírása:</h1>
 <p>&nbsp;</p>
 <ol>
   <li>Fájlok kicsomagolása</li>
@@ -17,7 +17,29 @@ dateCreated: 2024-07-16T00:19:51.059Z
 </ol>
 <h2>Fájlok kicsomagolása</h2>
 <p>A játék szerencsére egy dupla fájl csomagolást alkamaz, így 2x kell kibontani, nehogy egyszerű legyen az élet :)</p>
-<p>Minden cucc a játékhoz egy CORE.PAK ban van.</p>
+<p>Minden cucc a játékhoz egy <strong>CORE.PAK </strong>ban van.</p>
 <p>Kicsomagoláshoz szükséges egy "plpaker.exe"<br>&nbsp;<a href="/pioneersofpagonia/plpaker.exe">/pioneersofpagonia/plpaker.exe</a><br>A legfrissebbet MINDIG&nbsp;innen tudod letölteni:&nbsp;<br><a href="https://github.com/pagonia-land/plpaker"><u>https://github.com/pagonia-land/plpaker</u></a><br><u>Menete:</u><br><u>CMD → &nbsp;</u></p>
-<pre><code class="language-plaintext">.\plpaker.exe unpack .\core.pak
-</code></pre>
+<pre><code class="language-plaintext">.\plpaker.exe unpack .\core.pak</code></pre>
+<p>Ezzel kicsomagolod a CORE.PAK &nbsp;fájlt, annak minden fájljával együtt.</p>
+<p>Egy fájl kell neked, az pedig a “<strong>loca_en_us.bin</strong>”</p>
+<p>Ezt ki kell újra csomagolni, ehhez pedig használd ezt:</p>
+<p><a href="/pioneersofpagonia/exporttext.exe">/pioneersofpagonia/exporttext.exe</a></p>
+<p>Kicsomagolás után kapsz egy TXT fájlt, benne a szöveggel.</p>
+<p>2024.07.08 kor így nézett ki egy eredeti nyelvi fájl.:</p>
+<p><a href="/pioneersofpagonia/loca_en_us.txt">/pioneersofpagonia/loca_en_us.txt</a><br>&nbsp;</p>
+<h2>Fordítás menete</h2>
+<p>A fordítás sorrol sorra halad, 1 - 1 sor a játékban is 1 - 1 szövegrésznek felel meg, nem tartalmaz sortörést!</p>
+<p>Figyelni kell a 2 változó tipusra, hogy megmaradjanak fordítás után is.</p>
+<p>Egyik a <strong>{0}</strong> tipusú, a másik a<strong> [br]</strong> tipusú (sortörés)</p>
+<p>Fordítás után figyelj arra hogy ugyanannyi sor legyen a kész fordítás mint a nyers, máskülönben elcsúszhat a felirat!</p>
+<p>A <strong>kézi</strong> fordítás jelenleg itt zajlik, regisztrálj, segíts ha tudsz :)&nbsp;</p>
+<p>&nbsp;<a href="">https://weblate.sediqwe.eu/translate/pioneers-of-pagonia/eng-2024-07-08/hu/?q=state:empty</a></p>
+<h2>Fájlok visszapakolás</h2>
+<p>A visszapakolás menete éppen fordított.</p>
+<p>Előbb beimportáljuk a fordított TXT tartalmát a “<strong>loca_en_us.bin” </strong>fájlba.</p>
+<p>Erre használjuk az IMPORTTEXT.EXT fájlt, visszarakáshoz szükség lehet az eredeti &nbsp;“<strong>loca_en_us.bin" </strong>fájlra is.</p>
+<p>(Tedd egymás mellé a .bin a .txt és az importet exe-t úgy tedd vissza)</p>
+<p><a href="/pioneersofpagonia/importtext.exe">/pioneersofpagonia/importtext.exe</a></p>
+<p>Ez létre hoz egy új fordított .bin fájlt. “loca_en_us_MOD.bin”&nbsp;<br>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
