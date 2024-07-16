@@ -2,7 +2,7 @@
 title: Pioneers of Pagonia
 description: 
 published: true
-date: 2024-07-16T14:55:28.159Z
+date: 2024-07-16T14:59:26.454Z
 tags: 
 editor: ckeditor
 dateCreated: 2024-07-16T00:19:51.059Z
@@ -11,9 +11,9 @@ dateCreated: 2024-07-16T00:19:51.059Z
 <h1>Pioneers of Pagonia fordításának leírása:</h1>
 <p>&nbsp;</p>
 <ol>
-  <li>Fájlok kicsomagolása&nbsp;</li>
+  <li>Fájlok kicsomagolása</li>
   <li>Fordítás menete</li>
-  <li>Fájlok visszapakolás&nbsp;</li>
+  <li>Fájlok visszapakolás</li>
   <li>Telepítő készítés</li>
   <li>Fordítás alatt felmerülő ismert hibák.</li>
 </ol>
@@ -52,14 +52,20 @@ dateCreated: 2024-07-16T00:19:51.059Z
 <pre><code class="language-plaintext">plpaker.exe patch .\core.pak .\mod.pak .\core_pak\core\localization\loca_en_us.bin
 rename "core.pak" backup.pak
 rename "mod.pak" "core.pak"</code></pre>
-<p>Ez bele injektálja a "mod.pak" ba a core.pak tartalmát és felül írja a nyelvi fájlt.<br>Ez átnevezi a core.pak ot backup.pak ra.<br>A mod.pak fájlt vissza nevezi core.pak ra.</p>
+<p>Ez bele injektálja a "mod.pak" ba a core.pak tartalmát és felül írja a nyelvi fájlt.<br>Ez átnevezi a core.pak ot backup.pak ra.<br>A mod.pak fájlt vissza nevezi core.pak ra.<br>Így ha valami galiba van, akkor csak a backup.pak fájlt kell visszanevezni core.pak ra és minden helyre áll :)</p>
 <p>&nbsp;</p>
 <h2>Telepítő készítés</h2>
 <p>Telepítő készítése nagyon egyszerű, a fenti parancsokat egy bat fájlba írva magától elkészíti a core.pak ot.</p>
 <p>A telepítő esetében töröljük a core.pak ot, mert nem kell, hiszen tuti jó a fordítás :D</p>
 <p>2024.07.08 STEAM verzió: ~76% os állásnál.</p>
 <p><a href="/pioneersofpagonia/install.zip">/pioneersofpagonia/install.zip&nbsp;</a></p>
-<p>Így ha valami galiba van, akkor csak a backup.pak fájlt kell visszanevezni core.pak ra és minden helyre áll :)<br>Bármi kérdésed van: monstergep@gmail.com</p>
+<h2>Fordítás alatt felmerülő ismert hibák</h2>
+<p>Jelenleg nem találkoztunk nagyobb hibával. Az egyetlen egy nagyobb hiba talán hogy nincsenek a sorokhoz köthető ID-k, amikkel egyértelműen lehet azonosítani a sorokat és a sorok helyét.</p>
+<p>Ezáltal sokkal nehezebb a fordítás verzió követése is, hiszen ha jön egy mondat a sorok közé, az egészet elcsúsztatja.</p>
+<p>Mivel ezt nem tudom mi alapján követni, így írni kellett egy kis toolt, ami betölti az új angol szöveget, összehasonlítja a régi angol szöveggel, és a hozzá tartozó magyar szöveggel, és egybe másolja az új angol szöveghez a régi magyarítást ha az angol - angol pár megegyezik. Elég fapados megoldás, mert így nincs olyan hogy 1 angol szövegnek 10 más magyar jelentését használod :(</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><br>Bármi kérdésed van: monstergep@gmail.com</p>
 <p>&nbsp;</p>
 <p><br>&nbsp;</p>
 <p>&nbsp;</p>
