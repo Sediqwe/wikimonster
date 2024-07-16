@@ -2,140 +2,139 @@
 title: Regex
 description: 
 published: true
-date: 2024-07-16T01:46:22.721Z
+date: 2024-07-16T02:29:18.580Z
 tags: 
 editor: ckeditor
 dateCreated: 2024-07-16T01:46:22.721Z
 -->
 
-<p>### Regex (Reguláris Kifejezések) Részletes Leírás</p>
-<p>&nbsp;</p>
-<p>A reguláris kifejezések (regex) egy erőteljes eszközkészlet a szövegkereséshez és -manipuláláshoz. Ezek a kifejezések lehetővé teszik minták definiálását, amelyeket a szövegben való keresés során lehet használni. A Python nyelvben a `re` modul biztosítja a reguláris kifejezések használatának lehetőségét.</p>
-<p>&nbsp;</p>
-<p>#### Alapfogalmak</p>
-<p>&nbsp;</p>
-<p>1. **Minták**: A regex minták karakterekből állnak, amelyek meghatározzák, hogy mit keresünk.</p>
-<p>2. **Meta-karakterek**: Olyan karakterek, amelyek speciális jelentéssel bírnak:</p>
-<p>&nbsp; - `.`: Bármely karakter</p>
-<p>&nbsp; - `^`: Sor eleje</p>
-<p>&nbsp; - `$`: Sor vége</p>
-<p>&nbsp; - `*`: 0 vagy több ismétlés</p>
-<p>&nbsp; - `+`: 1 vagy több ismétlés</p>
-<p>&nbsp; - `?`: 0 vagy 1 ismétlés</p>
-<p>&nbsp; - `{n}`: Pontosan n ismétlés</p>
-<p>&nbsp; - `{n,}`: Legalább n ismétlés</p>
-<p>&nbsp; - `{n,m}`: Legalább n, legfeljebb m ismétlés</p>
-<p>&nbsp; - `[]`: Karaktercsoport</p>
-<p>&nbsp; - `|`: Választás (logikai "vagy")</p>
-<p>&nbsp; - `\`: Escape karakter</p>
-<p>&nbsp;</p>
-<p>#### Python Regex Példák</p>
-<p>&nbsp;</p>
-<p>##### 1. Alapvető Használat</p>
-<p>&nbsp;</p>
-<p>```python</p>
-<p>import re</p>
-<p>&nbsp;</p>
-<p>text = "Hello, my email is example@test.com"</p>
-<p>pattern = r'\w+@\w+\.\w+' &nbsp;# Regex minta az email címekhez</p>
-<p>&nbsp;</p>
-<p>match = re.search(pattern, text)</p>
-<p>if match:</p>
-<p>&nbsp; &nbsp;print("Talált email:", match.group())</p>
-<p>```</p>
-<p>&nbsp;</p>
-<p>**Magyarázat**:</p>
-<p>- `\w+`: Alfanumerikus karakterek (betűk, számok, _), legalább egy alkalommal.</p>
-<p>- `@`: Az @ karakter.</p>
-<p>- `\.`: A pont karakter (escape-elve).</p>
-<p>- `\w+`: Ismétlődő alfanumerikus karakterek a domain névhez.</p>
-<p>&nbsp;</p>
-<p>##### 2. Minta Ellenőrzése</p>
-<p>&nbsp;</p>
-<p>```python</p>
-<p>pattern = r'^\d{3}-\d{2}-\d{4}$' &nbsp;# SSN formátum: XXX-XX-XXXX</p>
-<p>ssn = "123-45-6789"</p>
-<p>&nbsp;</p>
-<p>if re.match(pattern, ssn):</p>
-<p>&nbsp; &nbsp;print("Érvényes SSN")</p>
-<p>else:</p>
-<p>&nbsp; &nbsp;print("Érvénytelen SSN")</p>
-<p>```</p>
-<p>&nbsp;</p>
-<p>**Magyarázat**:</p>
-<p>- `^`: A sor eleje.</p>
-<p>- `\d{3}`: Három számjegy.</p>
-<p>- `-`: A kötőjel.</p>
-<p>- `\d{2}`: Két számjegy.</p>
-<p>- `-`: A második kötőjel.</p>
-<p>- `\d{4}`: Négy számjegy.</p>
-<p>- `$`: A sor vége.</p>
-<p>&nbsp;</p>
-<p>##### 3. Több Egyezés Keresése</p>
-<p>&nbsp;</p>
-<p>```python</p>
-<p>text = "apple, banana, apple pie, pineapple"</p>
-<p>pattern = r'apple'</p>
-<p>&nbsp;</p>
-<p>matches = re.findall(pattern, text)</p>
-<p>print("Találtak:", matches)</p>
-<p>```</p>
-<p>&nbsp;</p>
-<p>**Magyarázat**:</p>
-<p>- `re.findall()` visszaadja az összes találatot egy listában.</p>
-<p>&nbsp;</p>
-<p>##### 4. Keresés és Csere</p>
-<p>&nbsp;</p>
-<p>```python</p>
-<p>text = "Hello World"</p>
-<p>new_text = re.sub(r'World', 'Python', text)</p>
-<p>print(new_text) &nbsp;# Hello Python</p>
-<p>```</p>
-<p>&nbsp;</p>
-<p>**Magyarázat**:</p>
-<p>- `re.sub()` egy mintát keres a szövegben, és kicseréli egy új karakterláncra.</p>
-<p>&nbsp;</p>
-<p>##### 5. Karaktercsoportok Használata</p>
-<p>&nbsp;</p>
-<p>```python</p>
-<p>text = "A1 B2 C3 D4"</p>
-<p>pattern = r'[A-Z]\d'</p>
-<p>&nbsp;</p>
-<p>matches = re.findall(pattern, text)</p>
-<p>print("Talált karakterek:", matches) &nbsp;# ['A1', 'B2', 'C3', 'D4']</p>
-<p>```</p>
-<p>&nbsp;</p>
-<p>**Magyarázat**:</p>
-<p>- `[A-Z]`: Bármely nagybetű.</p>
-<p>- `\d`: Bármely számjegy.</p>
-<p>&nbsp;</p>
-<p>##### 6. Választás és Csoportosítás</p>
-<p>&nbsp;</p>
-<p>```python</p>
-<p>text = "cat, bat, rat"</p>
-<p>pattern = r'[cbr]at'</p>
-<p>&nbsp;</p>
-<p>matches = re.findall(pattern, text)</p>
-<p>print("Talált állatok:", matches) &nbsp;# ['cat', 'bat', 'rat']</p>
-<p>```</p>
-<p>&nbsp;</p>
-<p>**Magyarázat**:</p>
-<p>- `[cbr]`: Választható karakterek (c, b vagy r), majd "at".</p>
-<p>&nbsp;</p>
-<p>##### 7. Escape Karakterek</p>
-<p>&nbsp;</p>
-<p>```python</p>
-<p>text = "3.14 is a number."</p>
-<p>pattern = r'\d+\.\d+'</p>
-<p>&nbsp;</p>
-<p>match = re.search(pattern, text)</p>
-<p>if match:</p>
-<p>&nbsp; &nbsp;print("Talált szám:", match.group()) &nbsp;# 3.14</p>
-<p>```</p>
-<p>&nbsp;</p>
-<p>**Magyarázat**:</p>
-<p>- `\d+`: Számjegyek.</p>
-<p>- `\.`: A pontot escape-eljük, hogy mintaként kezeljük.</p>
-<p>&nbsp;</p>
-<p>### Összegzés</p>
-<p>A reguláris kifejezések (regex) rendkívül hasznosak a szövegfeldolgozás során. A Python `re` moduljának segítségével könnyen kereshetünk mintákra, ellenőrizhetjük a formátumokat, helyettesíthetünk karakterláncokat és összetett kereséseket végezhetünk. A fenti példák bemutatják a regex alapjait, de a minták testreszabása és finomítása számos lehetőséget kínál a fejlesztők számára.</p>
+<h3>Regex (Reguláris Kifejezések) Részletes Leírás</h3>
+<p>A reguláris kifejezések (regex) egy erőteljes eszközkészlet a szövegkereséshez és -manipuláláshoz. Ezek a kifejezések lehetővé teszik minták definiálását, amelyeket a szövegben való keresés során lehet használni. A Python nyelvben a <code>re</code> modul biztosítja a reguláris kifejezések használatának lehetőségét.</p>
+<h4>Alapfogalmak</h4>
+<ol>
+  <li><strong>Minták</strong>: A regex minták karakterekből állnak, amelyek meghatározzák, hogy mit keresünk.</li>
+  <li><strong>Meta-karakterek</strong>: Olyan karakterek, amelyek speciális jelentéssel bírnak:<ul>
+      <li><code>.</code>: Bármely karakter</li>
+      <li><code>^</code>: Sor eleje</li>
+      <li><code>$</code>: Sor vége</li>
+      <li><code>*</code>: 0 vagy több ismétlés</li>
+      <li><code>+</code>: 1 vagy több ismétlés</li>
+      <li><code>?</code>: 0 vagy 1 ismétlés</li>
+      <li><code>{n}</code>: Pontosan n ismétlés</li>
+      <li><code>{n,}</code>: Legalább n ismétlés</li>
+      <li><code>{n,m}</code>: Legalább n, legfeljebb m ismétlés</li>
+      <li><code>[]</code>: Karaktercsoport</li>
+      <li><code>|</code>: Választás (logikai "vagy")</li>
+      <li><code>\</code>: Escape karakter</li>
+    </ul>
+  </li>
+</ol>
+<h4>Python Regex Példák</h4>
+<h5>1. Alapvető Használat</h5>
+<p>python</p>
+<p>Code kopieren</p>
+<p><code>import re
+
+    text = "Hello, my email is example@test.com"
+    pattern = r'\w+@\w+\.\w+' &nbsp;# Regex minta az email címekhez
+
+    match = re.search(pattern, text)
+    if match:
+    &nbsp; &nbsp;print("Talált email:", match.group())
+  </code></p>
+<p><strong>Magyarázat</strong>:</p>
+<ul>
+  <li><code>\w+</code>: Alfanumerikus karakterek (betűk, számok, _), legalább egy alkalommal.</li>
+  <li><code>@</code>: Az @ karakter.</li>
+  <li><code>\.</code>: A pont karakter (escape-elve).</li>
+  <li><code>\w+</code>: Ismétlődő alfanumerikus karakterek a domain névhez.</li>
+</ul>
+<h5>2. Minta Ellenőrzése</h5>
+<p>python</p>
+<p>Code kopieren</p>
+<p><code>pattern = r'^\d{3}-\d{2}-\d{4}$' &nbsp;# SSN formátum: XXX-XX-XXXX
+    ssn = "123-45-6789"
+
+    if re.match(pattern, ssn):
+    &nbsp; &nbsp;print("Érvényes SSN")
+    else:
+    &nbsp; &nbsp;print("Érvénytelen SSN")
+  </code></p>
+<p><strong>Magyarázat</strong>:</p>
+<ul>
+  <li><code>^</code>: A sor eleje.</li>
+  <li><code>\d{3}</code>: Három számjegy.</li>
+  <li><code>-</code>: A kötőjel.</li>
+  <li><code>\d{2}</code>: Két számjegy.</li>
+  <li><code>-</code>: A második kötőjel.</li>
+  <li><code>\d{4}</code>: Négy számjegy.</li>
+  <li><code>$</code>: A sor vége.</li>
+</ul>
+<h5>3. Több Egyezés Keresése</h5>
+<p>python</p>
+<p>Code kopieren</p>
+<p><code>text = "apple, banana, apple pie, pineapple"
+    pattern = r'apple'
+
+    matches = re.findall(pattern, text)
+    print("Találtak:", matches)
+  </code></p>
+<p><strong>Magyarázat</strong>:</p>
+<ul>
+  <li><code>re.findall()</code> visszaadja az összes találatot egy listában.</li>
+</ul>
+<h5>4. Keresés és Csere</h5>
+<p>python</p>
+<p>Code kopieren</p>
+<p><code>text = "Hello World"
+    new_text = re.sub(r'World', 'Python', text)
+    print(new_text) &nbsp;# Hello Python
+  </code></p>
+<p><strong>Magyarázat</strong>:</p>
+<ul>
+  <li><code>re.sub()</code> egy mintát keres a szövegben, és kicseréli egy új karakterláncra.</li>
+</ul>
+<h5>5. Karaktercsoportok Használata</h5>
+<p>python</p>
+<p>Code kopieren</p>
+<p><code>text = "A1 B2 C3 D4"
+    pattern = r'[A-Z]\d'
+
+    matches = re.findall(pattern, text)
+    print("Talált karakterek:", matches) &nbsp;# ['A1', 'B2', 'C3', 'D4']
+  </code></p>
+<p><strong>Magyarázat</strong>:</p>
+<ul>
+  <li><code>[A-Z]</code>: Bármely nagybetű.</li>
+  <li><code>\d</code>: Bármely számjegy.</li>
+</ul>
+<h5>6. Választás és Csoportosítás</h5>
+<p>python</p>
+<p>Code kopieren</p>
+<p><code>text = "cat, bat, rat"
+    pattern = r'[cbr]at'
+
+    matches = re.findall(pattern, text)
+    print("Talált állatok:", matches) &nbsp;# ['cat', 'bat', 'rat']
+  </code></p>
+<p><strong>Magyarázat</strong>:</p>
+<ul>
+  <li><code>[cbr]</code>: Választható karakterek (c, b vagy r), majd "at".</li>
+</ul>
+<h5>7. Escape Karakterek</h5>
+<p>python</p>
+<p>Code kopieren</p>
+<p><code>text = "3.14 is a number."
+    pattern = r'\d+\.\d+'
+
+    match = re.search(pattern, text)
+    if match:
+    &nbsp; &nbsp;print("Talált szám:", match.group()) &nbsp;# 3.14
+  </code></p>
+<p><strong>Magyarázat</strong>:</p>
+<ul>
+  <li><code>\d+</code>: Számjegyek.</li>
+  <li><code>\.</code>: A pontot escape-eljük, hogy mintaként kezeljük.</li>
+</ul>
+<h3>Összegzés</h3>
+<p>A reguláris kifejezések (regex) rendkívül hasznosak a szövegfeldolgozás során. A Python <code>re</code> moduljának segítségével könnyen kereshetünk mintákra, ellenőrizhetjük a formátumokat, helyettesíthetünk karakterláncokat és összetett kereséseket végezhetünk. A fenti példák bemutatják a regex alapjait, de a minták testreszabása és finomítása számos lehetőséget kínál a fejlesztők számára.</p>
