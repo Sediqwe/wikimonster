@@ -2,7 +2,7 @@
 title: Pioneers of Pagonia
 description: 
 published: true
-date: 2024-07-16T14:51:43.677Z
+date: 2024-07-16T14:55:28.159Z
 tags: 
 editor: ckeditor
 dateCreated: 2024-07-16T00:19:51.059Z
@@ -15,6 +15,7 @@ dateCreated: 2024-07-16T00:19:51.059Z
   <li>Fordítás menete</li>
   <li>Fájlok visszapakolás&nbsp;</li>
   <li>Telepítő készítés</li>
+  <li>Fordítás alatt felmerülő ismert hibák.</li>
 </ol>
 <h2>Fájlok kicsomagolása</h2>
 <p><span class="text-huge"><strong>Menete röviden: </strong>Core.pak kibontása →&nbsp;<strong> </strong>loca_en_us.bin átalakítása &nbsp;loca_en_us.txt - re</span></p>
@@ -52,6 +53,12 @@ dateCreated: 2024-07-16T00:19:51.059Z
 rename "core.pak" backup.pak
 rename "mod.pak" "core.pak"</code></pre>
 <p>Ez bele injektálja a "mod.pak" ba a core.pak tartalmát és felül írja a nyelvi fájlt.<br>Ez átnevezi a core.pak ot backup.pak ra.<br>A mod.pak fájlt vissza nevezi core.pak ra.</p>
+<p>&nbsp;</p>
+<h2>Telepítő készítés</h2>
+<p>Telepítő készítése nagyon egyszerű, a fenti parancsokat egy bat fájlba írva magától elkészíti a core.pak ot.</p>
+<p>A telepítő esetében töröljük a core.pak ot, mert nem kell, hiszen tuti jó a fordítás :D</p>
+<p>2024.07.08 STEAM verzió: ~76% os állásnál.</p>
+<p><a href="/pioneersofpagonia/install.zip">/pioneersofpagonia/install.zip&nbsp;</a></p>
 <p>Így ha valami galiba van, akkor csak a backup.pak fájlt kell visszanevezni core.pak ra és minden helyre áll :)<br>Bármi kérdésed van: monstergep@gmail.com</p>
 <p>&nbsp;</p>
 <p><br>&nbsp;</p>
