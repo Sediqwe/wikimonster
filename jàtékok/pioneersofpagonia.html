@@ -2,7 +2,7 @@
 title: Pioneers of Pagonia
 description: 
 published: true
-date: 2024-07-16T14:41:12.258Z
+date: 2024-07-16T14:47:46.974Z
 tags: 
 editor: ckeditor
 dateCreated: 2024-07-16T00:19:51.059Z
@@ -14,6 +14,7 @@ dateCreated: 2024-07-16T00:19:51.059Z
   <li>Fájlok kicsomagolása</li>
   <li>Fordítás menete</li>
   <li>Fájlok visszapakolás</li>
+  <li>Telepítő készítés</li>
 </ol>
 <h2>Fájlok kicsomagolása</h2>
 <p>A játék szerencsére egy dupla fájl csomagolást alkamaz, így 2x kell kibontani, nehogy egyszerű legyen az élet :)</p>
@@ -40,6 +41,17 @@ dateCreated: 2024-07-16T00:19:51.059Z
 <p>Erre használjuk az IMPORTTEXT.EXT fájlt, visszarakáshoz szükség lehet az eredeti &nbsp;“<strong>loca_en_us.bin" </strong>fájlra is.</p>
 <p>(Tedd egymás mellé a .bin a .txt és az importet exe-t úgy tedd vissza)</p>
 <p><a href="/pioneersofpagonia/importtext.exe">/pioneersofpagonia/importtext.exe</a></p>
-<p>Ez létre hoz egy új fordított .bin fájlt. “loca_en_us_MOD.bin”&nbsp;<br>&nbsp;</p>
+<p>Ez létre hoz egy új fordított .bin fájlt. “loca_en_us_MOD.bin”&nbsp;</p>
+<p>Lehetőséged van egyből visszarakni ezt a fájlt<strong><u> (Ki kell venni a nevéből a "_MOD" szót!!!!)</u></strong></p>
+<p>Ehhez csak hozd létre a &nbsp;“core<i>pak\core\localization\” könyvtárat, másold bele a loca_en</i>_<i>us.bin fájlt <strong>(a _MOD nélkül!!</strong></i><strong>) </strong>a core.pak mellé.</p>
+<p>A core.pak mellé másold be a "plpaker.exe" fájlt</p>
+<p>CMD ben futtasd le :</p>
+<pre><code class="language-plaintext">plpaker.exe patch .\core.pak .\mod.pak .\core_pak\core\localization\loca_en_us.bin
+rename "core.pak" backup.pak
+rename "mod.pak" "core.pak"</code></pre>
+<p>Ez bele injektálja a "mod.pak" ba a core.pak tartalmát és felül írja a nyelvi fájlt.<br>Ez átnevezi a core.pak ot backup.pak ra.<br>A mod.pak fájlt vissza nevezi core.pak ra.</p>
+<p>Így ha valami galiba van, akkor csak a backup.pak fájlt kell visszanevezni core.pak ra és minden helyre áll :)<br>Bármi kérdésed van: monstergep@gmail.com</p>
+<p>&nbsp;</p>
+<p><br>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
