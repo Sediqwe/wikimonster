@@ -1,0 +1,2543 @@
+Please try restarting the game. If the issue persists, consider deactivating Steam cloud sync for Pioneers of Pagonia.
+Failed loading the user data
+Welcome to the Early Access of Pioneers of Pagonia
+We are happy to see you here![br][br]Playing Pioneers of Pagonia, you might miss some features or encounter bugs and crashes. Feel free to let us know about them, as well as your general feedback and thoughts, over on our Discord or in the Steam Community forums.[br]Our community's feedback is invaluable to us and helps us make the best possible version of Pioneers of Pagonia, so don't be shy, come and say hi![br][br]Thank you and have fun![br]Your Pioneers of Pagonia Team
+Welcome to the Pioneers of Pagonia Open Beta!
+We are happy to see you here![br][br]We will update this Open Beta with upcoming gameplay improvements as well as bigger content updates before they will be published in the Early Access version.[br]Everyone who owns the Early Access version can help us test new improvements and features. If you want to participate, please read the patch notes carefully and share bug reports and feedback in the Open-Beta-Forums over on our Discord or in the Steam Community forums.[br]Please also keep in mind that Pioneers of Pagonia and this version especially is still in development and not representative of the final scope and quality of our game; you may encounter bugs and crashes. Our community's feedback is invaluable to us and helps us make the best possible version of Pioneers of Pagonia.[br][br]Thank you for your support and have fun testing![br]Your Pioneers of Pagonia Team
+Planted {0}
+{0} {1}
+Growth: {0}%
+Will wither soon
+Will rot soon
+Withered
+Dead
+Rotten
+Small Vein
+Medium Vein
+Rich Vein
+Nothing found
+Autosave
+Multiplayer Autosave
+Yield
+Plants
++{0}
+Utilizes
+Costs
+Error
+Outside of your territory borders
+A segment of this road has become blocked by growing flora.
+Obstructed by building
+Obstructed by road
+Invalid angle between roads
+Invalid road segment length
+Blocked by terrain
+Blocked by deposit
+Forbidden sediment
+Invalid road joint position
+Invalid road segment position
+Pathfinding unsuccessful
+Waypoints not connected by road
+Segment already selected
+Joint not on road
+Maximum road length reached. Please confirm the last waypoint and start a new road.
+Invalid terrain shaping
+Requirements not met
+SHOULD NOT APPEAR IN GAME ro
+Place Building
+Cancel
+Rotate Building
+Add Road Waypoint
+Add Road demolish Waypoint
+Delete last Road Waypoint
+Delete last Road demolish Waypoint
+Click on last Road Waypoint to confirm
+Click on last Road demolish Waypoint to confirm
+Gathers
+Produces
+As needed
+Exit to Main Menu?
+Unsaved progress will be lost!
+If you exit to the main menu, you will close the current co-op game and kick all co-op partners who are in your game. Are you sure? Unsaved progress will be lost!
+You will leave the current co-op game. Are you sure? Unsaved progress will be lost! You can save a co-op game at any time to continue playing on your own.
+Quit to Desktop?
+If you quit to desktop, you will close the current co-op game and kick all co-op partners who are in your game. Are you sure? Unsaved progress will be lost!
+Pause (Host only)
+Resume Game
+Game not paused
+Game paused
+Game paused by host
+Game saved successfully!
+Invite players from your friend list. When they join you, you will share your current map and all players in the co-op session can build and steer your Pagonian faction together as one.
+Only the host can invite other players.
+Camera Controls
+Scroll view
+Mouse scrolling can be changed in game options 
+Zoom view
+Rotate & tilt view
+Minimap Controls
+Scroll minimap
+Zoom minimap in and out
+Autofit
+Automatically adjust minimap zoom to fit all explored territory.
+Top Bar Configuration
+You can adjust which information you want to display in the top bar.
+1. Open configuration for category
+2. Select all types you want to display
+Only invited players can join this session.
+This session is open for your Steam friends to join.
+Cannot invite more friends. Only up to {0} players can join in a co-op game.
+Searching for game ...
+Join game
+If you load a saved game, you will close the current co-op game and kick all co-op partners who are in your game. Are you sure? Unsaved progress will be lost!
+If you load a saved game, you will leave the current co-op game. Are you sure? Unsaved progress will be lost! You can save a co-op game at any time to continue playing on your own.
+Loading...
+{0}%
+Only the host can change game speed.
+Peaceful Guidance Map
+Guidance Map with Enemies
+Custom Map generation is disabled due to hardware constraints!
+Select Map
+Start Game
+Select a map to start a game
+Click here to start the selected map
+Generate Map and Start Game
+Click here to generate a map with the chosen parameters and start playing. Please note that generating the map will take some time, up to a few minutes. This depends on map size and available computing power.
+press a key
+Error while saving!
+Audio
+Controls
+Debug
+Gameplay
+Keybindings
+Video
+Audio
+Volume Settings
+Voice Actors
+Map Navigation Keys
+Keyboard
+Debugging
+Language
+Objectives
+Hints
+Autosave
+Multiplayer
+Confirm and Cancel
+Map navigation keys
+Construction Keys
+Shortcut Keys
+Building Keys
+User Interface
+Video
+Advanced
+Activate sound
+Turn the game sound on or off.
+Global volume
+Determine the volume of all sounds.
+Music volume
+Determine the volume of the in-game music.
+Effects volume
+Determine the volume of the effects sounds.
+Notification volume
+Determine the volume of notification sounds.
+User interface volume
+Determine the volume of the user interface sounds.
+Voice-over volume
+Determine the volume of voice-over sounds.
+Geologist voice
+Select voice actor for the geologist.
+Explorer voice
+Select voice actor for the explorer.
+Switch scrolling to right mouse button
+Use the right mouse button to move the camera/map instead of the left mouse button. This setting also changes the mouse button to rotate the building construction preview.
+Flip mouse rotation axis
+Flip the mouse rotation axis when using it to change the camera view.
+Flip mouse wheel axis
+Flip the mouse wheel zoom direction.
+Mouse wheel zoom speed
+Determine the speed of the mouse wheel zoom.
+Mouse rotation speed
+Determine how fast the camera moves when using the mouse to change the view.
+Mouse pitch speed
+Determine how fast the camera pitch factor changes when using the mouse to change the view.
+Construction preview mouse rotation threshold
+Threshold for the rotation of the construction preview towards the pointer when holding RMB and moving the mouse during building placement.
+Map scrolling speed
+Adjust vertical view movement speed.
+Zoom speed
+Adjust zoom speed.
+Map rotation speed
+Determines how fast the camera rotates.
+Pitch speed
+Determines how fast the camera shifts pitch.
+Construction preview rotation speed
+Determine the speed at which the construction preview is rotated.
+optionToggleDebugOverlayKey
+Toggle the DebugOverlay on/off.
+Disable 'demolish' warning
+No longer show a confirmation box before demolishing a building.
+Allow all light presets
+Allows to cycle through all light presets, even those not exposed to the player.
+Toggle debugging info
+Toggle the debugging information on or off.
+optionDebugEditBlockingToggleKey
+Edit the blocking.
+Force simulation resync
+Force a simulation resync
+optionDebugEditFactionToggleKey
+Edit a faction.
+Increase elevation of construction preview
+Increase the elevation of the construction preview.
+Decrease elevation of construction preview
+Decrease the elevation of the construction preview.
+Construction preview elevation speed
+Determine the construction preview elevation speed.
+Language
+Set your display language.
+Display objective names
+Toggle objective names in objective list on/off
+Display additional objective hints
+Show additional hints in objective info tooltips when available
+Show context hints
+Show context hints next to the mouse pointer
+Show game hints
+Show hints about the gameplay
+Autosave interval
+Autosave interval in minutes (0 = Disabled).
+Friends can join a game session
+Will affect active session.[br]On: Created co-op games are open by default.[br]Off: Created co-op games are invite-only by default.
+Confirm
+Confirm action. This key binding cannot be changed.
+Cancel
+Cancel. Key binding cannot be changed.
+Scroll up
+Move the view up.
+Scroll down
+Move the view down.
+Scroll left
+Move the view left.
+Scroll right
+Move the view right.
+Toggle snapping
+Key with which to turn snapping during construction placement on or off.
+Construction preview right rotation key
+Rotate construction preview clockwise.
+Construction preview left rotation key
+Rotate construction preview counter-clockwise.
+Jump to next building
+Jump to the next building of the same type.
+Jump to previous building
+Jump to the previous building of the same type.
+Jump to next territory building
+Jump to the next territory building.
+Jump to previous territory building
+Jump to the previous territory building.
+Jump to previous location
+Jump back to the location before the last jump.
+Jump to map start
+Jump back to your ship The Venturer.
+Next light setting key
+Cycle through to the next of all available light settings.
+Building priority
+(De-)activate the building priority.
+Set focus point
+Set building focus point. In territory buildings, this sets the claim focus point.
+Set patrol point
+Set the patrol focus point for territory buildings.
+Set attack point
+Set an attack point that this building's units will target before returning to their patrol destination.
+Zoom in
+Zoom in world view.
+Zoom out
+Zoom out world view.
+Rotate map left
+Rotate the view counterclockwise.
+Rotate map right
+Rotate the view clockwise.
+Reset camera orientation
+Resets the camera rotation, zoom and pitch back to default.
+Multiplayer Ping
+While holding this key in multiplayer mode, click to place Pings for other players.
+Pitch view up
+Pitch the view up.
+Pitch view down
+Pitch the view down.
+Hide/show UI
+Show or hide the user interface.
+Show objectives UI
+(De-)activate the UI for objectives.
+Show notifications UI
+(De-)activate the UI for notifications.
+Display mode
+Choose game window mode.
+UI scaling
+Scale of the user interface (in percent)
+VSync activated
+Toggle VSync on and off.
+Upscaling
+Factor for FidelityFX Super Resolution 1.0 based upscaling. [br]Values in percent: 100 means original display resolution, 200 means the image is scaled up by factor 2. [br]Higher values increase performance and decrease resolution.
+Field of view
+Changes the vertical field of view. Limiting the field of view may increase performance.
+Texture quality
+Set quality of textures in the game. Higher values may decrease performance.
+Shadow quality
+Adjust the quality of the shadows in the game. Higher values may negatively impact performance.
+SSAO quality
+Adjust the screen space ambient occlusion, part of the lighting. Higher values may negatively impact performance.
+Multisample quality
+Set multisample anti-aliasing quality of the game. Higher values may negatively impact performance.
+Texture filter quality
+Set the texture filter quality of the game. Higher values might decrease rendering performance.
+Maximum point lights
+Number of point lights per object. Higher values may decrease performance.
+Bloom
+Enables or disables the bloom post FX. Disabling the effect can improve rendering performance.
+Render grass
+(De-)activate the rendering of grass. Deactivating this setting may positively impact performance.
+Object quality
+Adjust the range at which the objects are rendered in full detail. Higher values may negatively impact performance.
+Frame limiter
+Set a FPS limit when Vsync is off. 0 = disabled
+Triple buffering
+Toggle triple buffering on/off
+Distance fog quality
+Sets the distance fog quality. Lower settings may improve performance on old systems.
+Animation quality
+Set the quality of in-game animations. Lower settings may positively impact CPU performance.
+None
+Language default
+Sodapoppin
+Gronkh
+HandOfBlood
+System language
+Portuguese (Português - BR)
+Czech (čeština)
+Dutch (Nederlands)
+English
+French (Français)
+German (Deutsch)
+Italian (italiano)
+Japanese (日本語)
+Korean (한국인)
+Polish (Polski)
+Slovak (slovenčina)
+Simplified Chinese (简体中文)
+Spanish (Español)
+Thai (ภาษาไทย)
+Traditional Chinese (繁體中文)
+Turkish (Türkçe)
+Ukrainian (Українська)
+Russian (Русский)
+Windowed
+Windowed (borderless)
+low
+normal
+high
+Ultra
+Extreme
+OFF
+medium
+2x
+4x
+8x
+Very low
+Very high
+Maximum
+{0} available for tasks
+>10k
+Balance of homes
+{0}m²
+Comfort meals consumed per minute:
+{0} reflects a full meal of main dish, side dish, dessert and drink with standard ingredients.
+Coming Soon
+Current Total Wealth
+You will reach {0} combat power at {1} total wealth
+You have reached maximum combat power
+Ready for new task:
+[c=ChartPositive1]Recruitment per minute[/c]
+[c=ChartNegative1]Losses per minute[/c]
+[c=ChartPositive1]Total[/c] / [c=ChartPositive2]Idle[/c]
+You have exceeded the total population limit. Your people will not visit the Tavern and no newborns will be born for the time being.
+Since your people lack homes, they will not visit the Tavern and no newborns will be born for the time being.
+Total space in {0}
+Occupied by carriers
+Occupied by workers without home
+Occupied by other civilian units without home
+Occupied by military units without home
+Room currently in construction:
+Ordered for production:
+Ordered for recruitment:
+Ordered for construction:
+Ordered for trades:
+Missing for orders:
+You reached the maximum total population. Consumption of Comfort Meals is suspended while your population is over {0}.
+Current newborn condition: You need a sum of {0} Comfort Meal quality in a residence to get a newborn.
+At {0} population, you will reach the maximum total population and consumption of Comfort Meals will be suspended.
+Next newborn condition: At a population of {0}, you will need a sum of {1} Comfort Meal Quality.
+Saving...
+Save game
+Overwrite existing save?
+Load savegame?
+Delete savegame?
+Failed to read saves folder
+Continue savegame: [br]{0} [br]{1}
+Cannot leave your own territory
+Expands territory
+Removes the disguise of spotted thieves
++ {0}% combat power against {1}
+Attacks hostile enemies
+Your faction
+Workplace
+Deployment
+Jump to workplace
+Ready for new task
+Home
+Move camera to home (only works if your people have discovered the home)
+Move camera to home
+Homeless
+Undiscovered building
+Died - Habitat overpopulated
+Killed
+Killed by {0}
+Killed by Hunters
+Combat strength [c=YellowOrange]{0}[/c] ({1} + {2} [img={3}] boost from wealth)
+Traits
+Combat strength
+Place Pings in the world or on the minimap.
+Place Pings while pressing this key
+At least one NPC type must be selected!
+Random
+Lighting Mood
+Starting units and supplies
+Amount of hostile NPCs
+Difficulty of hostile NPCs
+Occurring NPC types
+Amount of Pagonian villages
+Difficulty of village objectives
+Amount of Flat Grassland
+Amount of Forests
+Amount of Wild Animals and Plants
+Amount of Mountains and Cliffs
+Style of Rocky Areas
+Mining Resources
+Amount of Lakes
+Fish Occurrence
+Climate Style of other Landscape Types
+Paste Map ID
+Invalid clipboard content. The content of your clipboard is not a Map ID.
+The game version of this Map ID differs from your current game version. The generated map might be different from the one originally generated by the older game version, depending on whether there were changes in the map generation.
+This enemy type is only available in higher difficulty settings of hostile NPCs.
+Custom
+All Available
+Copy Map ID[br]Click here to copy this Map ID code to the clipboard to share it with other players. If they use this code, they can play the same map as you.
+Map ID copied to clipboard!
+Demolish Building?
+Are you sure? The building will be destroyed instantly!
+Toggle priority
+Set patrol point
+Set attack point
+Set focus point
+Demolish building
+Cancel construction
+Efficiency
+:
+{0}+{1}/{2}
+{0}/{1}
+Cancel construction?
+Are you sure? Already used commodities will be lost!
+Shopping
+Cooking:
+Serving:
+Drink
+Main dish
+Side dish
+Dessert
+Yes
+No
+Set focus point: The focus points defines where the employed units work first. They will try to work as close as possible to the focus point, but the overall area of reach for the building stays valid. This means the workers will still head the opposite direction if that is the closest spot to the focus point where they can work.
+Anything
+Plant {0}
+Only felling fully-grown trees: This will increase the walk distance for woodcutters but preserve the forest since fully-grown trees often leave new saplings behind.[br]Click this button to switch to fell all trees.
+Felling all trees: This will fell trees of any size to minimize walk distance for the woodcutters and remove forest faster since smaller trees leave no saplings behind.[br]Click to switch to fell only fully-grown trees.
+{0} {1}/{2}
+Products
+Stock
+-{0}
+Empty
+∞
+Recruit {0}
+Worker
+{0}
+{0} stationed ({1} on their way)
+{0} missing
+Value:
+Click here to change template
+Custom
+Priority disabled. Click to enable priority.[br]- Stores surplus of this commodity if carriers are available[br]- Redirect and deliver the commodity anytime to anywhere
+Priority disabled. Click to enable priority.[br]- Store this commodity[br]- Redirect and deliver the commodity anytime to economy
+Priority enabled. Click to disable priority.[br]- Requests commodity and carriers with priority[br]- Commodity only delivered and redirected to buildings with priority
+Currently stored commodity doesn't match selected commodity.[br]The previous content of this pile has to be removed before a different commmodity can be stored.
+Store any commodity once the production output storage of a building is full.
+Anything from category "{0}"
+Store any commodity from this category once the production output storage of a building is full.
+Resident currently consuming this meal
+Meal consumed, resident heading home
+Finished: Meal consumed and resident returned home
+{0}+{1}
+Set patrol point: Defines where your units will patrol to conquer, secure or protect the area nearby. Your units defend themselves while running to the target location, but only attack enemies at the destination, not en route.
+Cancel currently active attack command
+Set claim focus point: As your guards extend your territory, they will aim for this location if not in your territory yet and afterwards prioritize depending on distance to this location. The overall area of reach for the guard building stays valid. This means the guards will still claim any other area in reach if that is the closest spot to the claim focus point they can claim.
+Claiming active. Click to pause.
+Claiming paused. Click to resume.
+Set attack point: Defines a destination for this building’s units to target once before returning to the patrol point. Your units defend themselves while running to the target location, but only attack enemies at the destination, not en route.
+Set attack point (Disabled: No units to attack with.)
+The Brave Miners
+If trade carriers are currently travelling, they will immediately drop their commodity and return to your territory. Partial trade segments will not be forgotten if the trade is continued later, but commodities might be temporarily lost in neutral territory.
+Remove and stop this trade
+Occupied
+This Trade is already in progress at another Trading Post
+Unavailable
+Unpause building to enable trades
+Continue
+Continue this Trade [br]Amount will be set to unlimited by default, adjust it to your needs.
+Start
+Start this Trade [br]Amount will be set to unlimited by default, adjust it to your needs.
+"Acquainted" needed
+This Trade is only available once you are acquainted with this village.
+"Friendly" needed
+This Trade is only available once you are friends with this village.
+"Ally" needed
+This Trade is only available once you are allied with this village.
+No free Trading Post
+All known Trading Posts of the other faction are in use. [br] To start a Trade, you need a fully explored path between your Trading Post and at least one currently unused Trading Post of the target Pagonian village.
+Finished
+Trade is finished
+Unavailable
+Start Trade?
+Are you sure you want to start this Trade? [br]Already active Trade will be canceled. If trade carriers are currently travelling, they will immediately drop their commodity and return to your territory. Partial trade segments will not be forgotten if the trade is continued later, but commodities might be temporarily lost in neutral territory.
+Cancel Trade?
+Are you sure that you want to stop the current Trade now? [br]If Trade Carriers are currently travelling, they will immediately drop their commodity and return to your territory. Partial trade segments will not be forgotten if the Trade is continued later, but commodities might be temporarily lost in neutral territory.
+Delivered:
+In transport:
+Stored at other Trading Post:
+Already paid, waiting for free Trade Carrier
+Already paid, Trade Carrier is incoming
+Trade Carrier Incoming
+Already paid, waiting for free Trade Carrier
+Obtained:
+Free:
+Faction reward
+Unassigned
+M
+K
+now
+Online_XMinutesAgo
+Online_XHoursAgo
+Online_XDaysAgo
+Online_XYearsAndYDaysAgo
+days
+hours
+minutes
+seconds
+d
+h
+m
+s
+Victory
+You are friends with all Pagonian villages on this island!
+You defeated all the enemies on this island!
+You completed all guidance objectives!
+Creating Island...
+Planting Trees...
+Placing Lakes...
+Raising Mountains...
+Releasing Butterflies...
+Planting Flowers...
+Recruiting Explorers...
+Your borders needs to be connected before you can merge
+Next Faction standing at {0}%: {1}
+Per {1}x {0} {2} (up to +{3}%)
+Once upon completion
+{0} (+{1}% standing earned)
+Any of these units count towards the goal:
+Any of these buildings count towards the goal:
+Any of these commodities count towards the goal:
+These are the supplies that are needed:
+Individual construction progress:
+{0}/?
+{0}/{1}
+{0}/{1} of {2}
+Connection Error
+Connection Error
+Connection Error
+Cannot join game. A connection error occurred during the join process.
+Connection Error
+Connection Error
+Network connection to the game host lost. Your game has been saved and can be loaded to continue.
+Connection Error
+The host has kicked you from this game session.
+Connection Error
+The game state is out of sync between your computer and the host's computer. You are disconnected from the game. Do you want to send an error report?
+Creating backup saved game
+Cannot join the game. The Game ID is invalid or the session no longer exists.
+Cannot join game. The host runs a different update level of the game.
+Cannot join game. Game is full.
+Game ID copied to clipboard!
+Show Game ID
+Hide Game ID
+Copy Game ID
+Paste Game ID
+Connecting to host
+Transferring map state from host
+Synchronizing game state with host
+Player profile
+Kick player from this session
+Joining: {0}%
+Host
+Are you sure you want to remove player {0} from the game?
+Kick Player
+Looking for Land...
+Shaping the Island...
+Approaching the Island...
+Arriving in Pagonia!
+Arriving in Pagonia!
+Procedural map generation will not be possible, you will only be able to play the handful of predefined maps!
+Do you want to continue?
+Unsupported graphics hardware
+Pioneers of Pagonia is not supported on your graphics hardware ({0}).[br]You may experience graphics bugs or game crashes.
+Outdated GPU driver
+Your GPU driver for device {0} is out of date (version: {1}) and is known to cause problems with Pioneers of Pagonia![br]Please update your driver. You can find the latest drivers on your computer or GPU manufacturer's website. If you continue with your current driver, you may experience visual problems or crashes.
+No procedural map generation
+Failed loading the save game
+Loading the map failed
+Loading or generating the map failed
+Loading failed
+Loading save game failed: Save file no longer compatible. Our game is updated regularly and while we try to keep save games compatible, some new features and changes may cause previous save games to no longer be technically compatible with the newest game version.
+Loading save game failed: Save file not found or file corrupted
+Loading save game failed: Save file not found
+Loading save game failed: Access to save file location denied
+We had problems loading your savegame from Steam Cloud. We don't receive error codes from Steam, so we can't tell why.
+Confirm
+Cancel
+Ok
+Toggle Road Snapping
+Demolish Roads
+Roads
+Return to Game
+Save game
+Options
+Load game
+Invite to co-op
+Exit to Main Menu
+Quit to Desktop
+Players can join your hosted game through an Invite & Join game with Steam friends list, or with a Game ID you share with them.
+Invite to co-op game
+Invite from friend list
+Players in current game: 
+Open for friends. If checked, friends can see your game in their friend list and join you anytime if the maximum number of players is not reached yet.
+Or copy your Game ID and share it with other players.
+Back
+Get an invitation to join a co-op game from the host via your Steam friends list, or paste the Game ID below.
+Join co-op game
+Join game via friend list
+Or paste a Game ID here to join an open game.
+If instead you want to host a game, you can invite other players to join your current game from the pause menu.
+Load as replay
+Load
+Guidance Maps
+Here you will find guidance maps to familiarize yourself with Pioneers of Pagonia.
+Predefined Maps
+Here you will find multiple preselected generated maps of different type and difficulty.
+Customize New Map
+Create your own map according to your own preferences! Share Map IDs to your favorite maps and enter shared Map IDs to play and experience maps that other players enjoyed.
+New Game
+Back to Main Menu
+The guidance objectives help you to establish a core economy. They do not consider the specific circumstances of your current map. They are helpful for new players to get started and in general if you prefer to have some reminders.[br]You can enable or disable them in the options at any time.
+Default
+Reset all settings in this category to their default state.
+Return to menu
+Save
+Save changes
+New slot
+Privacy Policy
+Open the privacy policy in web browser
+Continue
+Start New Game
+Join co-op game
+Start following this unit
+Stop following this unit
+Feedback
+Steam Community
+Our Discord Server
+Check out our Instagram in your web browser
+Open our YouTube channel in web browser
+Open our X page in web browser
+Open our TikTok in web browser
+Open our Reddit page in web browser
+Open our Facebook page in web browser
+60'
+45'
+30'
+15'
+0'
+Normal priority: This building is treated with the same importance as any other building with normal priority[br]Click to set high priority for this building
+High priority: Carriers / construction carriers will deliver commodities to this building / construction site with high priority. Workers / Diggers and Builders will head to this building with high priority[br]Click to disable high priority for this building
+Building enabled: Ordering workers and commodities[br]Click to disable building
+Building disabled: Not ordering material or workers until enabled again[br]Click to enable building
+Status
+Work Orders
+Construction disabled: Not ordering Diggers, Builders and commodities until enabled again.[br]Click to re-enable construction site.
+Construction enabled: Ordering Diggers, Builders and commodities.[br]Click to disable construction site.
+Reimbursed construction materials:
+No Refund
+Set focus point: The focus points defines where the employed units work first. They will try to work as close as possible to the focus point, but the overall area of reach for the building stays valid. This means the workers will still head the opposite direction if that is the closest spot to the focus point where they can work.
+Nutritious Meal History
+No history yet
+Comfort Meal score needed per newborn:
+Current Comfort Meal score in this home:
+Status:
+Ingredients:
+Nutrition Value:
+Comfort Value:
+Amount:
+Cooking ingredient:
+Nutrition Value:
+Available in nearby markets:
+Meal ingredients' nutrition and pleasure values determine the overall values of cooked meals.
+Select this pile and change multiple piles at once
+Category
+Type
+Cooking Meal History
+Terrain type:
+Occupancy
+Comfort Meal History
+Category
+Type
+Objective 
+Workers ordered by buildings
+Choose a template
+Category Template
+Select all piles to change them at once
+Orders
+Resources in range:
+Cannot build here
+Location Info
+[[]
+[]]
+Disabled
+Enabled
+Hints enabled
+Focus minimap
+Filter View
+You won!
+Map Goal
+Map Setup
+Use Templates
+Choose this option to use predefined templates for a quick map setup.
+Customize
+Choose this option to customize all map setup details yourself.
+Algorithm:
+DebugObjectiveGeneration:
+Seed:
+Debug Seed Trade:
+Debug Seed Objective:
+Difficulty
+Custom
+Landscape
+Atmosphere
+Map ID
+Paste Map ID[br]Click here to paste a Map ID from the clipboard. This enables you to play the same map as the person who shared this code. [br]IMPORTANT: Please be aware that major game updates may cause Map IDs to become invalid. This will be stated in the patch notes.
+Copy Map ID[br]Click here to copy this Map ID code to the clipboard to share it with other players. If they use this code, they can play the same map as you.[br]IMPORTANT: Please make sure to copy the code AFTER you have made all changes to the setup.[br]You will be able to access this code for each map you're playing as well as your savegames.
+Starting units and supplies:
+Landing Party
+Settings:
+Map size:
+Objectives:
+Pagonian Factions:
+Objectives difficulty:
+Enemies:
+Hostile NPCs amount:
+Hostile NPC types:
+Landscape:
+Rocky Areas percentage:
+Rocky Areas style:
+Mining resources:
+Forest areas percentage:
+Forest resources:
+Lake areas percentage:
+Flat Grassland areas percentage:
+Climate style:
+MapSelectionDebug:
+Objective Generation:
+Objectives without Enemies
+Game ID
+Locations to supply:
+Merge with faction
+Objectives
+Reward:
+Faction standing:
+Win conditions:
+Faction standing:
+Available:
+Reserved:
+Production per minute: [c=ChartPositive1]Economy[/c] / [c=ChartPositive2]Trade[/c]
+Consumption per minute: [c=ChartNegative1]Economy[/c] / [c=ChartNegative2]Trade[/c] / [c=ChartNegative3]Loss[/c]
+Available
+Homeless
+Click to change displayed items
+Population
+Total
+All items of value stored in your Treasuries count towards your wealth. Wealth strenghtens your military and adventurer units.
+Wealth
+Total space:
+Delete savegame
+Valuable items stored in your Treasuries count towards your Wealth, which influences the overall combat power of your military and adventurer units.
+Not harvestable yet
+Needs water
+Traits:
+Tool:
+Recruited at:
+Combat strength
+Your own crest
+Crest of your trading partner
+Trade Stock
+No trade selected
+Active Trade
+Trade Offers
+Completed Trade Offers
+/
+Trade segments finished:
+Trade segments partially finished:
+Choose the amount of trade segments to be executed. One trade segment means that you execute the displayed trade ratio once. If you choose unlimited, it will be executed as often as possible.
+Pausing the trade means that current deliveries will be finished, but no new commodities will be delivered. You can remove pause anytime to continue. The trade segments which were in progress will be finished too.
+The bottom values display the amount of trade segments finished. The maximum amount shows how often this offer is available or if it is unlimited.
+Preliminary/Test
+Exploration & Expansion
+Food Products
+Wood & Stone
+Mining
+Equipment & Training
+Roads
+Not for MVP
+Population & Meals
+Processing
+Storage & Trade
+Construction Camp
+Residence of Construction units, they will go here when waiting for a new task.
+Construction Workers
+Explorer's Hut
+Home to Explorers who use Rations to explore unknown terrain.
+100% reflects continuous exploration of new territory in short to medium distance without being attacked, while supplied with sufficient rations.
+FakeTentObjective
+FakeTentObjective Description
+FakeTradingCampBuilding
+FakeTradingCampBuilding detail view description
+Farmland
+Place near a farm to allow farmers to till the field. The terrain type of the location defines which plants grow better or worse.
+Forester
+Plants Saplings that mature into trees over time if watered, and harvests Firewood. Only works in your territory.
+100% reflects continuous planting and watering of saplings in short to medium distance with enough space for new trees available. Gathering firewood does not count towards efficiency.
+Coal Hut
+Coal Miners mine nearby surface Coal deposits in your territory while supplied with nutritious meals. Coal is delivered to Smelting Works and the different smithies.
+100% reflects continuous mining in short distance with sufficient nutrition food supply and storage space always available.
+Copper Hut
+Copper Miners mine nearby surface Copper deposits in your territory while supplied with nutritious meals. Copper can be processed into tools and weapons, or minted into coins.
+Crop Farm
+Farmers plant, water and harvest crops on Farmland placed nearby. Wheat is delivered to the Windmills, Flax to the Weaving Shed and Corn to Market Stalls.
+100% reflects regular harvesting in short distance, sufficient water supply and storage space always available. Lower efficiency can be caused by slow growing plants or withering plants. Sowing and watering do not count for efficiency, only harvesting does.
+Vegetable Farm
+Farmers plant, water and harvest vegetables on Farmland placed nearby. The produce is then delivered to Market Stalls.
+Fishing Hut
+Fishers use Fishing Rods to fish Fish in lakes and oceans.
+100% reflects continuous fishing of strong fish populations in short distance and storage space always available.
+Highlighted fish swarms can be caught from shorelines in range of the Fishing Hut:
+Forager's Hut
+Foragers collect berries and mushrooms found in your territory to supply your market stalls as well as Wild Flax delivered to Weaving Sheds.
+100% reflects continuous gathering in short distance and storage space always available.
+Hunting Lodge
+Hunters cull animals in your territory for meat and Leather. Meat is delivered to Market Stalls and Provisioners, Leather is processed by Tailors.
+100% reflects continuous hunting in short to medium distance and storage space always available.
+Iron Hut
+Iron Miners mine nearby surface Iron ore deposits in your territory while supplied with nutritious meals. Iron is processed into Iron Bars at Smelting Works and used for different tools and weapons at smithies.
+FakeQuarry DoNotTranslate
+Quarry detail view description DoNotTranslate
+Quarry
+Quarry workers break stone and limestone at nearby deposits in your territory while supplied with nutritious meals, to be used as construction material and delivered to Stone Masons and Stone Mills.
+Silver Hut
+Silver Miners mine nearby surface Silver ore deposits in your territory while supplied with nutritious meals. Silver ore is processed into Silver Bars at Smelting Works.
+Woodcutting Hut
+Woodcutters fell trees and gather Firewood in your territory. Softwood is used as construction material, Hardwood for weapons and equipment, and Firewood for cooking.
+100% reflects continuous cutting of large trees in short distance and storage space always available.
+SHOULD NOT APPEAR IN GAME gb
+SHOULD NOT APPEAR IN GAME dvd
+Coal Mine
+Coal Miners mine nearby underground Coal deposits while supplied with nutritious meals. Coal is delivered to Smelting Works and the different smithies.
+Gold Mine
+Gold Miners mine nearby underground Gold ore deposits while supplied with nutritious meals. Gold ore is processed into Gold Bars at Smelting Works.
+Iron Mine
+Iron Miners mine nearby underground Iron ore deposits while supplied with nutritious meals. Iron is processed into Iron Bars at Smelting Works and used for different tools and weapons at smithies.
+Nickel Mine
+Nickel Miners mine nearby underground Nickel ore deposits. Nickel ore is processed into Nickel bars at Smelting Works and then used to create Steel.
+Silver Mine
+Silver Miners mine nearby underground Silver ore deposits while supplied with nutritious meals. Silver ore is processed into Silver Bars at Smelting Works.
+Geologist's Hut
+Home to Geologists who need Rations to travel and search mountainous terrain for sub-surface resources.
+The Venturer
+Your pioneers arrived with this ship. They brought enough resources to get your economy going.
+Pioneers
+Market Fountain
+Provides Drinking Water to enjoy with Comfort Meals. Must be pleaced near Market Stalls and a Tavern.
+Market Stall
+Carriers bring food from Hunters and Farms to Market Stall. Workers from a nearby Tavern collect the ingredients. Needs to be in range of a Market Fountain. Has room for up to 3 different ingredients with a capacity of up to 10 units each.
+Military Camp
+Residence of Military units, they will go here when waiting for a new task.
+Military units
+Balloon Field
+Crane
+Harbor
+Light Spire
+Treasure Hunter
+Armorsmith
+Armorsmiths craft shields and armor to equip new guards and soldiers at the Military Academy.
+100% reflects continuous production with ingredients, production orders and storage space always available.
+Artisan Blacksmith
+Artisan Blacksmiths refine equipment with gems to signigicantly improve it.
+Bakery
+Bread baked here is transported to the Market Stalls and Provisioners.
+100% reflects continuous production with ingredients and storage space always available.
+Furnace
+Furnace workers create Steel out of Iron and Nickel bars. Steel is processed further at the different smithies.
+Mint
+Coins minted here can be stored in the Treasury or used for trade.
+Animal Farm
+Animal Farm detail view description
+Brewery
+Brewery detail view description
+Fruit Farm
+Fruit Farm detail view description
+Jeweler
+Jeweler detail view description
+Ranch
+Ranch detail view description
+Winery
+Winery detail view description
+Provisioner
+Provisioners produce Rations for Explorers and Geologists and as back-up food for Miners.
+100% reflects continuous production with best ingredient (deer meat) and storage space always available.
+Sawmill
+Sawmillers produce Softwood Beams for construction sites and Hardwood Boards for the production of tools and weapons.
+Smelting Works
+Smelters produce metal bars for the production of equipment at the different smithies and coins at the Mint.
+Stone Mason
+Stonemasons shape Stone into Border Stones to expand territory, and Cut Stone to construct some buildings.
+Stone Mill
+Stone Millers turn Limestone into Cement to be used as construction material.
+Tailor's Shop
+Tailors craft armor for adventurer units and Backpacks that Explorers and some carrier types need.
+100% reflects continuous production with best ingredient, production orders and storage space always available.
+Uses {0} Leather each to craft equipment[br]Click to disable usage of Leather
+Does not use Leather to craft equipment[br]Click to enable usage of Leather
+Uses {0} units of cloth to craft equipment[br]Click to disable usage of cloth
+Does not use Cloth to craft equipment[br]Click to enable usage of Cloth
+Uses enabled materials for production
+Tool Smith
+Tool Smiths craft tools that are delivered to the Guild Hall and used by many worker types.
+Uses {0} units of copper to craft tools[br]Click to disable usage of copper
+Does not use copper to craft tools[br]Click to enable usage of copper
+Uses {0} iron bar each to craft tools[br]Click to disable usage of iron
+Does not use iron bars to craft tools[br]Click to enable usage of iron
+Uses enabled metals for tool production
+Weaponsmith
+Weaponsmiths craft weapons to equip new units at the Military Academy and the Adventurer's Guild. 
+Weaving Shed
+Weavers craft Cloth and Rope for the construction of some buildings. Cloth can also be used for some armor.
+Well
+Well Workers collect Water to supply Farms, Foresters and Bakeries.
+Windmill
+The Flour produced by the Windmill is processed at the Bakery.
+Wood Workshop
+Woodworkers create basic weapons and some tools out of Hardwood and Rope.
+SHOULD NOT APPEAR IN GAME pb
+Adventurer's Guild
+Trains Adventurer units and equips them with armor and weapons.
+Guild Hall
+Trains Construction workers and Craftspeople by equipping them with tools.
+Military Academy
+Trains Military units and equips them with armor and weapons.
+Arcane Academy
+Trains Mystic units and equips them with staffs and robes.
+Cottage
+Up to 10 Carriers living here may reproduce after Comfort Meals are consumed at a Tavern.
+Residents
+Residence
+Up to 25 Carriers living here may reproduce after Comfort Meals are consumed at a Tavern. 
+Storage
+Stores a surplus commodity type as soon as output piles become full, or stores an individually selected commodity. Has a capacity of up to 64 units.
+Warehouse
+Stores surplus commodities as soon as output piles become full, or stores individually selected commodities. Has a capacity of up to 8 different commodities with up to 64 units each.
+Tavern
+Cooks use ingredients from Market Stalls to prepare Nutritious Meals to keep miners fed and Comfort Meals for Carriers to eat at nearby Tavern tables, which encourages birth of new Pagonians.
+100% reflects continuous cooking of meals with all 4 ingredients, short walk distances to tables, market stalls and fountain and free tables available at all times.
+Tavern Table
+Residents will eat Comfort Meals here. Must be near a Tavern.
+Garrison
+Guards can extend your territory using Border Stones. Any stationed unit type can patrol or attack target locations from here.
+100% reflects continuous claiming of new territory in short to medium distance by a building fully occupied with guards and supplied with sufficient borderstones without being attacked.
+FakeGuardTowerObjective
+FakeGuardTowerObjective detail view description
+FakeGuardTowerObjective2
+FakeGuardTowerObjective2 detail view description
+Guard Tower
+Guards can extend your territory using Border Stones. Any stationed unit type can patrol or attack target locations from here.
+Test 10x10
+Test 6x6
+Test 8x8
+Trading Center
+The Trading Center offers trade actions that you can accept and complete to improve your standing with the Trading Center's faction.
+Traders' Camp
+Residence of Traders, they will go here when waiting for a new task.
+Trade carriers
+Trading Post
+Enables your Trade Carriers to trade, deliver and gain commodities of another faction.
+Treasury
+Stores Coins and other valuable commodities that will strengthen your combat units. Has room for up to 7 different commodities with a capacity of up to 16 pieces each.
+Cottages
+Military Buildings
+Mining Buildings
+Food Chain Buildings
+Residences
+Smithies
+Market Buildings
+Stone Production Buildings
+Storage Buildings
+Wood Production Buildings
+Territory Buildings
+TreeSpacingTag
+Raspberries
+Porcini
+Hardwood
+Sapling
+Branches
+Softwood
+Flax
+Corn
+Pumpkins
+Sprout
+Cabbage
+Wheat
+Stone
+Limestone
+Iron Ore
+Iron
+Coal
+Coal
+Silver Ore
+Silver
+Copper
+Gold
+Nickel
+Deer
+Boar
+Rabbit
+Trout
+Herring
+Scavs
+The Golden Tunics
+Elderberry Rangers
+The Brawling Folk
+Earthwind Village
+Witchwood Lumberjacks
+The Ashwood Folk
+The Honeypots
+Bronzedale
+Forgemasters
+Spellforgers
+Timbershire
+The Cunning Bards
+The Spears and Forks
+Whiterock Hamlet
+The Holy Cloves
+The Garnet Band
+Ironview Crossing
+The Crimson Cooks
+Iron Fists
+Steelmages
+The Brave Miners
+The Rockfall Carpenters
+Masons of Fortune
+The Amber Wardens
+The Stonespeakers
+The Arcane Architects
+Violetvale
+Hungry Prophets
+The Redwood Mages
+Crystalsingers
+Newborn
+Comfort Meal
+PleasureDescription
+Simple comfort meal
+Standard comfort meal
+Rich comfort meal
+Nutritious Meal
+NutritionDescription
+Nutritious meal (Ration)
+Simple nutritious meal
+Standard nutritious meal
+Rich nutritious meal
+Sandbox
+Victory type: Sandbox
+Solve Objectives
+Victory type: Solve Objectives
+Conquer Island
+Victory type: Conquer Island
+Guidance
+Unspecified outdoor pile
+Path
+Buildings
+Surface Deposits
+Found Subsurface Deposits
+Preparing terrain
+Under construction
+Building disabled
+Construction paused
+Paused - No work orders selected
+No resources to gather in range
+No animals to hunt in range
+No fish to catch in range
+No selected resources to gather in range
+No selected animals to hunt in range
+No selected fish to catch in range
+All accessible terrain in range explored
+All accessible territory in range claimed
+Not connected to road
+Not connected to largest road network
+No Diggers available
+Construction material missing
+No Builders available
+Cannot work - Staff incomplete
+No staff present
+No Trade Carriers available
+Staff incomplete
+No Water available for planting
+Nothing to do on the fields right now
+No hub in range
+No Market Fountain in range
+No Farm in range
+No Tavern in range
+No Tavern Tables in range
+Waiting for material
+No Firewood available
+Waiting for Border Stones to continue claiming territory
+Waiting for rations
+Output storage full
+Cannot cook Nutritious Meals until current orders finished and collected.
+Output storage at your Trading Post is full
+Staff incoming
+Staff incoming
+Cannot hire - No Guild Hall available
+Producing...
+Recruiting units…
+Recruiting units…
+Recruiting units…
+Gathering…
+Mining Coal…
+Mining Copper…
+Working the fields…
+Hunting animals…
+Mining Iron Ore…
+Mining stones…
+Mining Silver Ore…
+Tending to the trees…
+Gone fishing
+Mining Coal
+Mining Iron
+Mining Nickel
+Mining Silver
+Mining Gold
+Exploring the Island…
+Searching for underground resources
+Trade in progress
+Diggers incoming
+Builders incoming
+Cannot buy ingredients - No market available
+No Farmland in range
+Claiming...
+Patrolling...
+No Meal Ingredients available
+Not producing Comfort Meals, all residences are full
+No Nutritious Meal
+Waiting for incoming Nutritious Meals
+Miners are hungry
+Maximum population reached. No need for Comfort Meals as currently no new Pagonians can be born.
+No ingredients for Comfort Meals
+No ingredients for Nutritious Meals
+Waiting for trade commodities to arrive here
+Other Trading Post currently has no room to receive goods.
+Other Trading Post is waiting for their required trade goods.
+Not enough to do for all staff at the moment.
+Building is being demolished
+Miners are eating
+Yield: Best
+Yield: Good
+Yield: Poor
+Yield: Very Poor
+Unknown
+Explore the faction's settlement until you find their Trading Center. At the Trading Center you can access objectives and trades with this faction.
+Discover the neutral Pagonian factions on the island.
+Find their Trading Center to unlock their objectives.
+Neutral
+Complete objectives for this faction to improve your standing with them.
+Chance for trade offers
+Raise your standing by completing faction objectives.
+Acquainted
+Complete objectives for this faction to improve your standing with them.
+Guaranteed trade offers
+Friend
+Win condition with this faction fulfilled![br]Optional: Complete further objectives for this faction to improve your standing with them.
+More trade offers
+Chance for gift offers
+Shared world view
+Ally
+Win condition with this faction fulfilled![br]You can choose to merge with this faction and integrate its economy into yours.
+Faction offers to merge with your faction
+United
+This faction has merged with you.
+AFK
+Connection lost
+Good connection quality
+Medium connection quality
+Bad connection quality
+Beginner
+Intermediate
+Advanced
+Expert
+LandingParty Test
+LandingParty Demo
+Intermediate (extended for Co-op)
+Experimental: Very small team
+Golden Hour
+A clear sky with a very warm sun, flooding the landscape with a golden luster.
+Sunrise
+While the clouds are still purple above the Pagonians, the first sunrays of a new day gently catch their faces.
+Sunset
+The sun sits low over the horizon, casting Pagonia in a warm glow and painting the land with long shadows.
+Cloudy Daytime
+A gentle breeze blows some clouds across the landscape. Among the clouds, a warm afternoon sun shines down on bustling villages.
+Size 3 ({0}m x {0}m)
+Size 4 ({0}m x {0}m)
+Size 5 ({0}m x {0}m)
+Medium ({0}m x {0}m)
+Medium Large ({0}m x {0}m)
+Large ({0}m x {0}m)
+Very Large ({0}m x {0}m)
+Maximum ({0}m x {0}m)
+None
+Least
+Few
+Average
+More
+Many
+Very easy
+Easy
+Moderate
+Average
+Above Average
+Quite Hard
+Hard
+Very Hard
+None
+Very Few
+Some
+Average
+Above Average
+Quite Many
+Many
+Very Many
+Extreme
+Only Easier
+Mostly Easier
+Easier to Average
+Overall Average
+Some Harder
+Some More Harder
+Many Harder
+Very Rare ({0:F1}%)
+Rare ({0:F1}%)
+Uncommon ({0:F1}%)
+Average ({0:F1}%)
+Quite Common ({0:F1}%)
+Common ({0:F1}%)
+Very Common ({0:F1}%)
+Flat
+Bumpy
+Balanced
+Steep
+Very Steep
+Very Common
+Common
+Quite Common
+Average
+Uncommon
+Rare
+Very Rare
+Extremely Rare
+Extremely Rare ({0:F1}%)
+Very Rare ({0:F1}%)
+Rare ({0:F1}%)
+Uncommon ({0:F1}%)
+Average ({0:F1}%)
+Common ({0:F1}%)
+Very Common ({0:F1}%)
+Extremely Common ({0:F1}%)
+Very Common
+Common
+Average
+Uncommon
+Rare
+Rare ({0:F1}%)
+Average ({0:F1}%)
+Quite Common ({0:F1}%)
+Common ({0:F1}%)
+Very Common ({0:F1}%)
+Very Common
+Common
+Average
+Uncommon
+Rare
+Extremely Rare ({0:F1}%)
+Very Rare ({0:F1}%)
+Rare ({0:F1}%)
+Uncommon ({0:F1}%)
+Average ({0:F1}%)
+Common ({0:F1}%)
+Very Common ({0:F1}%)
+Extremely Common ({0:F1}%)
+Dry and Dusty
+Quite Dry
+More Sandy
+Balanced
+More Fertile
+Quite Wet
+Wet and Swampy
+Default objective generation
+Complete objective generation
+Objectives without Enemies
+Map goal: Objectives [br]Map style: Peaceful [br]Choose this option to generate a map with the map goal to help Pagonian villages but without enemies or combat.
+Objectives with Enemies
+Map goal: Objectives[br]Map style: Combat[br]Choose this option to generate map with the map goal to help Pagonian villages and with various hostile enemy camps.
+Conquer Island
+Map goal: Conquer [br]Choose this option to generate a map with various hostile enemy camps to defeat and no other objectives.
+Sandbox
+Choose this option to play a map with no map goal to experiment however you like. By default, enemies are disabled, but you can manually enable them in the customized setup.
+Map style: Peaceful
+No enemies and no combat on this island
+Map style: Combat
+There are hostile units on this island
+Guidance
+Beginner
+Intermediate
+Advanced
+Expert
+Enemies
+Choose the total amount of hostile enemies, their difficulty and types.
+Pagonian Villages
+Choose how many Pagonian villages are on the island and how difficult it will be to become friends with them.
+Landing Party
+Choose the amount of units and commodities with which you arrive at the island.
+mg:
+mgTooltip:
+Balanced Island
+Average terrain difficulty.[br]Provides a well balanced and varied island by offering all landscape types and features of the map generator, mixed with a well balanced amount of resources.
+Dusty Steppes
+Average terrain difficulty.[br]A few dry steppes and sandy deserts are scattered on this island. Develop strategies to use the arid environment to your advantage.
+Lush Forests
+Easier terrain difficulty.[br]This beginner-friendly preset will generate islands with many beautiful, huge forests and lush meadows in between. Resources are plentiful.
+Murky Marshlands
+Difficult terrain.[br]This island is full of foggy swamps, dark forests and other hurdles that can make expansion really tough. Other resources are quite rare in this preset. Are you brave enough to enter the darkest corners of Pagonia?
+Rocky Plateaus
+Easier terrain difficulty.[br]Harvest tons of mining resources on the big rocky plateaus and build huge settlements on large open grass fields.
+Sparse Wasteland
+Difficult terrain.[br]A lot of dry wasteland covers the island, providing little resources and a hostile environment to the inhabitants of this map. Can you still find enough resources to populate the island and help the other factions?
+Steep Mountains
+Difficult terrain.[br]This island offers a balanced distribution of sediments, however the terrain is really steep and space for buildings and navigation is very limited. A sophisticated expansion strategy is needed to master this environment.
+Vibrant Meadows and Lakes
+Easier terrain difficulty.[br]Generates a landscape with wide meadows and beautiful lakes to build scenic settlements in.
+Windy Highlands
+Average terrain difficulty.[br]The terrain gets steeper and the space for buildings quite limited in this preset. But you will be rewarded with some beautiful scenery with high mountains, wide meadows, lakes and forests providing you with enough resources.
+mgLandscapeTemplateName:
+mgLandscapeTemplateDescription:
+Left for other Landscape Types
+All remaining areas not covered in flat grassland, forests, mountains, cliffs or lakes will be occupied by the climate style chosen here.
+Flat Grassland
+Flat grassland is the landscape type best suited for building settlements.
+Forests
+Forests provide building and other wooden materials and are the best habitat for wild animals and plants.
+Lakes
+Lakes are obstacles and a source of fish.
+Mountains and Cliffs
+Mountains and cliffs cause logistical challenges but also provide all kinds of mining deposits.
+Lighting
+Select a lighting setup. You can also change the lighting setup while playing.
+Something has been stolen!
+A disguised Thief stole something!
+Enemy camp spotted!
+A delivery was attacked en route!
+An Artifact was stolen during delivery!
+A disguised Thief was exposed!
+A Trade Carrier was robbed en route!
+A unit was bitten by a {0} Werewolf!
+Your units are being attacked by {0} Bandits!
+Your units are being attacked by {0} Spectres!
+Your units are being attacked by {0} Scavs!
+You're being attacked by {0} Thieves!
+Your units are being attacked by {0} Werewolves!
+A unit was panicked due to a {0} Spectre and lost their equipment!
+{0} Enemies spotted!
+Congratulations! You have become Allies with a faction.
+Congratulations! You are now Acquaintances with a faction.
+Congratulations! You are now Friends with a faction.
+Congratulations! A faction merged with you.
+Hostile camp destroyed!
+You won!
+You won!
+You made an impression with your building prowess!
+You made an impression with your storage prowess!
+You made an impression with your building prowess!
+You made an impression with your exploration prowess!
+You made an impression with the size of your population!
+You made an impression with the size of your territory!
+You made an impression with your wealth!
+You made an impression with your recruitment prowess!
+You made an impression by reaching a milestone!
+Construction of an interesting place completed!
+Production orders of {0} {1} finished! Waiting for new orders.
+Recruitment orders of {0} {1} finished! Waiting for new orders.
+Player {0} got kicked from the game by the host
+Player {0} joined the game
+Player {0} left the game
+Connection to player {0} was lost
+Animals were discovered!
+An Artifact was discovered!
+Copper was discovered!
+Iron was discovered!
+Limestone was discovered!
+Silver was discovered!
+Stone was discovered!
+Coal vein discovered!
+Gold vein discovered!
+Iron vein discovered!
+Nickel vein discovered!
+Silver vein discovered!
+Coal was discovered!
+Trading Center of other faction discovered. Objectives are now available.
+You discovered the border of a Pagonian village!
+Foragable Plants were discovered!
+You discovered enemy territory!
+You claimed an Artifact
+Your units picked up an Artifact
+An Artifact was stored in the Treasury
+A Territory building has claimed everything in its range.
+Delivery completed successfully
+Artifact delivery completed successfully!
+Unfinished construction site claimed: {0} {1}
+All points of interest discovered!
+Finished supplying a location
+Unfinished construction site discovered: {0} {1}!
+Mysterious location with unknown purpose discovered.
+Point of interest discovered: {0} {1}
+Mysterious location with unknown purpose discovered.
+Location claimed: {0} {1}
+Claimed a mysterious location with unknown purpose.
+Mysterious location with unknown purpose discovered.
+Trade finished successfully
+Construction completed
+Construction completed!
+Resource added: [img={0}] {1}
+No Border Stones available to claim territory.
+Mining hut stopped working due to Nutritious Meal shortage.
+A gathering building has no resources in range.
+A resource deposit was exhausted!
+Boar Wallow
+Deer Herd
+Rabbit Hole
+Broken Tomb
+Forest Spirit Gate
+Mountain Spirit Gate
+Water Spirit Gate
+Spirit Gate
+Moon Glen
+Bandit Camp
+Thief Camp
+Lost Camp
+School of Trout
+School of Herring
+Bandits
+Spectres
+Thieves
+Werewolves
+Forest Spirits
+Mountain Spirits
+WaterSpirits
+Grimy Bulwark
+Pit
+Scary to civilians, but if defeated by a hunter, the Boar provides leather and its meat makes for a very nutritious ingredient.
+Deer are peaceful creatures that make for very good comfort meals and provide leather.
+The Giant Pagonian Mountain Rabbit, a common main dish ingredient.
+Veteran Bandit
+Attacks enemies on sight and robs civilians. Also steals goods from piles.
+Elite Bandit
+Attacks enemies on sight and robs civilians. Also steals goods from piles.
+Bandit
+Attacks enemies on sight and robs civilians. Also steals goods from piles.
+Cunning Thief
+Dons a disguise and tries to steal goods from piles undetected.
+Master Thief
+Dons a disguise and tries to steal goods from piles undetected.
+Thief
+Dons a disguise and tries to steal goods from piles undetected.
+Restless Spectre
+Haunts enemies and scares everyone but the bravest out of their boots. Or armor.
+Haunting Spectre
+Haunts enemies and scares everyone but the bravest out of their boots. Or armor.
+Spectre
+Haunts enemies and scares everyone but the bravest out of their boots. Or armor.
+Forest Spirit
+Mountain Spirit
+Water Spirit
+Spirit
+Savage Werewolf
+Attacks enemies on sight. Its bite transforms its victims.
+Werewolf
+Attacks enemies on sight. Its bite transforms its victims.
+Creeper
+Greedy Watcher
+Vicious Watcher
+Pit Watcher
+Stonebreaker
+Orescraper
+Lost
+Animal
+Forest Spirit
+Mountain Spirit
+Water Spirit
+Mystic
+Bandit
+Thief
+Outlaw
+SHOULDNOTAPPEARINGAME sd
+Scav
+Invalid
+Bites civilians
+Bites opponents after defeating them
+Bitten Pagonians turn into Werewolves once they reach Moon Glen
+Causes Soldiers and Guards to panic and lose their equipment
+Causes civilians to panic and lose their equipment
+Disguise themselves as civilian to steal
+Immune to attacks while disguised
+Will join your village when discovered
+Needs help to find their home village
+Robs commodities from carriers
+Scares civilians
+Steals commodities
+Animals
+Enemies
+Food
+Expansion
+Construction
+Training
+Treasure Hunting
+Supply Expedition
+Goods Exchange
+Secure Moon Glen
+Free Those Trapped
+Protect Sorceresses
+Build {0} Military Academy
+Build Military Academy
+Build {0} Military Academy to recruit 10 more Guards and issue the production of 10 Wooden Spears at the Wood Workshop to equip the new Guards.
+Build {0} Explorer's Huts
+Build Explorer's Hut
+Build {0} Explorer's Hut close to the inland border to explore undiscovered terrain.
+The Explorers need Rations to start their journey into the unexplored. To reveal a specific area, you can set the focus point manually.
+Build {0} Guard Towers
+Build Guard Towers
+Build {0} Guard Towers close to the inland border to expand your territory.
+All Guards are able to use Border Stones to claim territory around the Guard Tower. You can manually choose the direction to expand in by setting the focus point for each Guard Tower individually.
+Build {0} Wood Workshops
+Build Wood Workshop
+Build a Wood Workshop to produce Wooden Spears for equipping more Guards.
+Hardwood is used to craft weapons, tools and Wooden Cogwheels.
+Staff Guard Towers
+Staff Guard Towers
+Staff three Guard Towers with 10 Guards (or other military units) each. Guards can be recruited in the Military Academy and their Spears are produced in the Wood Workshop.
+While Soldiers can leave your territory, Guards will only patrol within your borders.
+Build {0} Guard Towers total
+Build Guard Tower
+Build an additional Guard Tower near the inland border to continue territory expansion.
+Build {0} Guard Towers total Additional Hint
+Expand your territory
+Expand territory
+Expand your initial territory by {0} square meters.
+Milestone: Exploration
+Your territory size has increased by more than {0} square meters. Congratulations!
+Exploration Limit
+Your territory size has reached the limit of this demo.
+Milestone: Exploration
+Your territory size has increased by more than 40000 square meters. Congratulations!
+Build {0} Military Camps
+Build Military Camp
+Build Military Camps near Guard Towers to replace defeated units more quickly. Military Camps host all your unassigned combat units.
+Build {0} Woodcutting Huts
+Build Woodcutting Hut
+Build a Woodcutting Hut close to a Softwood forest to gather Softwood Trunks as construction material for basic buildings.
+Build {0} Quarries
+Build Quarry
+Build a Quarry close to some Stone deposits to gather Stone as construction material for basic buildings. You may have to expand your territory.
+Build {0} Sawmills
+Build Sawmill
+Build a Sawmill to produce Softwood Beams as construction material for buildings.
+Build {0} Stone Masons
+Build Stone Mason
+Build {0} Stone Masons to produce Border Stones and Cut Stones. Border Stones are used by Guards in Guards Towers to expand your territory. Cut Stone is used as construction material for buildings.
+Build {0} Construction Camps
+Build Construction Camp
+Build a Construction Camp where you plan to raise more buildings. Construction Camps are resting points for your Diggers, Builders and Construction Carriers and thus shorten the marching distance if they are close to future construction areas.
+Build {0} Quarries total
+Build Quarry
+Build an additional Quarry close to some Stone deposits to increase Stone gathering rates. You may have to expand your territory.
+Build {0} Foresters
+Build Forester
+Build a Forester to reforest a cleared forest area or to grow a new forest.
+Build {0} Stone Masons total
+Build Stone Mason
+Build an additional Stone Mason to increase production of Border Stones and Cut Stones.
+Build {0} Sawmills total
+Build Sawmills
+Build an additional Sawmill to increase Softwood Beams production.
+Build {0} Woodcutting Huts
+Build Woodcutting Huts
+Build additional Woodcutting Huts to increase Softwood Trunk gathering rates. Optional: Consider ordering the Forester to plant Softwood Trees only.
+Build {0} Quarries total
+Build Quarries
+Find a Limestone deposit and build a Quarry close to it to start gathering Limestone for the construction of advanced buildings. You may have to expand your territory.
+Build {0} Stone Mills
+Build Stone Mill
+Build a Stone Mill to produce Cement out of Limestone for the construction of advanced buildings. The Stone Mill requires Wooden Cogwheels as construction material, which can be produced in the Wood Workshop.
+Build {0} Weaving Sheds
+Build Weaving Shed
+Build a Weaving Shed to produce Cloth and Ropes, which are required for the construction of some specific buildings. The Weaving Shed requires Wooden Cogwheels as construction material, which can be produced in the Wood Workshop.
+Build {0} Wells
+Build Well
+Build a Well to ensure your Forester gets water for the planted saplings after your initial water supply is used up. Wells cannot be placed on dry ground.
+Start harvesting Limestone
+Harvest Limestone
+Find a Limestone deposit and build a Quarry close to it to start gathering Limestone for the construction of advanced buildings.
+Build {0} Foragers
+Build Forager
+Build a Forager if you have Raspberries, Porcini or Flax available in your territory to supply your marketplace with a bigger variety of food ingredients later on.
+Build {0} Vegetable Farms
+Build Vegetable Farm
+Build a Vegetable Farm in a spacious area to supply your marketplace with a bigger variety of food ingredients later on.
+Build {0} Farmland patches
+Build Farmland
+Build {0} Farmland patches near the Vegetable Farm.
+Build {0} Wells total
+Build an additional Well to supply your Vegetable Farm with water for the planted saplings.
+Build {0} Crop Farms
+Build Crop Farm
+Build a Crop Farm in a spacious area to plant Corn, Flax and Wheat.
+Wheat grows best on fertile ground while Corn prefers sandy grassland. Flax is less demanding.
+Build {0} Farmland patches total
+Extend your Farmland to {0} patches by adding Farmland, preferably near the Crop Farm.
+Build {0} Wells total
+Build an additional Well to supply your Crop Farm with water for the planted saplings.
+Build {0} Hunter's Lodges
+Build Hunter's Lodge
+Build a Hunter's Lodge nearby an area with wild animals.
+Build {0} Provisioners
+Build Provisioner
+Build a Provisioner to smoke meat and create durable Rations for Explorers and Geologists.
+Build {0} Windmills
+Build Windmill
+Build a Windmill to mill the harvested Wheat.
+Build {0} Bakeries
+Build Bakery
+Build a Bakery to start baking Bread.
+Bake {0} Breads
+Bake Bread
+Bake your first Bread.
+Bake 1 Bread Additional Hint {0}
+Milestone: Baking Bread
+You produced delicious Bread. Congratulations!
+Build {0} Guild Halls
+Build Guild Hall
+Build a Guild Hall to be able to train new craftsmen and construction workers.
+Build {0} Tool Smiths
+Build Tool Smith
+Build a Tool Smith to produce different tools for your new craftsmen. You can manually order specific tools at the Tool Smith.
+The metal component of a tool is either 5 units of Copper Ore or 1 Iron bar. Using Iron speeds up the crafting process, but Iron could also be used for weapons and armor, while Copper could be used for coins instead.
+Build {0} Copper Huts
+Build Copper Hut
+Build a Copper Hut close to a Copper deposit to supply your Tool Smith with basic metal. You may have to find a Copper deposit and expand your territory towards it first.
+Build {0} Coal Huts
+Build Coal Hut
+Build a Coal Hut close to a Coal deposit to supply your Tool Smith with Coal. You may have to find a Coal deposit and expand your territory towards it first.
+Build {0} Iron Huts
+Build Iron Hut
+Build an Iron Hut close to an Iron Ore deposit to supply your tools and weapon production buildings with Iron Bars. You may have to find a Iron Ore deposit and expand your territory towards it first. 
+Build {0} Coal Huts total
+Build an additional Coal Hut close to another Coal deposit to supply the Smelting Works with Coal as well.
+Build {0} Smelting Works
+Build Smelting Works
+Build a Smelting Works to melt Iron Ore and produce Iron Bars.
+The Smelting Works can melt any ore, producing Iron and Silver bars.
+Build {0} Weaponsmiths
+Build Weaponsmith
+Build a Weaponsmith to produce weapons for Soldiers.
+Build {0} Armorsmiths
+Build Armorsmith 
+Build an Armorsmith to craft armor and shields for Soldiers.
+Recruit {0} Veteran Soldiers
+Train Veteran Soldier
+Train an Veteran Soldier at the Military Academy. Veteran Soldiers need an Iron Sword (crafted at the Weaponsmith) and an Iron Shield and Chainmail (crafted at the Armorsmith).
+Train {0} construction units total
+Train Construction Units
+Train additional Construction Carriers, Diggers or Builders in the Guild Hall to handle construction sites faster. Diggers need shovels and Builders need hammers which you can produce at the Tool Smith.
+Milestone: Construction Crew
+You have a crew of 100 Construction Units. Congratulations!
+Milestone: Recruitment
+You recruited a Soldier and a Veteran Soldier as well as a Ranger. Congratulations!
+Build {0} Tailor's Shop
+Build Tailor's Shop
+Build a Tailor's Shop to produce armor for adventurer units and to provide your Guild Hall with Backpacks to be able to train new Construction Carriers and Explorers.
+Craft any {0} tools at the Tool Smith
+Craft Tools
+Decide yourself which tools you might lack soon and craft any {0} tools total.
+Produce {0} Light Armor
+Produce Light Armor
+To produce Light Armor, you need leather from deer, which your Hunter can provide, or cloth.
+Produce {0} Backpacks
+Produce Backpack
+To produce Backpacks, you need leather or cloth.
+Build {0} Adventurer's Guilds
+Build Adventurer's Guild
+Build an Adventurer's Guild to recruit Rangers (can spot disguised Thieves) and Fearnaughts (bonus against Werewolves).
+Recruit {0} Rangers
+Recruit Ranger
+Train a Ranger at the Adventurer's Guild. Basic Rangers need a Torch (crafted at the Wood Workshop) and armor (crafted at the Tailor's Shop).
+Milestone: Tool and Backpack production
+You have produced 10 new tools for your future Craftspeople. Congratulations!
+Recruit {0} Soldiers
+Recruit Soldier
+Train a Soldier at the Military Academy. Basic Soldiers need a Bronze Sword (crafted at the Weaponsmith) and a Wooden Shield (crafted at the Wood Workshop).
+Build {0} Silver Huts
+Build Silver Hut
+Build a Silver Hut close to a Silver deposit to increase your settlement's wealth. You may have to find a Silver deposit and expand your territory towards it first.
+Silver can be used to produce Coins and a special weapon.
+Build {0} Mints
+Build Mint
+Build a Mint to produce Silver and Copper Coins.
+Silver and Copper Coins can be stored in the Treasury to motivate your military units or they can be used for trade.
+Build {0} Treasuries
+Build Treasury
+Build a Treasury to store your coin chests produced in the mint and other valuables.
+The Treasury can store Coins, Gems, Jewelry and valuable Artifacts to motivate your military units, increasing their combat skills.
+Store {0} Silver Coin Chests
+Store Silver Coins
+Store a Silver Coin Chest in the Treasury to increase your wealth.
+Build {0} Smelting Works total
+Build an additional Smelting Works to melt more Silver and Iron Ore.
+Milestone: Treasure
+You stored your first Silver and Copper Coin Chests in the Treasury. Congratulations!
+Store {0} Copper Coin Chests
+Store Copper Coins
+Store a Copper Coin Chest in the Treasury to increase your wealth.
+Build {0} Cottages or Residences
+Build Cottages
+Build {0} Cottages as a resting point for Carriers and a safe place for newborn babies. If placed strategically, Cottages mean shorter distances to new assignments for Carriers living there.
+Each Cottage has space for 10 residents and preferably accomodates Carriers. If there is room left, other homeless units will move in too.
+Build {0} Taverns
+Build Tavern
+Build a Tavern to cook and serve comfort meals to Carriers at nearby Tavern Tables, which increases your population.
+The Tavern will also cook meals for your mining buildings.
+Build {0} Tavern Tables
+Build Tavern Tables
+Build at least {0} Tavern Tables next to the Tavern to increase your population by serving meals for your Carriers.
+Build {0} Market Fountains
+Build Market Fountain
+Establish a marketplace close to the Tavern by building a Market Fountain nearby. Market Stalls close to the Market Fountain offer meal ingredients to Taverns.
+The Market Fountain defines the center of a marketplace.
+Build {0} Market Stalls
+Build Market Stalls
+Establish a marketplace close to the Tavern by building at least {0} Market Stalls close to the Market Fountain.
+Market Stalls have to be in range of a Market Fountain to operate. They can store 3 piles of up to 10 units of one food category.
+Build {0} Cottages or Residences total
+Build additional Cottages to optimize routes for Carriers' transport jobs and to provide more safe living space for newborn Pagonians. Ideally you want some Cottages close to the Tavern.
+The Carriers will visit the Tavern if Comfort Meals are available and there is no baby in their Cottage. If you want them to focus on transportation only, you can deactivate Comfort Meals at the Tavern. 
+Reach {0} population
+Increase population
+To increase your population, supply your Market Stalls with food ingredients, have a Market Fountain and a Tavern with some Tavern Tables nearby and own Cottages to provide safe living space for your newborn Pagonians.
+Milestone: Population
+Your total population reached 400. Congratulations!
+Build {0} Signal Tower
+Build Signal Tower
+Build a Signal Tower to connect this island to neighboring islands.
+Milestone: Signal Tower
+You finished the representative Signal Tower to connect this island to the neighboring islands. Congratulations!
+Build {0} Tailor's Shop
+Build Tailor's Shop
+Build a Tailor's Shop to provide your Guild Hall with Backpacks to be able to train new Construction Carriers and Explorers.
+Store {0} lost Rubies
+Store lost Rubies
+Find and store {0} lost rubies.
+Store lost rubies Additional Hint {0}
+Milestone: Rubies secured
+Milestone: Rubies Secured Description
+Milestone: Diamonds secured
+Easteregg  Milestone: Diamonds Secured Description
+Milestone: Expedition supplied
+Milestone: Expedition supplied description
+Train {0} construction carriers
+Train construction carriers
+Train construction carriers description
+Milestone: Trapper Trade finished
+Milestone: Trapper Trade finished description
+Milestone: Gate ecured
+Milestone: Gate secured Description
+{0} Adventurers returned home
+Adventurers returned home Short Title {0}
+Adventurers returned home Description {0}
+Adventurers returned home Additional Hint {0}
+Milestone Adventurers saved
+Milestone Adventurers saved Description
+Milestone: Tower protected
+Milestone: Tower protected Description
+Deliver {0} {1}
+Deliver Goods
+Send the required commodities from a Trading Post to the requesting Faction.
+Impress with the size of your territory
+Expand Territory
+Increase the size of your territory by sending Guards out to expand it.
+Impress with your exploration skills
+Explore Land
+Explore the island by providing Explorers with rations.
+Impress with the size of your population
+Increase Population
+Increase your total population by providing Comfort Meals and Residences.
+Impress with the amount of buildings in your village
+Build Buildings
+Build more buildings of any kind to impress your neighboring factions.
+Impress with your wealth
+Gain Wealth
+Increase your wealth by storing valuables and rare resources in Treasuries.
+Total amount of commodities already supplied
+Bring supplies to the Everlasting Light
+Supply Everlasting Light
+Establish a transport route to the indicated point of interest and supply it with the required commodities.
+Bring supplies to the Expedition Camp
+Supply Expedition Camp
+Establish a transport route to the indicated point of interest and supply it with the required commodities.
+Bring supplies to the Farpoint
+Supply Farpoint
+Establish a transport route to the indicated point of interest and supply it with the required commodities.
+Bring supplies to the Curious Bazaar
+Supply Curious Bazaar
+Establish a transport route to the indicated point of interest and supply it with the required commodities.
+Bring supplies to the Outpost Village
+Supply Outpost Village
+Establish a transport route to the indicated point of interest and supply it with the required commodities.
+Bring supplies to the POI
+Supply POI
+Establish a transport route to the indicated point of interest and supply it with the required commodities.
+Locate the Abandoned Wagon
+Find Abandoned Wagon
+Search for and uncover the location(s) of the Abandoned Wagon. You have to find the way yourself!
+Locate the Forest Recluse
+Find Forest Recluse
+Search for and uncover the location(s) of the Forest Recluse. You have to find the way yourself!
+Locate the Forgotten Tavern
+Find Forgotten Tavern
+Search for and uncover the location(s) of the Forgotten Tavern. You have to find the way yourself!
+Locate the Derelict Tower
+Find Derelict Tower
+Search for and uncover the location(s) of the Derelict Tower. You have to find the way yourself!
+Locate the Sacred Spring
+Find Sacred Spring
+Search for and uncover the location(s) of the Sacred Spring. You have to find the way yourself!
+Locate the Scarlet Blossom
+Find Scarlet Blossom
+Search for and uncover the location(s) of the Scarlet Blossom. You have to find the way yourself!
+Locate the POI
+Find POI
+Search for and uncover the location of the POI. You have to find it yourself!
+Secure and finish construction of the Rabbit of Great Comfort
+Complete Rabbit Statue
+Search for and claim the location(s) of the Rabbit of Great Comfort and complete the construction. You have to find the way yourself!
+Secure and finish construction of the Dragon Tree Shrine
+Complete Dragon Tree Shrine
+Search for and claim the location(s) of the Dragon Tree Shrine and complete the construction. You have to find the way yourself!
+Secure and finish construction of the Expedition Camp
+Complete Expedition Camp
+Search for and claim the location(s) of the Expedition Camp and complete the construction. You have to find the way yourself!
+Secure and finish construction of the Gilded Stag of Prosperity
+Complete Golden Statue
+Search for and claim the location(s) of the Gilded Stag of Prosperity and complete the construction. You have to find the way yourself!
+Secure and finish construction of the Grand Boar of Fortitude
+Complete Boar Statue
+Search for and claim the location(s) of the Grand Boar of Fortitude and complete the construction. You have to find the way yourself!
+Secure and finish construction of the Forsaken Library
+Complete Forsaken Library
+Search for and claim the location(s) of the Forsaken Library and complete the construction. You have to find the way yourself!
+Secure and finish construction of the Monument of Wisdom
+Complete Monument of Wisdom
+Search for and claim the location(s) of the Monument of Wisdom and complete the construction. You have to find the way yourself!
+Secure and finish construction of the Light Spire
+Complete Light Spire
+Search for and claim the location(s) of the Light Spire and complete the construction. You have to find the way yourself!
+Secure and finish construction of the Gleaming Stag of Courage
+Complete Stag Statue
+Search for and claim the location(s) of the Gleaming Stag of Courage and complete the construction. You have to find the way yourself!
+Secure and finish construction of the Spellforgers' Tomb
+Complete Spellforgers' Tomb
+Search for and claim the location(s) of the Spellforgers' Tomb and complete the construction. You have to find the way yourself!
+Secure and finish construction of the POI
+Complete POI
+Search for and claim the location(s) of the POI and complete the construction. You have to find the way yourself!
+Impress with your collection of {0} {1}
+Store Backpacks
+Reach the following storage amount (only items in storage buildings count towards your goal):
+Impress with your collection of {0} {1}
+Store Borderstones
+Reach the following storage amount (only items in storage buildings count towards your goal):
+Impress with your collection of {0} {1}
+Store Bread
+Reach the following storage amount (only items in storage buildings count towards your goal):
+Impress with your collection of {0} {1}
+Store Cement
+Reach the following storage amount (only items in storage buildings count towards your goal):
+Impress with your collection of {0} {1}
+Store Cloth
+Reach the following storage amount (only items in storage buildings count towards your goal):
+Impress with your collection of {0} {1}
+Store Coal
+Reach the following storage amount (only items in storage buildings count towards your goal):
+Impress with your collection of {0} {1}
+Store Copper
+Reach the following storage amount (only items in storage buildings count towards your goal):
+Impress with your collection of {0} {1}
+Store Copper Coins
+Reach the following storage amount (only items in storage buildings count towards your goal):
+Impress with your collection of {0} {1}
+Store Cut Stones
+Reach the following storage amount (only items in storage buildings count towards your goal):
+Impress with your collection of {0} {1}
+Store Gold Coins
+Reach the following storage amount (only items in storage buildings count towards your goal):
+Impress with your collection of {0} {1}
+Store Gold Bars
+Reach the following storage amount (only items in storage buildings count towards your goal):
+Impress with your collection of {0} {1}
+Store Hardwood Boards
+Reach the following storage amount (only items in storage buildings count towards your goal):
+Impress with your collection of {0} {1}
+Store Iron Bars
+Reach the following storage amount (only items in storage buildings count towards your goal):
+Impress with your collection of {0} {1}
+Store Leather
+Reach the following storage amount (only items in storage buildings count towards your goal):
+Impress with your collection of {0} {1}
+Store Nickel Bars
+Reach the following storage amount (only items in storage buildings count towards your goal):
+Impress with your collection of {0} {1}
+Store Rations
+Reach the following storage amount (only items in storage buildings count towards your goal):
+Impress with your collection of {0} {1}
+Store Rope
+Reach the following storage amount (only items in storage buildings count towards your goal):
+Impress with your collection of {0} {1}
+Store Silver Coins
+Reach the following storage amount (only items in storage buildings count towards your goal):
+Impress with your collection of {0} {1}
+Store Silver Bars
+Reach the following storage amount (only items in storage buildings count towards your goal):
+Impress with your collection of {0} {1}
+Store Softwood Beams
+Reach the following storage amount (only items in storage buildings count towards your goal):
+Impress with your collection of {0} {1}
+Store Steel
+Reach the following storage amount (only items in storage buildings count towards your goal):
+Impress with your collection of {0} {1}
+Store Water
+Reach the following storage amount (only items in storage buildings count towards your goal):
+Impress with your collection of {0} {1}
+Store Wooden Cogwheels
+Reach the following storage amount (only items in storage buildings count towards your goal):
+Impress with your collection of {0} {1}
+Store Commodity
+Reach the following storage amount (only items in storage buildings count towards your goal):
+Impress with your amount of {0} {1}
+Recruit Skilled Rangers
+Reach the following unit amount:
+Impress with your amount of {0} {1}
+Recruit Champion Blade Dancers
+Reach the following unit amount:
+Impress with your amount of {0} {1}
+Recruit Builders
+Reach the following unit amount:
+Impress with your amount of {0} {1}
+Recruit Construction Carriers
+Reach the following unit amount:
+Impress with your amount of {0} {1}
+Recruit Diggers
+Reach the following unit amount:
+Impress with your amount of {0} {1}
+Recruit Fearnaughts
+Reach the following unit amount:
+Impress with your amount of {0} {1}
+Recruit Veteran Guards
+Reach the following unit amount:
+Impress with your amount of {0} {1}
+Recruit Elite Guards
+Reach the following unit amount:
+Impress with your amount of {0} {1}
+Recruit Veteran Soldiers
+Reach the following unit amount:
+Impress with your amount of {0} {1}
+Recruit Elite Soldiers
+Reach the following unit amount:
+Impress with your amount of {0} {1}
+Recruit Wise Warlocks
+Reach the following unit amount:
+Impress with your amount of {0} {1}
+Recruit Units
+Reach the following unit amount:
+Impress with your amount of exploration-related buildings
+Improve Exploration
+Reach the following building amount:
+Impress with your amount of {0} {1}
+Build Trading Posts
+Reach the following building amount:
+Impress with your amount of {0} {1}
+Bolster production chain
+Reach the following building amount:
+Rescue the lost {0} {1}
+Rescue Carriers
+Find the missing Pagonians at the indicated location and expand your territory to secure a safe passage from their location to their home territory.
+Rescue the lost {0} {1}
+Rescue Construction Carriers
+Find the missing Pagonians at the indicated location and expand your territory to secure a safe passage from their location to their home territory.
+Rescue the lost {0} {1}
+Rescue Hunters
+Find the missing Pagonians at the indicated location and expand your territory to secure a safe passage from their location to their home territory.
+Rescue the lost {0} {1}
+Rescue Miners
+Find the missing Pagonians at the indicated location and expand your territory to secure a safe passage from their location to their home territory.
+Rescue the lost {0} {1}
+Rescue Smiths
+Find the missing Pagonians at the indicated location and expand your territory to secure a safe passage from their location to their home territory.
+Rescue the lost {0} {1}
+Rescue Stone Masons
+Find the missing Pagonians at the indicated location and expand your territory to secure a safe passage from their location to their home territory.
+Rescue the lost {0} {1}
+Rescue Trade Carriers
+Find the missing Pagonians at the indicated location and expand your territory to secure a safe passage from their location to their home territory.
+Rescue the lost {0} {1}
+Rescue Units
+Find the missing Pagonians at the indicated location and expand your territory to secure a safe passage from their location to their home territory.
+Impress with your collection of Robes and Staffs
+Store Robes and Staffs
+Reach the following storage amount (only items in storage buildings count towards your goal):
+Impress with your collection of Armor and Shields
+Store Armor and Shields
+Reach the following storage amount (only items in storage buildings count towards your goal):
+Impress with your collection of steel weapons, shields and armor
+Store Steel Equipment
+Reach the following storage amount (only items in storage buildings count towards your goal):
+Impress with your collection of Tools
+Store Tools
+Reach the following storage amount (only items in storage buildings count towards your goal):
+Impress with your collection of Weapons
+Store Weapons
+Reach the following storage amount (only items in storage buildings count towards your goal):
+Impress with your amount of military buildings
+Bolster Military
+Reach the following building amount:
+Impress with your amount of mining-related buildings
+Improve Mining
+Reach the following building amount:
+Impress with your amount of nutrition-related buildings
+Bolster Food Chain
+Reach the following building amount:
+Impress with your amount of residential buildings
+Build Residences
+Reach the following building amount:
+Impress with your amount of Smithies
+Build Smithies
+Reach the following building amount:
+Impress with your amount of {0} {1}
+Bolster Markets
+Reach the following building amount:
+Impress with your amount of stone production buildings
+Bolster Stone Production
+Reach the following building amount:
+Impress with your amount of Storage buildings
+Improve Storage
+Reach the following building amount:
+Impress with your amount of wood-related buildings
+Bolster Wood Production
+Reach the following building amount:
+Impress with your amount of {0} {1}
+Recruit Rangers
+Reach the following unit amount:
+Impress with your amount of {0} {1}
+Recruit Blade Dancers
+Reach the following unit amount:
+Impress with your amount of {0} {1}
+Recruit Construction Workers
+Reach the following unit amount:
+Impress with your amount of {0} {1}
+Recruit Fearnaughts
+Reach the following unit amount:
+Impress with your amount of {0} {1}
+Recruit Guards
+Reach the following unit amount:
+Impress with your amount of {0} {1}
+Recruit Soldiers
+Reach the following unit amount:
+Impress with your amount of {0} {1}
+Recruit Warlocks
+Reach the following unit amount:
+Impress with your amount of {0} {1}
+Recruit Workers
+Reach the following unit amount:
+Deliver {0} {1}
+Deliver Artifact
+Send the requested Artifact from a Trading Post to the requesting Faction.
+Find all Pagonian settlements:
+Discover all Pagonian factions on the island.
+Befriend all Factions:
+Raise your standing with all Pagonian factions on the island to Friend status or better. Improve your standing by helping them out and fulfilling their objectives.
+Find and defeat all enemy camps:
+Discover all hostile camps on the island and defeat them.
+No win conditions
+Just explore and enjoy the island any way you like.
+Complete Guidance Objectives
+There are no enemies or other Pagonian villages on this island. Take all the time you want to complete the guidance objectives.
+Objective Type FlavorText
+That would be a remarkable achievement.
+That would be a remarkable achievement.
+That would be a remarkable achievement.
+That would be a remarkable achievement.
+If you could help us out with these goods, we would be grateful.
+You bringing us this would mean a lot to us.
+We have heard of these places, but we haven't been able to locate them. Could you help us in our search?
+We have heard rumors of places like this, but we haven't been able to secure any. Could you help us with searching and rebuilding?
+Can you help us with supplies for this special place?
+There are enemy camps that won't leave us alone. Please help us and defeat them!
+Some of our people have gone missing! Please find them and lead them back to us!
+We have heard rumors of places like this, but we haven't been able to secure any. Could you help us in our search?
+That would be a remarkable achievement.
+That would be a remarkable achievement.
+That would be a remarkable achievement.
+That would be a remarkable achievement.
+That would be a remarkable achievement.
+Abandoned Wagon
+A mysterious location. Its purpose is still unknown.
+An ancient place of worship that still has value for some.
+Forest Recluse
+Forgotten Tavern
+Derelict Tower
+Sacred Spring
+Scarlet Blossom
+Discover Interesting Location
+Rabbit of Great Comfort
+A mysterious statue. Its purpose is still unknown.
+A symbol of great comfort in times of need. Many appreciate its presence during hard times.
+Dragon Tree Shrine
+A mysterious location. Its purpose is still unknown.
+An ancient place of worship. Some people still feel a connection.
+Expedition Camp
+A mysterious location. Its purpose is still unknown.
+A campsite of an expedition group.
+Forsaken Library
+A collapsed structure. Its purpose is still unknown.
+This building houses great knowledge long thought to be lost.
+Gilded Stag of Prosperity
+A mysterious statue. Its purpose is still unknown.
+A symbol of wealth and prosperity. Pagonians admire its beauty and hope for good luck.
+Grand Boar of Fortitude
+A mysterious statue. Its purpose is still unknown.
+A symbol of strength and resilience. Observing it fills many with motivation and determination.
+Light Spire
+An unfinished structure. Its purpose is still unknown.
+A building to make our presence known and reach out to distant kinfolk.
+Monument of Wisdom
+A mysterious location. Its purpose is still unknown.
+A hallowed monument that houses knowledge as yet unknown and inspires great minds to study their environs. 
+Gleaming Stag of Courage
+A mysterious statue. Its purpose is still unknown.
+A symbol of bravery and pride. Its presence evokes a feeling of belonging in its observers.
+Spellforgers' Tomb
+A mysterious location. Its purpose is still unknown.
+A myterious tomb that fills some people with great reverence.
+POI Name
+Its purpose is still unknown.
+The purpose is now known.
+Curious Bazaar
+A mysterious location. Its purpose is still unknown.
+Deliver goods to this location.
+Everlasting Light
+Expedition Camp
+Farpoint
+Outpost Village
+Mysterious Location
+Forests and Friends
+Encounter your first Pagonian village and befriend its inhabitants.[br]Choose this map if you prefer to get to know Pagonia on a peaceful island without any pressure from enemies.
+Cursed Coast
+Beware of thieves and bandits hiding in the mountains of this island![br]Choose this map if you prefer to get to know Pagonia on an island where some enemies block your path, visit your village and steal commodities.
+Hinterland
+The Pagonian villages on this island need your help.
+Foes in the Fog
+Your goal is to conquer the island by defeating all its enemies. Look out! Not all of them are what you might expect.
+Unfriendly Neighbors
+Others have arrived on this island alongside you, but they are not here to rebuild, but to scavenge and leave the island barren! Help your Pagonian friends fend off the unwelcome intruders.
+Of Masons and Mages
+Your friends are near and the road ahead is clear. Or is it?
+Dangerous Hills
+This dangerous island is a challenge for experienced Pioneers.
+Firewood (from Softwood)
+Firewood (from Hardwood)
+Softwood Beams
+Wooden Wheel
+Ration (Trout)
+Ration (Herring)
+SHOULD NOT APPEAR IN GAME base
+Gold Coins
+Gold Bar
+Handcart
+Iron-bound Wheel
+Sapphire Staff
+Wheelbarrow
+Cement
+Hunting Bow
+Water
+Cut Stone
+Flour
+Beer
+Hammer
+Hardwood Boards
+Iron Bar
+Silver Bar
+Bread
+Border Stones
+Pliers
+Axe
+Saw
+Knife
+Pickaxe
+Chisel
+Shovel
+Fishing Rod
+Torch
+Wooden Shield
+Wooden Rod
+Wooden Spear
+Wooden Cog Wheel
+Sickle
+Ration (Bread)
+Ration (Boar Meat)
+Ration (Deer Meat)
+Ration (Rabbit Meat)
+Silver Coins
+Copper Coins
+Chain Mail
+Iron Shield
+Iron Sword
+Bronze Sword
+Iron Staff
+Iron Lance
+Machete
+Silver Blade
+Light Armor
+Padded Armor
+Backpack
+Emerald Staff
+Diamond Staff
+Ruby Staff
+Magic Blade
+Magic Torch
+Cloth
+Rope
+Steel
+Nickel bar
+Halberd
+Mace
+Steel Dagger
+Steel Shield
+Steel-padded Armor
+Iron Dagger
+Wood
+Stone
+Rare resources
+Valuables
+Natural Products
+Beverages
+Animal Meal Ingredients
+Plant Meal Ingredients
+Tools
+Weapons
+Armor
+Cereals
+Vegetables
+Fruit
+Forest Ingredients
+Game
+Meat
+Drinks
+Juices
+Coins
+Jewelry
+Cut Gems
+Treasures
+Seafood
+Robes and Staffs
+Armor and Shields
+Steel Equipment
+Tools
+Weapons
+Tag 
+Adventurer depot
+Construction depot
+Military depot
+Mining depot
+Tools depot
+Undefined depot
+Coin Treasury
+Gem Treasury
+Undefined Treasury
+Nickel Ore
+Deer Meat
+Boar Meat
+Rabbit Meat
+Chain Mail
+Robe
+Enhanced Robe
+Silver-lined Robe
+Magic Blade
+Iron Daggers
+Steel Daggers
+Hunting Bow
+Softwood Beam
+Oakwood Board
+Hardwood Board
+Firewood
+Oakwood Trunk
+Softwood Trunk
+Hardwood Trunk
+Wooden Cogwheel
+Border Stone
+Copper
+Gold Ore
+Leather
+Ration
+Nutritious Meal
+Drinking Water
+Pumpkin
+Diamond
+Emerald
+Ruby
+Sapphire
+Witchwood Harp
+Golden Horse
+Ancient Compass
+Singing Blade
+Ashwood Aegis
+Sickle of Abundance
+Cliff
+Desert
+Dry grass
+Dusty
+Fertile
+Forest
+Grassland
+Lake shore
+Mossy
+Mountain
+Ocean shore
+Plateau
+Sandy
+Scree
+Steppe
+Swamp
+Island
+Homes
+Carriers
+Craftspeople
+Tradespeople
+Military
+Average Nutritious Meal Quality
+Comfort Meals average quality
+Newborns per minute
+Claimed area
+Combat Power
+Explored area
+Hungry Miners
+Carrier
+Transports all sorts of things between places.
+Construction Site Carrier
+Specialized in supplying construction sites.
+Builder
+Raises buildings at construction sites.
+Digger
+Evens out the ground of new construction sites.
+Explorer
+Lifts the fog of the unknown. May discover friends or foes or mysteries.
+Geologist
+Tests the ground for ore veins and other subsurface deposits.
+Treasure Hunter
+Explorer
+Merchant
+Minter
+Mints coins for trade or wealth.
+Smelter
+Melts different metals into bars for further use.
+Metal Worker
+Smith
+Crafts tools, weapons, armor and other equipment, depending on their place of work.
+Metal Worker
+Miner
+Mines stones, ores and other materials from natural surface and underground deposits.
+Fisher
+Catches fish from lakes or the ocean.
+Forager
+Collects basic ingredients directly from nature.
+Forester
+Plants trees and collects firewood.
+Hunter
+Culls wild animals for meat and leather, all while protecting your civilians from boars.
+Forest Worker
+Nature Worker
+Cook
+Collects ingredients from market stalls and turns them into comforting or nutritious meals.
+Well Worker
+Draws water from the well to be used for watering plants and baking bread.
+Farmer
+Provides sustenance to your people by growing crops or vegetables.
+Baker
+Bakes bread, which is a nutritious side dish or used as a ration.
+Miller
+Processes wheat into flour.
+Provisioner
+Prepares keepable rations for long journeys or shortage of nutritious meals.
+Tailor
+Sews armor and backpacks from cloth or leather.
+Weaver
+Weaves cloth and rope out of flax.
+SHOULD NOT APPEAR IN GAME nmw
+Machete-wielding Ranger
+Fearless adventurer unit that excels at spotting and fighting Thieves.
+Skilled Ranger
+Fearless adventurer unit that excels at spotting and fighting Thieves.
+Stone-breaking Ranger
+Ranger
+Swift Blade Dancer
+Nimble fighter that uses daggers to defeat hulking enemies like Scavs.
+Champion Blade Dancer
+Nimble fighter that uses daggers to defeat hulking enemies like Scavs.
+Blade Dancer
+Nimble fighter that uses daggers to defeat hulking enemies like Scavs.
+Heroic Fearnaught
+Fearless adventurer unit that excels at fighting Werewolves.
+Fearnaught
+Fearless adventurer unit that excels at fighting Werewolves.
+Veteran Guard
+Guards and expands your territory from within your borders.
+Elite Guard
+Guards and expands your territory from within your borders.
+Guard
+Guards and expands your territory from within your borders.
+Advanced Soldier
+Defends and fights against enemies within and beyond your borders.
+Veteran Soldier
+Defends and fights against enemies within and beyond your borders.
+Elite Soldier
+Defends and fights against enemies within and beyond your borders.
+Soldier
+Defends and fights against enemies within and beyond your borders.
+Grand Sorceress
+Master Sorceress
+Arch Sorceress
+Sorceress
+Wise Warlock
+Warlock
+Trade Carrier
+Specialized in delivering trade goods between factions, across borders.
+Stone Mason
+Shapes raw stone into border stones and cut stone for advanced construction.
+Stonemill Worker
+Turns limestone into cement for advanced construction.
+Quarry Worker
+Woodworker
+Sawmill Worker
+Shapes raw tree trunks into more advanced construction materials.
+Woodcutter
+Cuts down trees for one of the most basic and important construction materials: wood of different types.
+Wood and Stone worker
+SHOULDNOTAPPEARINGAME uds
+Civilians
+Rangers
+Blade Dancers
+Fearnaughts
+Guards
+Soldiers
+Sorceresses
+Warlocks
+Defenders
+ConstructionUnitTag
+Defender
+Available Room in Construction Camps
+The Venturer
+Available Room in Military Camps
+Available room in Residences
+Available Room in Traders' Camps
+Tradespeople
+Rangers
+Blade Dancers
+Construction Units
+Fearnaughts or better
+Guards
+Soldiers
+Warlocks
+Workers
+Tag Objective 
+Mystics
+Attacks hostile enemies in your own territory
+Attacks hostile animals
+Defend themselves against other enemies
+Size of claimed area: Standard
+Size of claimed area: Large
+Size of claimed area: Very large
+Panics when encountering Spectres
+Rescues lost Pagonians and guides them home
+test2
+UnitTestExplorationBuilding
+UnitTestProductionBuilding
+UnitTestGathererBuilding
+Test Resource
+SHOULD NOT APPEAR IN GAME testplank
+Test Resource2
+TestHome
+TestDeposit
+TestHarvestedDeposit
+TestDepositType
+TestDepositType2
+TestDeposit2
+TestHarvestedDeposit2
+SHOULDNOTAPPEARINGAME tdu
+UnitTestTerritoryBuilding
+TestClass
+TestCategory
+testAnimalBase
+TestAnimal
+UnitTestRecruitmentBuilding
+TestUnitRecruitManual
+TestUnitRecruitAutomaticNoTool
+TestUnitRecruitAutomatic
