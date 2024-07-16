@@ -1,0 +1,67 @@
+<!--
+title: Változók
+description: 
+published: true
+date: 2024-07-16T15:15:06.140Z
+tags: 
+editor: ckeditor
+dateCreated: 2024-07-16T15:15:06.140Z
+-->
+
+<p>A játékok fordítása során számos technikai és nyelvi kihívás merül fel, amelyek közül az egyik legfontosabb a változók kezelése. A változók olyan helyőrzők, amelyek dinamikusan változó értékeket tartalmazhatnak. A fordítás során különös figyelmet kell fordítani arra, hogy a változók megfelelően kerüljenek a cél nyelvre átültetett szövegekbe.</p>
+<h3>Változók típusai és jelölései</h3>
+<p><strong>Szögletes zárójelek [ ]</strong>: Gyakran használják listák vagy tömbök elemeinek jelölésére, vagy paraméterek megadására.</p>
+<ul>
+  <li>Például: <code>You have [X] lives left.</code> ahol az <code>[X]</code> egy változó, amely a játékos fennmaradó életeinek számát jelöli.</li>
+</ul>
+<p><strong>$ karakter</strong>: Sok programozási nyelvben és fordítási szövegben használják változók beillesztésére.</p>
+<ul>
+  <li>Például: <code>Your balance is $amount.</code> ahol a <code>$amount</code> helyére a játék aktuális egyenlege kerül.</li>
+</ul>
+<p><strong>Kacsacsőrös zárójelek { }</strong>: Általában a változók megjelölésére szolgálnak, amelyeket futásidőben helyettesítenek.</p>
+<ul>
+  <li>Például: <code>Welcome, {player_name}!</code> ahol a <code>{player_name}</code> helyére a játékos neve kerül.</li>
+</ul>
+<p><strong>% karakter</strong>: Számos programozási nyelvben használt változók jelölésére, gyakran formátum specifikátorokkal együtt.</p>
+<ul>
+  <li>Például: <code>Your score is %d points.</code> ahol a <code>%d</code> egy egész számot jelöl.</li>
+</ul>
+<p><strong>Különleges helyőrzők</strong>: Bizonyos játékokban vagy rendszerekben előfordulhatnak egyedi helyőrzők.</p>
+<ul>
+  <li>Például: <code>You have {{X}} attempts left.</code> ahol a <code>{{X}}</code> egy egyedi változó szintaxis.</li>
+</ul>
+<h3>Változók kezelése a fordítás során</h3>
+<p><strong>Azonosítás és megértés</strong>: Első lépésként azonosítani kell az összes változót a forrás szövegben, és megérteni azok jelentését és kontextusát.</p>
+<p><strong>Fordítás kontextusban</strong>: A változókat tartalmazó mondatok fordításakor biztosítani kell, hogy a cél nyelvű mondat helyesen és természetesen adja vissza az eredeti jelentést, figyelembe véve a változókat.</p>
+<ul>
+  <li>Például az angol <code>You have [X] lives left.</code> fordítása magyarra: <code>Még [X] életed van hátra.</code></li>
+</ul>
+<p><strong>Formátum megőrzése</strong>: A változók formátumának megőrzése kulcsfontosságú. Ha a változó szintaxisa a célnyelvben is létezik, azt meg kell őrizni.</p>
+<ul>
+  <li>Például a <code>{player_name}</code> változót nem szabad egyszerűen "játékos név"-re fordítani, hanem meg kell őrizni az eredeti szintaxist: <code>{player_name}</code>.</li>
+</ul>
+<p><strong>Tesztelés</strong>: A fordított szövegeket tesztelni kell a játékban, hogy biztosan jól jelenjenek meg a változók és a mondatok helyesen értelmezhetőek legyenek.</p>
+<ul>
+  <li>Például egy teszt során ellenőrizni kell, hogy a <code>Welcome, {player_name}!</code> megfelelően jelenik meg <code>Üdvözlünk, {player_name}!</code> formában, amikor a játékos neve behelyettesítődik.</li>
+</ul>
+<p><strong>Nyelvtani egyeztetés</strong>: Bizonyos nyelvek esetében fontos a változók nyelvtani egyeztetése. Például magyarban az alany-állítmány egyeztetés vagy a birtokos szerkezetek.</p>
+<ul>
+  <li>Például: <code>Your score is {score} points.</code> fordítása: <code>A pontszámod {score} pont.</code> ahol a <code>{score}</code> egy számérték.</li>
+</ul>
+<h3>Gyakorlati példák</h3>
+<p><strong>Szöveges fordítás</strong>:</p>
+<ul>
+  <li>Forrás: <code>You have earned $reward points!</code></li>
+  <li>Fordítás: <code>Te $reward pontot szereztél!</code></li>
+</ul>
+<p><strong>Bonyolultabb változók</strong>:</p>
+<ul>
+  <li>Forrás: <code>Hello, {player_name}. You have {num_items} items in your inventory.</code></li>
+  <li>Fordítás: <code>Helló, {player_name}. {num_items} tárgy van a leltáradban.</code></li>
+</ul>
+<p><strong>Feltételes szerkezetek</strong>:</p>
+<ul>
+  <li>Forrás: <code>If you score {min_score} points, you will level up.</code></li>
+  <li>Fordítás: <code>Ha elérsz {min_score} pontot, szintet lépsz.</code></li>
+</ul>
+<p>A változók kezelése kulcsfontosságú a játékok fordításában, hiszen a helyes értelmezés és megjelenítés jelentős mértékben hozzájárul a játékos élményéhez.</p>
