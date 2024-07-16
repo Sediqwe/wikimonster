@@ -1,0 +1,142 @@
+<!--
+title: GIT - Verzió követés
+description: 
+published: true
+date: 2024-07-16T00:34:50.915Z
+tags: 
+editor: ckeditor
+dateCreated: 2024-07-16T00:34:50.915Z
+-->
+
+<h4>Bevezetés</h4>
+<p>A Git egy nyílt forráskódú, elosztott verziókezelő rendszer, amelyet Linus Torvalds hozott létre 2005-ben, elsősorban a Linux kernel fejlesztésére. A GitHub egy webalapú platform, amely a Git használatával tárolja a kódot, lehetővé téve a fejlesztők számára a verziókövetést, együttműködést és kódmegosztást. A GitHub a Git-re épít, de számos további funkcióval bővíti, mint például a hibakövetés, a wiki, és a projektmenedzsment eszközök.</p>
+<h3>Telepítés</h3>
+<h4>Git Telepítése</h4>
+<p><strong>Windows</strong>:</p>
+<ol>
+  <li>Látogass el a <a href="https://git-scm.com/">Git hivatalos oldalára</a>.</li>
+  <li>Kattints a "Download for Windows" gombra.</li>
+  <li>Futtasd a letöltött telepítőfájlt és kövesd az utasításokat. Az alapértelmezett beállítások általában megfelelőek.</li>
+  <li>A telepítés után nyisd meg a Git Bash-t a Start menüből.<code>
+    </code></li>
+</ol>
+<p><strong>Linux</strong>:</p>
+<ol>
+  <li>Nyisd meg a terminált.</li>
+  <li>Futtasd az alábbi parancsot a disztribúciódtól függően:<ul>
+      <li>Debian/Ubuntu alapú rendszereken:</li>
+    </ul>
+  </li>
+</ol>
+<p><code>sudo apt-get install git</code></p>
+<ul>
+  <li>Fedora alapú rendszereken:</li>
+</ul>
+<p><code>sudo dnf install git</code></p>
+<ul>
+  <li>Arch Linux alapú rendszereken:</li>
+</ul>
+<p><code>sudo pacman -S git</code></p>
+<h4>GitHub Fiók Létrehozása</h4>
+<ol>
+  <li>Látogass el a <a href="https://github.com/">GitHub oldalára</a>.</li>
+  <li>Kattints a "Sign up" gombra és kövesd az utasításokat a fiók létrehozásához.</li>
+</ol>
+<h3>Git Használata</h3>
+<h4>Első Lépések</h4>
+<p>Miután telepítetted a Git-t, konfigurálni kell néhány alapvető beállítást:</p>
+<p><code>git config --global user.name "Your Name"
+  </code></p>
+<p><code>git config --global user.email "your.email@example.com"
+  </code></p>
+<h4>Új Repozitórium Létrehozása</h4>
+<ol>
+  <li>Navigálj a projekthez tartozó könyvtárba</li>
+</ol>
+<p><code>cd path/to/your/project</code></p>
+<ol>
+  <li>Inicializálj egy új Git repozitóriumot:</li>
+</ol>
+<h4>Fájlok Hozzáadása és Első Commit</h4>
+<ol>
+  <li>Adj hozzá fájlokat a staging területhez:</li>
+  <li>Commiteld a változtatásokat:</li>
+</ol>
+<h3>GitHub Használata</h3>
+<h4>Távoli Repozitórium Létrehozása és Kapcsolása</h4>
+<ol>
+  <li>Hozz létre egy új repozitóriumot a GitHub-on: Lépj be a GitHub fiókodba, kattints a "New" gombra, add meg a repozitórium nevét és hozd létre.</li>
+  <li>Kapcsold a helyi repozitóriumot a távoli repozitóriumhoz:</li>
+</ol>
+<h4>Változtatások Feltöltése GitHub-ra</h4>
+<ol>
+  <li>Pushold a változtatásokat a GitHub repozitóriumba:</li>
+</ol>
+<h3>Git és GitHub Hasznossága</h3>
+<h4>Verziókövetés</h4>
+<p>A Git lehetővé teszi, hogy nyomon kövesd a projekted összes változtatását, visszamenj korábbi verziókhoz, és szükség esetén visszaállítsd azokat.</p>
+<h4>Együttműködés</h4>
+<p>A GitHub lehetővé teszi a fejlesztők számára, hogy együtt dolgozzanak ugyanazon a projekten anélkül, hogy félniük kellene az ütközésektől vagy a kód elvesztésétől. A pull request-ek és a code review-k segítik az együttműködést és a kód minőségének javítását.</p>
+<h4>Biztonsági Másolat</h4>
+<p>A GitHub tárolja a projektjeidet a felhőben, így ha a helyi másolat megsérül vagy elveszik, mindig visszaállíthatod a kódodat a GitHub-ról.</p>
+<h3>Főbb Parancsok</h3>
+<h4>Alap Parancsok</h4>
+<ul>
+  <li><code><strong>git init</strong></code>: Új git repozitórium inicializálása.</li>
+  <li><code><strong>git clone [url]</strong></code>: Egy távoli repozitórium klónozása.</li>
+  <li><code><strong>git add [file]</strong></code>: Fájl(ok) hozzáadása a staging területhez.</li>
+  <li><code><strong>git commit -m "message"</strong></code>: A staging terület commitolása egy üzenettel.</li>
+  <li><code><strong>git status</strong></code>: Az aktuális repozitórium státuszának megtekintése.</li>
+  <li><code><strong>git log</strong></code>: A commit történet megtekintése.</li>
+</ul>
+<h4>Haladó Parancsok</h4>
+<ul>
+  <li><code><strong>git branch</strong></code>: Lokális ágak listázása.</li>
+  <li><code><strong>git checkout [branch]</strong></code>: Átváltás egy másik ágra.</li>
+  <li><code><strong>git merge [branch]</strong></code>: Egy másik ág összeolvasztása az aktuális ággal.</li>
+  <li><code><strong>git pull</strong></code>: Frissítések letöltése és beolvasztása a távoli repozitóriumból.</li>
+  <li><code><strong>git push</strong></code>: Lokális változtatások feltöltése a távoli repozitóriumba.</li>
+  <li><code><strong>git rebase [branch]</strong></code>: Az aktuális ág alapjának megváltoztatása egy másik ág alapján.</li>
+</ul>
+<h3>Összegzés</h3>
+<p>A Git és a GitHub használata alapvető a modern szoftverfejlesztésben, mivel hatékony verziókövetést és együttműködési lehetőségeket biztosítanak. A Git segítségével nyomon követheted a projekted változásait, és szükség esetén visszaállíthatod azokat, míg a GitHub lehetővé teszi a kód megosztását és az együttműködést más fejlesztőkkel. A fent bemutatott parancsok és gyakorlatok segítenek az alapok elsajátításában és a hatékony munkavégzésben ezekkel az eszközökkel.</p>
+<p>bash</p>
+<p>Code kopieren</p>
+<p><code>git push -u origin master
+  </code></p>
+<p>bash</p>
+<p>Code kopieren</p>
+<p><code>git remote add origin https://github.com/yourusername/your-repository.git
+  </code></p>
+<p>bash</p>
+<p>Code kopieren</p>
+<p><code>git commit -m "Initial commit"
+  </code></p>
+<p>bash</p>
+<p>Code kopieren</p>
+<p><code>git add .
+  </code></p>
+<p>bash</p>
+<p>Code kopieren</p>
+<p><code>git init
+  </code></p>
+<p>bash</p>
+<p>Code kopieren</p>
+<p><code>cd path/to/your/project
+  </code></p>
+<p>bash</p>
+<p>Code kopieren</p>
+<p><code>sudo pacman -S git
+  </code></p>
+<p>bash</p>
+<p>Code kopieren</p>
+<p><code>sudo dnf install git
+  </code></p>
+<p>bash</p>
+<p>Code kopieren</p>
+<p><code>sudo apt-get install git
+  </code></p>
+<p>bash</p>
+<p>Code kopieren</p>
+<p><code>git --version
+  </code></p>
