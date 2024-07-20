@@ -2,7 +2,7 @@
 title: Unity Bundle File  
 description: 
 published: true
-date: 2024-07-20T15:14:04.424Z
+date: 2024-07-20T15:27:20.939Z
 tags: 
 editor: ckeditor
 dateCreated: 2024-07-20T15:14:04.424Z
@@ -24,4 +24,22 @@ dateCreated: 2024-07-20T15:14:04.424Z
 <p>Továbbá szükséged lehet egy Catalog.Json módosítóra is, ez utóbbi opcionális.</p>
 <p><a href="/unity-file-bundle/catalog_bundle.rar">/unity-file-bundle/catalog_bundle.rar</a></p>
 <h2>Kibontás</h2>
+<p>A fájlok kibontása most is az UABE ra hárúl, válaszd ki a FILE / OPEN el a kibontandó bundle fájlt.</p>
+<figure class="image"><img src="/unity-file-bundle/uabe1.jpg"></figure>
+<p>Kiválasztás után, az ASSETS től eltérően egy kicsit más képernyő fogad, mert egy CAB fájlt kapsz.</p>
+<p>Itt az INFO ra kattintva megkapod a már megszokott ablakot, ahol kedvedre keresheted a nyelvi fájlod.</p>
+<figure class="image"><img src="/unity-file-bundle/uabe2.jpg"></figure>
+<p>Előfordulhat hogy rákérdez olyanra hogy FILE vagy MEMÓRIÁBA dolgozzon, én a memóriát szoktam választani, nekem van elég :D</p>
 <p>&nbsp;</p>
+<figure class="image"><img src="/unity-file-bundle/uabe3.jpg"></figure>
+<p>A fájl kiválasztása után az EXPORT RAW vagy az EXPORT DUMP esetleg ha TXT alapú akkor Plugins → Export.txt a megoldás.</p>
+<h2>Visszarakás</h2>
+<p>Módosítás után vagy keresd meg azt amit módosítottál, és import → RAW / DUMP / TXT , &nbsp; vagy ha többet módosítottál, jelöld ki az összes fájlt - CTRL + A<br>Import dump , pl , és válaszd ki a könyvtárad ahol vannak a fordítás fájljai, ő majd betölti.<br>Ha végeztél → File → Save, ez elmenti a CAB fájlt, de a BUNDLE -t még nem!</p>
+<p>Erre fel is hívja a figyelmed! Az uabe alap ablakában is nyomj egy FILE / SAVE -t</p>
+<p>&nbsp;</p>
+<h2>Catalog.Json módosítás</h2>
+<p>Erre akkor van szükség, ha a bundle file módosítása után összeomlik a rendszer, és vagy teljesen hülye helyen jelennek meg a beírt dolgok!</p>
+<p>Müködése nagyon egyszerü.</p>
+<p>másold be a fájlokat oda ahol van a catalog.json fájl, ez tipikusan egyel kintebb mint ahol a bundle fájlok.</p>
+<p>majd CMD be írd be:</p>
+<pre><code class="language-plaintext">patch.bat catalog.json</code></pre>
