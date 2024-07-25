@@ -2,7 +2,7 @@
 title: Gep.Monster - 04 - Bootstrap, az isteni gondviselés :)
 description: 
 published: true
-date: 2024-07-25T19:20:49.942Z
+date: 2024-07-25T19:29:53.168Z
 tags: 
 editor: ckeditor
 dateCreated: 2024-07-25T19:08:47.847Z
@@ -67,5 +67,15 @@ dateCreated: 2024-07-25T19:08:47.847Z
 <figure class="image"><img src="/gepmonster/gep16.jpg"></figure>
 <p>&nbsp;</p>
 <figure class="image"><img src="/gepmonster/gep17.jpg"></figure>
+<p>Mint látható a menü ott van ugyan, viszont az application.html.rb átláthatatlan lett… erre van a rails nek egy szép megoldás. ez a PARTIAL… kicsit fura, de megszokható</p>
+<p>Arról van szó, hogy “behúzunk” egy egy fájlt, a nagy fájlba, így a nagy fájl darabjai könnyen átláthatóak maradnak.</p>
+<p>Így a hatalmas NAV elemet kivettem az application.html.erb ből és egy “render” paranccsal bele renderelem a frissen létrehozott PARTIAL fájlt.</p>
+<p>APP →VIEWS → LAYOUTS → APPLICATION.HTML.ERB</p>
+<pre><code class="language-plaintext">&lt;%= render 'shared/menu' %&gt;</code></pre>
+<figure class="image"><img src="/gepmonster/gep18.jpg"></figure>
+<p>APP →VIEWS →SHARED →_MENU.HTML.ERB<br>létre kell hozni egy SHARED könyvtárat az app/views en belül…&nbsp;</p>
+<p>és egy _MENU.HTML.ERB -be bele másolni a menü elemeit…</p>
+<p>Minden szép, flott, átlátható!</p>
+<figure class="image"><img src="/gepmonster/gep19.jpg"></figure>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
