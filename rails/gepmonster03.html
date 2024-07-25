@@ -2,7 +2,7 @@
 title: Gep.Monster - 03 Games - légy KÉPES
 description: Adjunk hozzá egy képet a játékhoz
 published: true
-date: 2024-07-25T18:45:04.099Z
+date: 2024-07-25T18:51:52.075Z
 tags: 
 editor: ckeditor
 dateCreated: 2024-07-25T18:28:17.405Z
@@ -12,7 +12,9 @@ dateCreated: 2024-07-25T18:28:17.405Z
 <p>A listázónk már majdnem tökéletes, csak éppen képet nem tud! Egyelőre!</p>
 <p>Ismerkedjünk meg a kép képességével!</p>
 <p>Feladataink összefoglalva:</p>
+<p>&nbsp;</p>
 <ul>
+  <li>Kell egy hely ahol tároljuk az adatokat.</li>
   <li>Az adatbázisnak tudnia kell róla, hogy lesz ilyen cucc hogy KÉP</li>
   <li>Fel kell tudni venni, tehát a FORMnak tudnia kell róla hogy új egység lesz, KÉP</li>
   <li>Engedélyezni kell, tehát a controllernek tudnai kell róla hogy jön ilyen infó hogy KÉP</li>
@@ -20,7 +22,12 @@ dateCreated: 2024-07-25T18:28:17.405Z
 </ul>
 <p>Ehhez indítsuk el a Visual Studio Code -t , keressük meg a könyvtárunkat a File - Open Folder ben a könyvtárunkat (monster)</p>
 <figure class="image"><img src="/gepmonster/gep8.jpg"></figure>
-<p>Megnyitás után már látjuk is a fájlrendszerünket, amivel fogunk dolgozni, ott keressük meg a baloldalt az</p>
+<h2>HELY</h2>
+<p>A rails jelenleg egy kiváló tárolási lehetőséget kínál, de nincs alapból bekapcsolva, telepítsük így:</p>
+<pre><code class="language-plaintext">rails active_storage:install
+
+rails db:migrate</code></pre>
+<p>Ezzel telepítjük az ACTIIVE_STORAGE -t és az adatbázist is migráljuk egyből!</p>
 <h2>ADATBÁZIS</h2>
 <p>APP → MODEL → games.rb</p>
 <p>Majd írjuk bele:&nbsp;</p>
@@ -46,6 +53,14 @@ dateCreated: 2024-07-25T18:28:17.405Z
 <p>Fontos tudni, hogy a rails okos, nem enged bármilyen adatot befogadni az adatbázisba, csak azt amit a készítője engedélyez!&nbsp;</p>
 <p>Ezért bizony engedélyezned kell, hogy igen, az IMAGE azt TE tetted az oldaladba, és TE AZT AZ ADATATOT AKAROD :) nehogy csúnya bácsik okoskodhassanak butaságokat!</p>
 <p>Ezért az APP → CONTROLLER → GAMES_CONTROLLER.RB ben a legalján a params.require résznél engedélyezni kell az :IMAGE paramétert IS</p>
+<figure class="image"><img src="/gepmonster/gep11.jpg">
+  <figcaption>a végére bekerült egy , kiséretében az :IMAGE változó is</figcaption>
+</figure>
+<p>&nbsp;</p>
+<h2>INDEX, SHOW</h2>
+<p>Jelenleg minden készen áll a feltöltéshez, de a megjelenítés még elmaradt. Oldjuk meg ezt is.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
