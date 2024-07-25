@@ -2,7 +2,7 @@
 title: Gep.Monster 02 - Games létrehozása
 description: Hozzuk létre a GAMES -t tegyük főoldallá
 published: true
-date: 2024-07-25T17:54:49.815Z
+date: 2024-07-25T18:18:25.518Z
 tags: 
 editor: ckeditor
 dateCreated: 2024-07-25T17:54:49.815Z
@@ -22,6 +22,40 @@ dateCreated: 2024-07-25T17:54:49.815Z
 <p>scaffold → Ez egy ügyes kis parancs, ami létrehozza az alapműveleteket az adott névhez.</p>
 <p>name:string &nbsp;→ legyen egy name változó, ami string, tehát SZÖVEG alapú (a STRING maximum 255 karaktert tartalmazhat, elégnek kell lennie egy játék nevének)</p>
 <p>description:text → legyen egy másik változója, ami ugyanúgy SZÖVEG alapú, de most TEXT, ami azt jelenti hogy soookal hosszabb lehet a beleírt szöveg (65,535 karakter hosszú lehet… )&nbsp;</p>
-<p>Első körben ennyi elég kell hogy legyen egy játék leírásához :)<br>Kell még egy KÉP, amit manuálisan veszünk fel.</p>
+<p>Első körben ennyi elég kell hogy legyen egy játék leírásához :)<br>Kell még egy KÉP, amit manuálisan veszünk fel.<br>Lefuttatva a parancsot, ezt kapjuk:</p>
+<figure class="image"><img src="/gepmonster/gep3.jpg"></figure>
+<p>Meg lehet figyelni, hogy a SCAFFOLD parancs milyen szépen létrehoz neked mindent, ami kellhet!</p>
+<ul>
+  <li>create &nbsp; &nbsp;app/models/game.rb &nbsp;→ létrehozta a MODEL-t , tehát eléred az adatbázist.</li>
+  <li>route &nbsp; &nbsp;resources :games &nbsp;→ beírta a ROUTE fájlba az elérését a weboldalnak → GAMES (Resources → minden létező elérét, a CREATE - EDIT - DELETE - SHOW részét is.)</li>
+  <li>create &nbsp; &nbsp;app/controllers/games_controller.rb &nbsp;→ a CONTROLLER is létrejött, van ami irányítsa a kéréseket.</li>
+  <li>create &nbsp; &nbsp; &nbsp;app/views/games &nbsp; → Létrejött maga a weboldal része<ul>
+      <li>create &nbsp; &nbsp; &nbsp;app/views/games/index.html.erb →INDEX → minden itt fog megjelenni listázva</li>
+      <li>create &nbsp; &nbsp; &nbsp;app/views/games/edit.html.erb→EDIT→ itt lehet szerkeszteni a játékot.</li>
+      <li>create &nbsp; &nbsp; &nbsp;app/views/games/show.html.erb →SHOW→ Itt lehet a részleteit a játéknak megtekinteni.</li>
+      <li>create &nbsp; &nbsp; &nbsp;app/views/games/new.html.erb →NEW→ Itt tudsz új játékot felvenni</li>
+      <li>create &nbsp; &nbsp; &nbsp;app/views/games/_form.html.erb →FORM→ Ez a fő lelke a rendszernek, a FORMok 1 helyen vannak kigyűjtve (EDIT, NEW, így ha 1 helyen módosítod, mindenhol módosul…légy lusta )</li>
+      <li>create &nbsp; &nbsp; &nbsp;app/views/games/_game.html.erb → GAME → Ezt hívja meg a rendszer a játékok megjelenítésére, elég 1 helyen módosítani, mindenhol egyszerre módosul…</li>
+    </ul>
+  </li>
+</ul>
+<p>Gratula, kész is a gep.monster “lelke” az index oldal :)&nbsp;</p>
+<p>Persze nézzük meg hogy is néz ki , ne várj tőle csodát, de azért ha a mélyére látsz, már látod hogy aham, ez az amit akarok!</p>
+<p>indítsuk el a szervert :</p>
+<pre><code class="language-plaintext">rails s</code></pre>
+<p>majd hívjuk meg a weboldalt, az újat:</p>
+<p><a href="">https://localhost:3000/games</a></p>
+<p>Ha mindent jól csináltál eddig, egy szépséges ERROR fogad, mégpedig azért, mert nem a RAILS figyel rád :) Hogy ne kövess el hülyeséget.</p>
+<p>Így felhívja a figyelmed arra, hogy talált egy olyan ADATBÁZIS migrációt, ami nincs felvéve a rendszerbe, “PENDING” alatt , azaz várakozás alatt van.</p>
+<p>Van egy gomb: "Run pending migrations" → és felveszi a GAME adatbázisod (blabla_create_games.rb)</p>
+<figure class="image"><img src="/gepmonster/gep4.jpg"></figure>
+<p>Ha lefutott az adatbázis módosítást, ezt kell lásd:&nbsp;</p>
+<figure class="image"><img src="/gepmonster/gep5.jpg">
+  <figcaption>Már majdnem gep.monster!!! :D</figcaption>
+</figure>
+<p>Az oldal ami a gep.monster hu-n láttál, már madjnem ugyanaz mint ez :) Persze csak nyomokban, de már ott van!!! :)</p>
+<p>Vegyünk fel pár játékot, hogy lásd Te magad is!</p>
+<figure class="image"><img src="/gepmonster/gep6.jpg"></figure>
+<p>Már majdnem olyan :) Na jó, csináljuk tovább</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
