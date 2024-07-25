@@ -1,0 +1,23 @@
+<!--
+title: Gep.Monster - 03 Games - légy KÉPES
+description: Adjunk hozzá egy képet a játékhoz
+published: true
+date: 2024-07-25T18:28:17.405Z
+tags: 
+editor: ckeditor
+dateCreated: 2024-07-25T18:28:17.405Z
+-->
+
+<p>Üdv újra itt!</p>
+<p>A listázónk már majdnem tökéletes, csak éppen képet nem tud! Egyelőre!</p>
+<p>Ismerkedjünk meg a kép képességével!</p>
+<p>Ehhez indítsuk el a Visual Studio Code -t , keressük meg a könyvtárunkat a File - Open Folder ben a könyvtárunkat (monster)</p>
+<figure class="image"><img src="/gepmonster/gep8.jpg"></figure>
+<p>Megnyitás után már látjuk is a fájlrendszerünket, amivel fogunk dolgozni, ott keressük meg a baloldalt az</p>
+<p>APP → MODEL → games.rb</p>
+<p>Majd írjuk bele:&nbsp;</p>
+<pre><code class="language-plaintext">has_one_attached :image</code></pre>
+<p>Elég beszédes, aki ért angolul:&nbsp;</p>
+<p>Van egy hozzákapcsolt, kép</p>
+<p>Ha ezt így beleírjuk, és elmentjük, az adatbázis tudni fogja (MODEL) hogy várható egy kép is, aminek a neve IMAGE lesz, ezzel fogunk tudni rá hivatkozni.</p>
+<figure class="image"><img src="/gepmonster/gep7.jpg"></figure>
