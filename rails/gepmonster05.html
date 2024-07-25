@@ -2,7 +2,7 @@
 title: Gep.Monster - 05 - Index varázslat
 description: Index képek elrendezése, linkek beállítása, háttér, bootstrap
 published: true
-date: 2024-07-25T19:38:54.499Z
+date: 2024-07-25T20:02:58.379Z
 tags: 
 editor: ckeditor
 dateCreated: 2024-07-25T19:33:15.156Z
@@ -18,4 +18,53 @@ gem 'ransack' # Kereső
 gem 'simple_form' #Egyszerűbb form
 gem "bcrypt", "~&gt; 3.1.7" #Jelszó generáláshoz</code></pre>
 <figure class="image"><img src="/gepmonster/gep20.jpg"></figure>
+<p>Ha ez megvolt, állítsd le a szervert, és írd be CMD be:&nbsp;</p>
+<pre><code class="language-plaintext">bundle install</code></pre>
+<p>Ezzel telepíted ezeket a kis gyémántokat &lt;3</p>
+<figure class="image"><img src="/gepmonster/gep21.jpg"></figure>
+<p><br>További kiegészítők itt találhatók:<br><a href="">https://rubygems.org/</a></p>
+<p>A SLIM nyelv megkönnyíti az életed, mert a RUBY csúnya &lt;%= %&gt; módját lerövidíti = jelre.</p>
+<p>továbbá az összes HTML tagből kihagyja a &lt; &gt; jeleket, nem kell lezárni a TAG eket!!! ISTEN</p>
+<p>Ehhez nevezzük át az APP/VIEWS/GAMES/INDEX.HTML<strong>.ERB</strong> -t &nbsp;INDEX.HTML<strong>.SLIM</strong> RE! (Rá állsz az elem nevére, F2)</p>
+<figure class="image"><img src="/gepmonster/gep22.jpg"></figure>
+<p>innentől a SLIM nyelvet használja.</p>
+<p>Belül pedig törölj ki mindent, és tedd be ezt:</p>
+<pre><code class="language-plaintext">p[style="color: green"]
+  = notice
+h1
+  | Games
+#games
+- @games.each do |game|
+  = render game
+  p
+    = link_to "Mutasd ezt a játékot", game
+ 
+= link_to "Új játék", new_game_path</code></pre>
+<p>&nbsp;</p>
+<p>Fontos, a SLIM ben mostantól minden TABULÁTOR számít!&nbsp;<br>Azzal választod el az elemeket, és azzal rakod az elemen belülre az adott elemet…<br>= a rails elemének kiírása<br>- a rails programkód futása<br>| szöveg kirása<br>a többi az sima HTML elem… P , H1&nbsp;</p>
+<figure class="image"><img src="/gepmonster/gep23.jpg"></figure>
+<p>Ezt fogjuk úgy szerkeszteni hogy 3 oszlopba írja ki a dolgokat.</p>
+<pre><code class="language-plaintext">p[style="color: green"]
+  = notice
+h1
+  | Games
+#games
+.container-fluid
+  .row    
+    - @games.each do |game|
+      .col-4.col-lg-4.col-md-6.col-sm-12.mb-4
+          .border.bg-light
+            = render game
+            p
+              = link_to "Mutasd ezt a játékot", game
+ 
+= link_to "Új játék", new_game_path
+</code></pre>
+<p>És ez viszont már majdnem Gep.Monster :)</p>
+<figure class="image"><img src="/gepmonster/gep24.jpg"></figure>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 <p>&nbsp;</p>
