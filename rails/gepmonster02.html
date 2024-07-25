@@ -1,0 +1,27 @@
+<!--
+title: Gep.Monster 02 - Games létrehozása
+description: Hozzuk létre a GAMES -t tegyük főoldallá
+published: true
+date: 2024-07-25T17:54:49.815Z
+tags: 
+editor: ckeditor
+dateCreated: 2024-07-25T17:54:49.815Z
+-->
+
+<p>Ebben a cikkben létrehozzuk az első oldalunkat:&nbsp;</p>
+<p>Hozzuk létre a gep.monster alapjait az alábbi paranccsal CMD ben:</p>
+<pre><code class="language-plaintext">rails new monster</code></pre>
+<p>Lépjünk be a könyvtárba:</p>
+<pre><code class="language-plaintext">cd monster</code></pre>
+<p>A rails nagyon okosan nem bíz semmit a véletlenre, bár megteheted hogy kézzel hozol létre mindent, légy lusta :D</p>
+<p>Az alábbi paranccsal létrehozzuk a GAMES oldalt, annak néhány paraméterével együtt.:</p>
+<pre><code class="language-plaintext">rails g scaffold game name:string description:text	</code></pre>
+<p>Nézzük meg mit is kértünk a programunktól:</p>
+<p>RAILS → ez a programunk,&nbsp;</p>
+<p>G → Generate , tehát készítsd el.</p>
+<p>scaffold → Ez egy ügyes kis parancs, ami létrehozza az alapműveleteket az adott névhez.</p>
+<p>name:string &nbsp;→ legyen egy name változó, ami string, tehát SZÖVEG alapú (a STRING maximum 255 karaktert tartalmazhat, elégnek kell lennie egy játék nevének)</p>
+<p>description:text → legyen egy másik változója, ami ugyanúgy SZÖVEG alapú, de most TEXT, ami azt jelenti hogy soookal hosszabb lehet a beleírt szöveg (65,535 karakter hosszú lehet… )&nbsp;</p>
+<p>Első körben ennyi elég kell hogy legyen egy játék leírásához :)<br>Kell még egy KÉP, amit manuálisan veszünk fel.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
