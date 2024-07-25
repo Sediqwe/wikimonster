@@ -2,18 +2,26 @@
 title: Gep.Monster - 03 Games - légy KÉPES
 description: Adjunk hozzá egy képet a játékhoz
 published: true
-date: 2024-07-25T18:28:17.405Z
+date: 2024-07-25T18:45:04.099Z
 tags: 
 editor: ckeditor
 dateCreated: 2024-07-25T18:28:17.405Z
 -->
 
-<p>Üdv újra itt!</p>
+<h1>KÉP mindenütt KÉP</h1>
 <p>A listázónk már majdnem tökéletes, csak éppen képet nem tud! Egyelőre!</p>
 <p>Ismerkedjünk meg a kép képességével!</p>
+<p>Feladataink összefoglalva:</p>
+<ul>
+  <li>Az adatbázisnak tudnia kell róla, hogy lesz ilyen cucc hogy KÉP</li>
+  <li>Fel kell tudni venni, tehát a FORMnak tudnia kell róla hogy új egység lesz, KÉP</li>
+  <li>Engedélyezni kell, tehát a controllernek tudnai kell róla hogy jön ilyen infó hogy KÉP</li>
+  <li>Meg kell jeleníteni: INDEX oldalon, és SHOW oldalon is, minimum.</li>
+</ul>
 <p>Ehhez indítsuk el a Visual Studio Code -t , keressük meg a könyvtárunkat a File - Open Folder ben a könyvtárunkat (monster)</p>
 <figure class="image"><img src="/gepmonster/gep8.jpg"></figure>
 <p>Megnyitás után már látjuk is a fájlrendszerünket, amivel fogunk dolgozni, ott keressük meg a baloldalt az</p>
+<h2>ADATBÁZIS</h2>
 <p>APP → MODEL → games.rb</p>
 <p>Majd írjuk bele:&nbsp;</p>
 <pre><code class="language-plaintext">has_one_attached :image</code></pre>
@@ -21,3 +29,23 @@ dateCreated: 2024-07-25T18:28:17.405Z
 <p>Van egy hozzákapcsolt, kép</p>
 <p>Ha ezt így beleírjuk, és elmentjük, az adatbázis tudni fogja (MODEL) hogy várható egy kép is, aminek a neve IMAGE lesz, ezzel fogunk tudni rá hivatkozni.</p>
 <figure class="image"><img src="/gepmonster/gep7.jpg"></figure>
+<p>Adatbázis már várja szeretettel a képet, egy képet, jelenleg 1 darab képet vár, később megmutatom hogy lehet több képet fogadni.</p>
+<h2>FORM</h2>
+<p>Jelenlegi formunk nem kezeli csak a NAME és a DESCRIPTION mezőket, de nekünk kellene egy KÉP felvételi mező is. Nosza adjuk hozzá:</p>
+<pre><code class="language-plaintext">&lt;div&gt;
+	&lt;%= form.label :image, style: "display: block" %&gt;
+	&lt;%= form.file_field :image %&gt;
+&lt;/div&gt;</code></pre>
+<p>Látható az APP → VIEWS → GAMES → _FORM.HTML.ERB -t kell módosítani, itt található a formok mozgatórugója</p>
+<p>Fontos, bárhova teheted, de még a form.submit, tehát az elküldő gomb előtt legyen. Most hogy a :NAME vagya :DESCRIPTIPN elé mögé felé közé rakod, kb mind1..megoldja :) Addig a formon belül van…</p>
+<p>&nbsp;</p>
+<figure class="image"><img src="/gepmonster/gep9.jpg"></figure>
+<p>Nálam valahogy így néz ki most: Ott van IMAGE : és egy fájl kiválasztó rész :)</p>
+<figure class="image"><img src="/gepmonster/gep10.jpg"></figure>
+<h2>CONTROLLER</h2>
+<p>Fontos tudni, hogy a rails okos, nem enged bármilyen adatot befogadni az adatbázisba, csak azt amit a készítője engedélyez!&nbsp;</p>
+<p>Ezért bizony engedélyezned kell, hogy igen, az IMAGE azt TE tetted az oldaladba, és TE AZT AZ ADATATOT AKAROD :) nehogy csúnya bácsik okoskodhassanak butaságokat!</p>
+<p>Ezért az APP → CONTROLLER → GAMES_CONTROLLER.RB ben a legalján a params.require résznél engedélyezni kell az :IMAGE paramétert IS</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
