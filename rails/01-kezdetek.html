@@ -2,7 +2,7 @@
 title: Rails kezdetek
 description: Hogyan indulj neki, mik az első lépések, mi a fene is ez?
 published: true
-date: 2024-07-25T17:20:48.643Z
+date: 2024-07-25T17:22:20.271Z
 tags: 
 editor: ckeditor
 dateCreated: 2024-07-25T15:11:19.685Z
@@ -91,7 +91,6 @@ dateCreated: 2024-07-25T15:11:19.685Z
 <p><strong>Fontos még, ez nem egy honlap, ez csak a környezet, ezt az oldalt azért látod, hogy tudd, rendben feltelepült minden, a RAILS működik.</strong></p>
 <h2>Mi van a “motorháztető” alatt?&nbsp;</h2>
 <p>Nos nézzük meg mit is telepített ez a csúf RAILS, miközben írogatta kifele a sorokat.</p>
-<p>A könyvtárstruktúra WIN és LIN alatt kb megegyezik, néhány DLL -t kapsz WIN alá, meg máshogy néznek ki a fájlok, de összességében ugyanaz a felépítés.</p>
 <p>A RAILS MVC logikát követ, vagyis Modell, Nézet és Vezérlő.<br><strong>Modell </strong>az<strong> </strong>ahol az adatbázisban való tevékenységek lesznek.</p>
 <ul>
   <li><strong>Adatbáziskapcsolat:</strong> lehetővé teszi az adatok lekérését, mentését, frissítését és törlését.</li>
@@ -110,7 +109,14 @@ dateCreated: 2024-07-25T15:11:19.685Z
   <li><strong>Irányítás:</strong> A Controller dönti el, hogy milyen műveletet kell végrehajtani, és milyen válasz szükséges (pl. HTML, JSON, stb.).</li>
 </ul>
 <p>Talán ennyi elég is ebből :) A lényeg:</p>
-<p>Megérkezik a kérés → <strong>CONTROLLER </strong>→ Eldönti mit kell tennie → Adatok kellenek? → <strong>MODELL</strong>→ Megjeleníteni kellene valamit? → <strong>VIEW → </strong><mark class="marker-yellow"><strong>megjeleníti a HTML -t a felhasználónak, benne a MODEL ből lekért adatokkal</strong></mark></p>
+<p>Megérkezik a kérés → <strong>CONTROLLER </strong>→ Eldönti mit kell tennie →&nbsp;</p>
+<ul>
+  <li>→ Adatok kellenek? → <strong>MODELL</strong></li>
+  <li>→ Megjeleníteni kellene valamit? &nbsp;<strong>VIEW&nbsp;</strong></li>
+  <li><strong>→ </strong><mark class="marker-yellow"><strong>megjeleníti a HTML -t a felhasználónak, benne a MODEL ből lekért adatokkal</strong></mark></li>
+</ul>
+<p>&nbsp;</p>
+<p>A könyvtárstruktúra WINDOWS és LINUX alatt kb megegyezik, néhány DLL -t kapsz WIN alá, meg máshogy néznek ki a fájlok, de összességében ugyanaz a felépítés.</p>
 <p><strong>APP</strong> könyvtár, itt vannak a WEBOLDAL fájljai.<br><strong>CONFIG </strong>könyvtár, ahogy a neve elárúlja, itt lesznek a beállítások<br><strong>Gemfile</strong> fájl, itt lesznek a használt GEM fájljaid! (Ezek a GEM ek egy olyan fájlok, programrészletek, amelyeket használva gyorsíthatsz a fejlesztéseden, mint máshol a “<strong>beépülő pluginok</strong>”)<br>&nbsp;</p>
 <figure class="image"><img src="/ror/ror05.png"></figure>
 <p><strong>APP </strong>könyvtáron belül :</p>
