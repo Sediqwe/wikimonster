@@ -2,7 +2,7 @@
 title: Gep.Monster - 07 - Routes avagy mi merre van?
 description: 
 published: true
-date: 2024-07-26T17:27:24.669Z
+date: 2024-07-26T20:10:27.869Z
 tags: 
 editor: ckeditor
 dateCreated: 2024-07-26T17:18:39.590Z
@@ -47,7 +47,40 @@ dateCreated: 2024-07-26T17:18:39.590Z
 <p>Ezzl megmondom, hogy a mindenkori főoldal, a root, a games#index lesz, tehát ugorjon a games_controller index részéhez, az pedig a már ismert játék, főoldal</p>
 <p>&nbsp;</p>
 <pre><code class="language-plaintext">root "games#index"</code></pre>
+<p>&nbsp;</p>
 <figure class="image"><img src="/gepmonster/gep27.jpg"></figure>
 <p>Mostantól a localhost:3000 en a games#index része jelenik meg, ez az új főoldalad, GRATULA :)</p>
 <figure class="image"><img src="/gepmonster/gep28.jpg"></figure>
+<p>&nbsp;</p>
+<p>Kicsit pofozzuk ki a rendszert :)</p>
+<p>Alakítsuk át .slim re a /app/views/games/index.html.ERB -t&nbsp;</p>
+<pre><code class="language-plaintext">p[style="color: green"]
+ = notice
+h1
+ | Games
+#games
+.container-fluid
+ .row
+   - @games.each do |game|
+     - if game.present?
+       .col-3.col-lg-3.col-md-6.col-sm-12.mb-4
+         = link_to game do |game1|
+           .bg-primary.rounded-2.shadow
+             = render game
+= link_to "Új játék", new_game_path, class: "btn btn-secondary" </code></pre>
+<figure class="image"><img src="/gepmonster/gep30.jpg"></figure>
+<p>/app/view/games/_game.html.ERB -t alakítsuk át .SLIM re és legyen ez a tartalma:</p>
+<pre><code class="language-plaintext">.text-center.bg-secondary.rounded.rounded-3 id="#{dom_id game}"
+    p
+        = image_tag(game.image, size: "417x237") if game.image.attached?
+    p.bg-dark.text-light
+        = game.name</code></pre>
+<figure class="image"><img src="/gepmonster/gep32.jpg"></figure>
+<p>Ha mindent jól csináltunk, így néz ki most a weboldal:&nbsp;</p>
+<figure class="image"><img src="/gepmonster/gep33.jpg"></figure>
+<p>Azért ez már majdnem Gep.Monster :)&nbsp;</p>
+<p>Gyakorlatilag a GAMES kész is van, töltsük fel a fájlokat :)</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 <p>&nbsp;</p>
