@@ -2,7 +2,7 @@
 title: Gep.Monster - 08 - Fájlok feltöltése
 description: 
 published: true
-date: 2024-07-26T20:12:18.149Z
+date: 2024-07-26T20:20:09.394Z
 tags: 
 editor: ckeditor
 dateCreated: 2024-07-26T20:12:18.149Z
@@ -11,4 +11,22 @@ dateCreated: 2024-07-26T20:12:18.149Z
 <p>Üdv újra itt! Kitartás :)</p>
 <p>Szeretnénk feltölteni fájlokat is, igaz? Persze hogy szeretnénk.</p>
 <p>Ez különbözik valamiben a Játék adatlaptól? Semmiben, sőt, konkrétan ugyanúgy kell eljárni, szó szerint!</p>
+<p>Legyen mondjuk a weboldalunknak a “upload” alatt a feltöltések kezelése</p>
+<p>Összeszedtük már hogy mi kell, így lássuk:&nbsp;</p>
+<ul>
+  <li>JÁTÉKHOZ rendelt letöltéseket<ul>
+      <li>Ki töltötte fel - Egyelőre nem tudjuk integrálni, nincsenek felhasználóink.</li>
+      <li>Mikor</li>
+      <li>Letöltés mennyisége- külső helyen tároljuk</li>
+      <li>Leírás</li>
+      <li>Fordítási program - külső helyen tároljuk</li>
+      <li>Méret</li>
+      <li>Kép&nbsp;</li>
+      <li>Verzió</li>
+    </ul>
+  </li>
+</ul>
+<p>Ez alapján úgy nézne ki szerintem a feltöltés-t létrehozó parancs: (fontos, egyesszámban! Tehát nem uploads, majd a rendszer ezt megoldja szépen!)</p>
+<pre><code class="language-plaintext">rails g scaffold upload game:references desc:text ver:string</code></pre>
+<p>Jelenleg ennyit tudok kitölteni, mert nincs kész kb semmi más, pl USER adatbázis még nincs, így nem tudom ki töltötte fel…<br>A game:references -egy közvetlen hivatkozás a játékra, ez később kelleni fog, jól fog jönni :)<br>&nbsp;</p>
 <p>&nbsp;</p>
