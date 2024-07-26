@@ -1,0 +1,51 @@
+<!--
+title: Gep.Monster - 07 - Routes avagy mi merre van?
+description: 
+published: true
+date: 2024-07-26T17:18:39.590Z
+tags: 
+editor: ckeditor
+dateCreated: 2024-07-26T17:18:39.590Z
+-->
+
+<p>Hello itt! :)</p>
+<p>A hagyományostól eltérően, a RAILS ne fogja a /valami.html -t csak úgy megmutatni, ő egy bizonyos ÚTVONALAT használ, ez pedig a ROUTES.rb ben található</p>
+<p>CONFIG →routes.rb</p>
+<figure class="image"><img src="/gepmonster/gep25.jpg">
+  <figcaption>Jelenleg ez található a routes.rb ben, ezt fogjuk kicsit meghackelni :)</figcaption>
+</figure>
+<p>A routes.rb tartalmazza pl a GAMES elérését, viszont nem túl bőbeszédű:&nbsp;</p>
+<p><strong>resources :games&nbsp;</strong></p>
+<p>Ez annyit tesz, hogy az erőforrások a games lekéréséhez.</p>
+<p>De pontosan mik is állnak a rendelkezésedre?</p>
+<p>Ezt az alábbi parancs pontosan megmutatja neked, bármikor is kérdés merül fel benned.</p>
+<pre><code class="language-plaintext">rails routes </code></pre>
+<figure class="image"><img src="/gepmonster/gep26.jpg"></figure>
+<p>Itt már látszik is hogy a felvett GAMES, és a routes.rb ben található <strong>resources :games </strong>pontosan milyen útvonalakat is takar, merre kolbászolnak a linkek.</p>
+<pre><code class="language-plaintext">games GET    /games(.:format)                                                                                  games#index</code></pre>
+<p>Itt láthatod hogy ha a /games lesz meghívva, az a controllereknél a games controller index részét fogja megkérdezni mégpedig GET módszerrel, az az lekérést fog intézni fel.</p>
+<p>tehát ha a <a href="">http://localhost:3000/games</a> linket meghívod, meghívódik a /app/controller/games_controller.rb INDEX része, és az ott található dolgok lesznek betöltve.</p>
+<p>Alapértelmezetten ez úgy zajlik hogy&nbsp;</p>
+<ul>
+  <li>GAMES_CONTROLLER&nbsp;<ul>
+      <li>INDEX (ADATBÁZIS ADATOK LEKÉRÉSE)&nbsp;<ul>
+          <li>APP/VIEW/GAMES/INDEX.HTML.ERB</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+<p>Ha új játék adatlapot akarsz felvenni, rákattintasz a NEW ra, akkor az elugrik a /games/new ra, ami pedig a games_controller new részét tölti be, ott lekéri az adatbázis dolgokat, és betölti a /app/views/games/new.html.erb -t</p>
+<pre><code class="language-plaintext">new_game GET    /games/new(.:format)                                                                              games#new</code></pre>
+<p>Ez egy bizonyos automatizmust fog kialakítani benned.</p>
+<p>Mindig tudod hogy pontosan hol van a gond, hol szeretnél mit fejleszteni, módosítani.</p>
+<p>Ha adatbázis gondod van, nem jól auditálsz valamit akkor a /model/games.rb be kell bele nézned.</p>
+<p>Ha nem jól jelenik meg az index oldalon valami, de adatbázis lekérés kell, akkor controller/games_controller.rb &nbsp;<strong>def index</strong> része értintett.</p>
+<p>Ha nem jól megy a felvétel, akkor a <strong>def new , </strong>ha viszont a felvétel new része akkor a <strong>/app/views/games/new.html.erb</strong></p>
+<p>Nagyon ésszerű, logikus felépítése van az <strong>MVC </strong>megközelítésnek…&nbsp;</p>
+<p>Na de, legyen a főoldal is a /games így a következőt beírva, mindig a /games lesz a főoldalad az appodnál.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
