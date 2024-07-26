@@ -2,7 +2,7 @@
 title: Gep.Monster - 07 - Routes avagy mi merre van?
 description: 
 published: true
-date: 2024-07-26T17:18:39.590Z
+date: 2024-07-26T17:20:21.636Z
 tags: 
 editor: ckeditor
 dateCreated: 2024-07-26T17:18:39.590Z
@@ -27,8 +27,8 @@ dateCreated: 2024-07-26T17:18:39.590Z
 <p>tehát ha a <a href="">http://localhost:3000/games</a> linket meghívod, meghívódik a /app/controller/games_controller.rb INDEX része, és az ott található dolgok lesznek betöltve.</p>
 <p>Alapértelmezetten ez úgy zajlik hogy&nbsp;</p>
 <ul>
-  <li>GAMES_CONTROLLER&nbsp;<ul>
-      <li>INDEX (ADATBÁZIS ADATOK LEKÉRÉSE)&nbsp;<ul>
+  <li>GAMES_CONTROLLER<ul>
+      <li>INDEX (ADATBÁZIS ADATOK LEKÉRÉSE)<ul>
           <li>APP/VIEW/GAMES/INDEX.HTML.ERB</li>
         </ul>
       </li>
@@ -44,8 +44,9 @@ dateCreated: 2024-07-26T17:18:39.590Z
 <p>Ha nem jól megy a felvétel, akkor a <strong>def new , </strong>ha viszont a felvétel new része akkor a <strong>/app/views/games/new.html.erb</strong></p>
 <p>Nagyon ésszerű, logikus felépítése van az <strong>MVC </strong>megközelítésnek…&nbsp;</p>
 <p>Na de, legyen a főoldal is a /games így a következőt beírva, mindig a /games lesz a főoldalad az appodnál.</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+<p>Ezzl megmondom, hogy a mindenkori főoldal, a root, a games#index lesz, tehát ugorjon a games_controller index részéhez, az pedig a már ismert játék, főoldal</p>
+<pre><code class="language-plaintext">root "games#index"</code></pre>
+<figure class="image"><img src="/gepmonster/gep27.jpg"></figure>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
