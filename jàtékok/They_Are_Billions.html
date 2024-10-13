@@ -2,7 +2,7 @@
 title: They Are Billions
 description: 
 published: true
-date: 2024-10-12T15:29:06.664Z
+date: 2024-10-13T19:00:07.000Z
 tags: fordítás, translate
 editor: ckeditor
 dateCreated: 2024-10-12T15:22:48.389Z
@@ -17,8 +17,27 @@ dateCreated: 2024-10-12T15:22:48.389Z
 </ol>
 <h2>Fájlok kicsomagolása</h2>
 <p>A szükséges fájlok a játék főkönyvtárában találhatóak, mégpedig jelen ismeretek szerint:</p>
-<p>ZXStrings.dat<br>ZXCampaignStrings.dat<br>SniperEdition.dat<br>Ezek egy JELSZÓVAL védett ZIP fájlok, tehát a kicsomagolásukhoz pl egy TOTALCOMMANDER szükséges, nevezd át ZIP re és ALT+F9 el mehet is a kicsomagolás.</p>
-<p>&nbsp;</p>
+<p>ZXStrings.dat<br>ZXCampaignStrings.dat<br>SniperEdition.dat<br>Ezek egy <strong>JELSZÓVAL </strong>védett <strong>ZIP</strong> fájlok, tehát a kicsomagolásukhoz pl egy TOTALCOMMANDER szükséges, nevezd át ZIP re és ALT+F9 el mehet is a kicsomagolás.</p>
+<p>Viszont a jelszó megszerzése már kicsit bonyolultabb, mert kell hozzá egy tool, ami kilopja a játék indítása közben a jelszót a ZIP fájlokhoz:<br>Töltsd le a szükséges programot: <a href="https://github.com/dnSpy/dnSpy">https://github.com/dnSpy/dnSpy</a><br>vagy a lokális másolatát: <a href="/they_are_billions/dnspy-net-win64.zip">/they_are_billions/dnspy-net-win64.zip</a></p>
+<p>Tömörítsd ki valahova, majd indítsd el, és keresd meg a játék főkönyvtárában a <strong>Ionic.Zip.dll</strong> fájlt, és töltsd be a dnspy ba.</p>
+<p>Ezután lépj bele a DLL be, és keress rá a ForRead re (jobb felső sarokban van egy nagyító ikon, és akkor előjön a mezők alatt a kereső lehetőség)<br>Ha minden jól megy így néz ki:</p>
+<figure class="image"><img src="/they_are_billions/they1.jpg"></figure>
+<p><strong>ForRead</strong>-re kettőt kattintva már oda is ugrik a neked szükséges helyre.</p>
+<figure class="image"><img src="/they_are_billions/they2.jpg"></figure>
+<p>Ha ezzel megvagy, a STREAM sor elé kattitns, és nyomd meg az F9 et ezzel egy töréspontot létrehozva.</p>
+<pre><code class="language-plaintext">Stream&nbsp;archiveStream&nbsp;=&nbsp;e._archiveStream; </code></pre>
+<figure class="image"><img src="/they_are_billions/they3.jpg">
+  <figcaption>Töréspont felvéve</figcaption>
+</figure>
+<p>Ha ezzel megvagy, indítsd el a játékot (F5) töltsd be a futtatható állománynak az EXE -t</p>
+<figure class="image"><img src="/they_are_billions/they4.jpg"></figure>
+<p>Amikor elindul a játék, majd magától elkezdi felsorolni a jelszavakat, alatta kijelezve hogy pontosan melyik fájlhoz is van.</p>
+<p>Mivel több fájlt használ, ezért F5 el tovább kell lépkedni az összes fájlon amit bekér a játék.</p>
+<figure class="image"><img src="/they_are_billions/they5.jpg"></figure>
+<p>2024.10.12. én az alábbi ismert jelszavak vannak:</p>
+<p><strong>GOG 1.1.4:</strong><br><strong>ZXRules.dat</strong> "95855910112444000168568641649585591011244400016856864164334454FADSFASDF45345"<br><strong>ZXStrings.dat</strong> "95855910112444000168568641649585591011244400016856864164334454FADSFASDF45345"</p>
+<p><strong>STEAM 1.1.3:&nbsp;</strong><br><strong>ZXRules.dat</strong> "2025656990-254722460-3866451362025656990-254722460-386645136334454FADSFASDF45345"<br><strong>ZXStrings.dat </strong>"2025656990-254722460-3866451362025656990-254722460-386645136334454FADSFASDF45345"</p>
+<p><strong>KÖZÖS:</strong><br><strong>ZXCampaign.dat</strong> "1688788812-163327433-2005584771"<br><strong>ZXCampaignStrings.dat</strong> "-831217260-1747352550571668361"<br><strong>SniperEdition.dat</strong> "-1009579042-1648376652055914510"</p>
 <h2>Belső fájl szerkezete</h2>
 <h2>Fordítás menete, tudnivalók</h2>
 <h2>Visszacsomagolás</h2>
