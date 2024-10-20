@@ -2,7 +2,7 @@
 title: Railway Empire 2
 description: 
 published: true
-date: 2024-10-20T14:41:34.811Z
+date: 2024-10-20T14:52:43.354Z
 tags: fordítás, translate
 editor: ckeditor
 dateCreated: 2024-10-19T18:51:04.038Z
@@ -94,17 +94,23 @@ dateCreated: 2024-10-19T18:51:04.038Z
   <li>FUK ból nyerd ki a RES fájlt</li>
   <li>RES fájl Törzs adatát tedd bele a Portroyal3 RES fájlba</li>
   <li>Exportáld ki a TXT -t a portroyal_export.exe vel</li>
-  <li>Fordítsd le a TXT-t (Ha géppel fordítod, figyelj az <strong>EGYEDÜLÁLLÓ</strong> szinkódokra! a DEEPL ELRONTJA!!! pl.: <strong>0xff97a8e9 </strong>, <strong>0xffffffff</strong> ha hosszabb, nem fog megjelenni a szöveg!!!)<br>Emeld ki a &lt;&gt;jelek közti adatokat<br>Emeld ki a {} jelek közti adatokat</li>
+  <li>Fordítsd le a TXT-t (Ha géppel fordítod, figyelj az <strong>EGYEDÜLÁLLÓ</strong> szinkódokra! a DEEPL ELRONTJA!!! pl.: <strong>0xff97a8e9 </strong>, <strong>0xffffffff</strong> ha hosszabb, nem fog megjelenni a szöveg!!!)<br>Emeld ki a &lt;&gt;jelek közti adatokat “<strong>(&lt;Color=0xff97a8e9&gt;)</strong>”<br>Emeld ki a {} jelek közti adatokat "<strong>{1:PercentageNoDecimal}</strong>"<br>Ne fordítsd le a csupa nagybetüs és aláhúzással elválasztott dolgokat:<strong> “DIALOG_GAME_OVER_SCORE_TITLE_MODE_TUTORIAL”</strong><br>&nbsp;</li>
   <li>TXT ből csinálj Portroyal3_import.exe vel egy új global.res -t</li>
   <li>Cseréld vissza a fejlécek alatti adatokat, hogy az új fejléc mögött már az új adatok legyenek.</li>
-  <li>Importáld bele a data0.fuk ba az új global.res-t<br><br><br>&nbsp;</li>
+  <li>Importáld bele a data0.fuk ba az új global.res-t<br>&nbsp;</li>
 </ol>
 <p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p><br>&nbsp;</p>
-<p>&nbsp;</p>
+<h2>Fordítás</h2>
+<p>Fordítás során én kiemeltem a &lt; és a &gt;jelek közti adatokat, azokat nem kell , nem szabad fordítani</p>
+<p>Nem szabad a { } jelek közti adatokat fordítani</p>
+<p>Nem szabad a csupa nagybetüs és aláhúzással elválasztott dolgokat fordítani : DIALOG_GAME_OVER_SCORE_TITLE_MODE_TUTORIAL</p>
+<p>Figyelni kell a csak random karakteres dolgokra, pl REGEX kódra: "<strong>a-zA-Z0-9!"#$%&amp;()*+,-./:;=?@[]^_` {|} ~ ¡¢\\\\- £¥§§µ¿ÀÁÂÃÄÅÆÇĆČÈÉÊĔËÌÍÎÏÐÑÒÓÔŐÖ×ØŘÙÚŰÜŰÝÞßàáâããäåæç</strong>"</p>
+<h2>Visszacsomagolás</h2>
+<p>A visszacsomagolás pontosan fordítva müködik, ahogy eddig.</p>
+<p>TXT ből egy “rossz” fejléces global.res -t készítünk</p>
+<p>Fejlécet visszacseréljük</p>
+<p>Telepítővel berakjuk a FUK fájlba.<br>Ime egy pl, hogyan lehet vissza pakolni a data0.fuk ba a fordított global.res fájlt.<br>Ez esetben a data0 könyvtárban az alábbi található: (__fukroot__\locale\enus)<br>így néz ki a könyvtárszerkezet:</p>
+<p><br><code>data0\__fukroot__\locale\enus\global.res</code></p>
+<pre><code class="language-plaintext">Tools\quickbms_4gb_files.exe -G -w -r -r -r .\Tools\Railway_Empire_2_(PC)_FUK.bms data0.fuk data0</code></pre>
+<p>Így néz ki a telepítő maga: 2024.10.20 STEAM Railway Empire 2 GÉPI magyarítás.</p>
+<p><a href="/railwayempire2/railway_empire_2.zip">/railwayempire2/railway_empire_2.zip</a></p>
