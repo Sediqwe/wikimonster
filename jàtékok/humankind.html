@@ -2,7 +2,7 @@
 title: Humankind
 description: 
 published: true
-date: 2024-10-29T19:23:11.591Z
+date: 2024-10-29T19:34:56.231Z
 tags: fordítás, translate
 editor: ckeditor
 dateCreated: 2024-10-29T18:49:32.100Z
@@ -24,8 +24,13 @@ dateCreated: 2024-10-29T18:49:32.100Z
 <p><a href="">https://github.com/nesrak1/UABEA</a></p>
 <p>Ezért előbb be kell tölteni az assetbundle-t, majd megnyitni a memóriába, és úgy dolgozni vele tovább.<br>FILE / OPEN (Ctrl+o) , megkeresed a fájlt.<br>Megnyitás után ezúttal egy CAB fájlt kapsz, amit nagyon ügyesen lehet tovább használni, kérdés csak az hogy merre indulsz el, rajtad áll.</p>
 <figure class="image"><img src="/humankind/hum2.jpg"></figure>
-<p>Én személy szerint, ennél a játéknál az info gombot ajánlom, ez esetben egyből a már megszokott ablakot kapod meg, ahol kiválaszthatod a neked kellő fájlt.</p>
+<p>Én személy szerint, ennél a játéknál az<strong> info </strong>gombot ajánlom, ez esetben egyből a már megszokott ablakot kapod meg, ahol kiválaszthatod a neked kellő fájlt. Persze választhatod az exportot, export_all -t is , ez esetben megkapod a CAB filet, amit újra megnyitva, eljutsz az info -s képhez, :)</p>
 <figure class="image"><img src="/humankind/hum3.jpg"></figure>
-<p>A fájlt kijelölve (fájlokat, igazából, az összes en-US előtag kell) javallot az <strong>Export Dump</strong> ot választani, így megkapod a fájlokat szöveges text formátumban.</p>
-<h1>Fordítás</h1>
 <p>&nbsp;</p>
+<p>A fájlt kijelölve (fájlokat, igazából, az összes en-US előtag kell, talán a STADIA nem, az már nincs…) javallot az <strong>Export Dump</strong> ot választani, így megkapod a fájlokat szöveges text formátumban.</p>
+<h1>Fordítás</h1>
+<p>A fájlok sima szövegszerkesztővel módosíthatók.<br>Gépi fordításnál sikerült rosszul kiregexelni, így érdemes az " jelre figyelni a szövegben, és felkészülni rá hogy VAN benne :) nekem elsőre sikerült csak az első idézőjelig fordítani :\<br>2 összetartozó adat van, első az ID(LineId) amit nem szabad ezúttal se fordítani, és a szöveg (TextValue).</p>
+<figure class="image"><img src="/humankind/hum4.jpg"></figure>
+<h1>Fájlok visszarakása</h1>
+<p>Ezúttal is visszafele dolgozunk. Annyi az extra, hogy ezúttal nagyon figyelni kell a mentésekre, de erre figyelmeztetni is fog.</p>
+<p>Tehát mikor lefordítottál valamit, én kijelöltem a fájlban az összes szöveget, majd “Import Dump”, ami tudni fogja, ha több fájl van kijelölve, hogy egy MAPPÁT kérjen be, (1 fájlnál direkt 1:1 ben egy másik fájlt kér, ha több van, MAPPÁT!)<br>megadod a mappát, megkérdezi hogy milyen módszerrel szeretnéd visszapakolni az ott talált dolgokat.<br><br><br>&nbsp;</p>
