@@ -2,7 +2,7 @@
 title: Starfield
 description: 
 published: false
-date: 2024-10-30T18:24:41.991Z
+date: 2024-10-30T18:27:04.724Z
 tags: fordítás, translate
 editor: ckeditor
 dateCreated: 2024-10-29T20:54:48.412Z
@@ -108,8 +108,13 @@ dateCreated: 2024-10-29T20:54:48.412Z
 <p>Steam esetében pedig az alábbi mappát kell létrehozni:</p>
 <pre><code class="language-plaintext">Data\strings\</code></pre>
 <p>Ide bemásolni a lefordított fájlokat.</p>
-<pre><code class="language-plaintext">míg a simán a főkönyvtárba a Starfield.ini fájlt az alábbi szerint módosítani:
-[General]
+<p>GamePass esetében a translate_en.txt ide kell:</p>
+<pre><code class="language-plaintext">Content\Data\Interface</code></pre>
+<p>Steam esetében a translate_en.txt -t ide kell:</p>
+<pre><code class="language-plaintext">\Data\Interface</code></pre>
+<p>Míg a simán a főkönyvtárba a Starfield.ini fájlt az alábbi szerint módosítani: (Archive szekcióba bekerült a 2 betöltendő új könyvtár!)</p>
+<p>&nbsp;</p>
+<pre><code class="language-plaintext">[General]
 uExterior Cell Buffer=36
 sGPUDefaultQualitySettingsJSON=DefaultGlobalGraphicsSettings.json
 sLanguage=en
