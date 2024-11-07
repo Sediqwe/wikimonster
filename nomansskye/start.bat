@@ -1,0 +1,9 @@
+
+MBINCompiler-dotnet7.exe NMS_LOC1_ENGLISH.MBIN
+MBINCompiler-dotnet7.exe NMS_LOC4_ENGLISH.MBIN
+MBINCompiler-dotnet7.exe NMS_LOC5_ENGLISH.MBIN
+MBINCompiler-dotnet7.exe NMS_LOC6_ENGLISH.MBIN
+MBINCompiler-dotnet7.exe NMS_LOC7_ENGLISH.MBIN
+MBINCompiler-dotnet7.exe NMS_LOC8_ENGLISH.MBIN
+MBINCompiler-dotnet7.exe NMS_LOC9_ENGLISH.MBIN
+MBINCompiler-dotnet7.exe NMS_UPDATE3_ENGLISH.MBIN
