@@ -2,7 +2,7 @@
 title: Garden Life: A Cozy Simulator
 description: Garden Life: A Cozy Simulator fordítása - Unreal motor - AES Key kereséssel.
 published: true
-date: 2024-11-10T13:40:51.671Z
+date: 2024-11-10T14:21:27.472Z
 tags: fordítás, translate, unreal
 editor: ckeditor
 dateCreated: 2024-11-10T11:11:22.511Z
@@ -72,6 +72,17 @@ dateCreated: 2024-11-10T11:11:22.511Z
 <p>NEW_Game.locres → A már becsomagold magyar nyelvi fájl<br>Game.locres.txt → A már lefordított nyelvi fájl<br>Game.locres → Az eredeti locres file</p>
 <figure class="image"><img src="/garden_life/g8.jpg"></figure>
 <h1>Pak visszacsomagolás</h1>
+<p>A pak visszacsomagolásához a visszacsomagoló 2 file kell, pontosan oda kell másolni őket, ahol a kicsomgolt PAK file neve van, abba a könyvtárba<br>pakchunk0-Windows.pak → tehát ide kell :</p>
+<pre><code class="language-plaintext">Garden\pakchunk0-Windows\</code></pre>
+<p>Ha mindent jól csináltál, ott lesz 1 az az 1 könyvtár, a játéknak a könyvtára!<br>A Unrealról jó tudni, hogy felülírásos módszerrel tölti be majd a fájlokat, tehát elsőnek betölti a névsorban az elsőt, majd a következőt.<br>pakchunk0-Windows.pak fájlt tölti be elösször, utánna a következővel felül írja a már betöltött, de névileg meg egyező dolgokat.</p>
+<p>Pl ha a Windows szó mögé helyezel valamit, pl a<strong> _HUN</strong> szót, az már következőleg lesz betöltve, így felülírja a _HUNban lévő fájlokkal a sima "<strong>pakchunk0-Windows.pak</strong>" ban lévő fájlt.</p>
+<pre><code class="language-plaintext">pakchunk0-Windows_HUN.pak</code></pre>
+<p>Na de hogyan is kell becsomagolni. 2 fájlt találsz benne, egyik egy BAT, a másik egy PY. A python nak szüksége lesz egy Python futtató környezetre, ezt töltsd le és telepítsd fel.</p>
+<p><code>becsomagolás.bat</code><br><code>u4pak.py</code></p>
 <p>&nbsp;</p>
-<p>&nbsp;</p>
+<p>Ha módosítod a BAT file-t a következőre,&nbsp;</p>
+<pre><code class="language-plaintext">u4pak.py pack pakchunk0-Windows_HUN.pak GardenLife\
+PAUSE</code></pre>
+<p>és természetesen a lefordított Game.locres van bent a \game\en-GB könyvtárba, lefuttatva a BAT file-t kapsz pak fájlt, ezt bemásolva a játékba (Garden Life\GardenLife\Content\Paks\)</p>
+<p>már magyarul használhatod a játékot :)&nbsp;</p>
 <p>&nbsp;</p>
