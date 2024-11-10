@@ -2,7 +2,7 @@
 title: Garden Life: A Cozy Simulator
 description: Garden Life: A Cozy Simulator fordítása - Unreal motor - AES Key kereséssel.
 published: true
-date: 2024-11-10T11:30:51.414Z
+date: 2024-11-10T13:08:07.236Z
 tags: fordítás, translate, unreal
 editor: ckeditor
 dateCreated: 2024-11-10T11:11:22.511Z
@@ -45,10 +45,19 @@ dateCreated: 2024-11-10T11:11:22.511Z
 <figure class="image"><img src="/garden_life/g3.jpg"></figure>
 <p>Látszólag minden eredmény nélkül visszatér, de valójában ha végez, létrehoz egy <strong>KEY.TXT</strong> -t amiben ott fog csücsülni a kulcs ami kell.</p>
 <figure class="image"><img src="/garden_life/g4.jpg"></figure>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+<p>Ha kimásolod vágólapra ezt a kulcsot, majd újra lefuttatod a pak kicsomagolást, beilleszted a kulcsot oda ahol kéri, akkor már el is kezdi kicsomagolni a pak fájlt.</p>
+<figure class="image"><img src="/garden_life/g5.jpg"></figure>
+<p>Kicsomagolás folyamatban:</p>
+<figure class="image"><img src="/garden_life/g6.jpg"></figure>
+<p>A neked szükséges fájlok itt lesznek! Minden mást, a GardenLife és az ENGINE ből, törölhetsz.<br>Itt is ki kell választani majd a szükséges könyvtárakból a szükséges nyelvet, elsőre az EN-US és az a EN-GB valamelyike lesz.</p>
+<pre><code class="language-plaintext">Garden\pakchunk0-Windows\GardenLife\Content\Localization\</code></pre>
+<h1>Locres file kicsomagolás</h1>
+<p>A Locres fájlból TXT be varázslás se túl bonyolul, használjuk a unreal_locres_texttool.exe fájlt, amit elindítva kapsz egy EXPORT - IMPORT lehetőséget</p>
+<p>Megkeresve a locres filet, pl itt:<br>&nbsp;</p>
+<pre><code class="language-plaintext">Garden\pakchunk0-Windows\GardenLife\Content\Localization\Game\en-GB\Game.locres</code></pre>
+<p>Majd exportra kattintva megkejelölve a kicsomagolandó locres-t, megkapod TXT ben az eredményt.</p>
+<p><code>Game.locres.txt</code></p>
+<p>Ez egy szabadon módosítható sima szöveges dokumentum</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
